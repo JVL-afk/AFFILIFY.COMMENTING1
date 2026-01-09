@@ -1,4 +1,11 @@
 # anti_detection.py
+import random
+import asyncio
+import logging
+from playwright.async_api import Page
+from human_behavior import HumanBehavior, HumanTyping, SessionManager, ContentInteraction, RateLimiter
+
+logger = logging.getLogger(__name__)
 
 class AntiDetectionSystem:
     """

@@ -56,6 +56,7 @@ class MilitaryGradeVideoScraper:
         try:
             # Initialize API
             self.api = TikTokApi()
+            await self.api.create_sessions(num_sessions=1, headless=True, sleep_after=10, browser='chromium')
             
             # Add your own cookies here for better results
             # You can export these from your browser after logging into TikTok
@@ -67,7 +68,8 @@ class MilitaryGradeVideoScraper:
         except Exception as e:
             log_error("TikTokAPIInit", str(e))
             log_end("InitializeTikTokAPI", start, False, error=str(e))
-            raise
+            # Don't raise, let it try to continue or fail gracefully
+            affilify_logger.main_logger.warning(f"⚠️ TikTok API initialization warning: {e}")
     
     async def search_videos_by_hashtag(self, hashtag: str, max_results: int = 100) -> List[Dict]:
         """

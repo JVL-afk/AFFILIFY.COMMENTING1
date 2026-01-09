@@ -109,7 +109,9 @@ class HumanBehavior:
             
             # Only move 30% of the time
             if random.random() > 0.3:
-                breakclass HumanTyping:
+                break
+
+class HumanTyping:
     """
     Realistic typing simulation
     """
@@ -173,7 +175,9 @@ class HumanBehavior:
                 await asyncio.sleep(random.uniform(0.15, 0.3))
         
         # Pause after typing (reviewing what was written)
-        await asyncio.sleep(random.uniform(1.0, 3.0))class SessionManager:
+        await asyncio.sleep(random.uniform(1.0, 3.0))
+
+class SessionManager:
     """
     Manages realistic session patterns
     """
@@ -223,7 +227,9 @@ class HumanBehavior:
         
         logger.info(f"☕ Taking break for {duration/60:.1f} minutes")
         await asyncio.sleep(duration)
-        logger.info(f"✅ Break complete, resuming activity")class ContentInteraction:
+        logger.info(f"✅ Break complete, resuming activity")
+
+class ContentInteraction:
     """
     Realistic content engagement patterns
     """
@@ -279,7 +285,9 @@ class HumanBehavior:
         """
         Humans don't interact with every piece of content
         """
-        return random.random() < interaction_rateclass RateLimiter:
+        return random.random() < interaction_rate
+
+class RateLimiter:
     """
     Enforce human-like rate limiting
     """

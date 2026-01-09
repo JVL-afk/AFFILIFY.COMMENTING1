@@ -1,0 +1,2111 @@
+[2026-01-09 12:18:45.442] [ERROR   ] [ERROR     ] [Thread-140440263041664] {
+  "timestamp": "2026-01-09T12:18:45.442813",
+  "error_type": "SearchByKeyword",
+  "message": "type object 'Search' has no attribute 'videos'",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "affiliate marketing"
+    }
+  }
+}
+[2026-01-09 12:18:45.443] [ERROR   ] [ERROR     ] [Thread-140440263041664] {
+  "timestamp": "2026-01-09T12:18:45.443576",
+  "error_type": "SearchByHashtag",
+  "message": "No sessions created, please create sessions first",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "affiliatemarketing"
+    }
+  }
+}
+[2026-01-09 12:18:51.858] [ERROR   ] [ERROR     ] [Thread-140440263041664] {
+  "timestamp": "2026-01-09T12:18:51.858740",
+  "error_type": "SearchByKeyword",
+  "message": "type object 'Search' has no attribute 'videos'",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "make money online"
+    }
+  }
+}
+[2026-01-09 12:18:51.859] [ERROR   ] [ERROR     ] [Thread-140440263041664] {
+  "timestamp": "2026-01-09T12:18:51.859681",
+  "error_type": "SearchByHashtag",
+  "message": "No sessions created, please create sessions first",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "makemoneyonline"
+    }
+  }
+}
+[2026-01-09 12:18:58.260] [ERROR   ] [ERROR     ] [Thread-140440263041664] {
+  "timestamp": "2026-01-09T12:18:58.260601",
+  "error_type": "SearchByKeyword",
+  "message": "type object 'Search' has no attribute 'videos'",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "passive income"
+    }
+  }
+}
+[2026-01-09 12:18:58.261] [ERROR   ] [ERROR     ] [Thread-140440263041664] {
+  "timestamp": "2026-01-09T12:18:58.261894",
+  "error_type": "SearchByHashtag",
+  "message": "No sessions created, please create sessions first",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "passiveincome"
+    }
+  }
+}
+[2026-01-09 12:19:06.101] [ERROR   ] [ERROR     ] [Thread-140440263041664] {
+  "timestamp": "2026-01-09T12:19:06.101239",
+  "error_type": "SearchByKeyword",
+  "message": "type object 'Search' has no attribute 'videos'",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "side hustle"
+    }
+  }
+}
+[2026-01-09 12:19:06.102] [ERROR   ] [ERROR     ] [Thread-140440263041664] {
+  "timestamp": "2026-01-09T12:19:06.102049",
+  "error_type": "SearchByHashtag",
+  "message": "No sessions created, please create sessions first",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "sidehustle"
+    }
+  }
+}
+[2026-01-09 12:19:16.020] [ERROR   ] [ERROR     ] [Thread-140440263041664] {
+  "timestamp": "2026-01-09T12:19:16.020791",
+  "error_type": "SearchByKeyword",
+  "message": "type object 'Search' has no attribute 'videos'",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "online business"
+    }
+  }
+}
+[2026-01-09 12:19:16.021] [ERROR   ] [ERROR     ] [Thread-140440263041664] {
+  "timestamp": "2026-01-09T12:19:16.021895",
+  "error_type": "SearchByHashtag",
+  "message": "No sessions created, please create sessions first",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "onlinebusiness"
+    }
+  }
+}
+[2026-01-09 12:19:24.727] [ERROR   ] [ERROR     ] [Thread-140440263041664] {
+  "timestamp": "2026-01-09T12:19:24.727114",
+  "error_type": "SearchByKeyword",
+  "message": "type object 'Search' has no attribute 'videos'",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "digital marketing"
+    }
+  }
+}
+[2026-01-09 12:19:24.727] [ERROR   ] [ERROR     ] [Thread-140440263041664] {
+  "timestamp": "2026-01-09T12:19:24.727867",
+  "error_type": "SearchByHashtag",
+  "message": "No sessions created, please create sessions first",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "digitalmarketing"
+    }
+  }
+}
+[2026-01-09 12:19:29.883] [ERROR   ] [ERROR     ] [Thread-140440263041664] {
+  "timestamp": "2026-01-09T12:19:29.883814",
+  "error_type": "SearchByKeyword",
+  "message": "type object 'Search' has no attribute 'videos'",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "entrepreneur"
+    }
+  }
+}
+[2026-01-09 12:19:29.884] [ERROR   ] [ERROR     ] [Thread-140440263041664] {
+  "timestamp": "2026-01-09T12:19:29.884610",
+  "error_type": "SearchByHashtag",
+  "message": "No sessions created, please create sessions first",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "entrepreneur"
+    }
+  }
+}
+[2026-01-09 12:19:37.098] [ERROR   ] [ERROR     ] [Thread-140440263041664] {
+  "timestamp": "2026-01-09T12:19:37.098328",
+  "error_type": "SearchByKeyword",
+  "message": "type object 'Search' has no attribute 'videos'",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "work from home"
+    }
+  }
+}
+[2026-01-09 12:19:37.099] [ERROR   ] [ERROR     ] [Thread-140440263041664] {
+  "timestamp": "2026-01-09T12:19:37.099116",
+  "error_type": "SearchByHashtag",
+  "message": "No sessions created, please create sessions first",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "workfromhome"
+    }
+  }
+}
+[2026-01-09 12:19:46.214] [ERROR   ] [ERROR     ] [Thread-140440263041664] {
+  "timestamp": "2026-01-09T12:19:46.214184",
+  "error_type": "SearchByKeyword",
+  "message": "type object 'Search' has no attribute 'videos'",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "financial freedom"
+    }
+  }
+}
+[2026-01-09 12:19:46.215] [ERROR   ] [ERROR     ] [Thread-140440263041664] {
+  "timestamp": "2026-01-09T12:19:46.215223",
+  "error_type": "SearchByHashtag",
+  "message": "No sessions created, please create sessions first",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "financialfreedom"
+    }
+  }
+}
+[2026-01-09 12:19:53.640] [ERROR   ] [ERROR     ] [Thread-140440263041664] {
+  "timestamp": "2026-01-09T12:19:53.640214",
+  "error_type": "SearchByKeyword",
+  "message": "type object 'Search' has no attribute 'videos'",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "email marketing"
+    }
+  }
+}
+[2026-01-09 12:19:53.641] [ERROR   ] [ERROR     ] [Thread-140440263041664] {
+  "timestamp": "2026-01-09T12:19:53.641061",
+  "error_type": "SearchByHashtag",
+  "message": "No sessions created, please create sessions first",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "emailmarketing"
+    }
+  }
+}
+[2026-01-09 12:19:59.815] [ERROR   ] [ERROR     ] [Thread-140440263041664] {
+  "timestamp": "2026-01-09T12:19:59.815273",
+  "error_type": "SearchByKeyword",
+  "message": "type object 'Search' has no attribute 'videos'",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "social media marketing"
+    }
+  }
+}
+[2026-01-09 12:19:59.816] [ERROR   ] [ERROR     ] [Thread-140440263041664] {
+  "timestamp": "2026-01-09T12:19:59.816057",
+  "error_type": "SearchByHashtag",
+  "message": "No sessions created, please create sessions first",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "socialmediamarketing"
+    }
+  }
+}
+[2026-01-09 12:20:05.713] [ERROR   ] [ERROR     ] [Thread-140440263041664] {
+  "timestamp": "2026-01-09T12:20:05.713388",
+  "error_type": "SearchByKeyword",
+  "message": "type object 'Search' has no attribute 'videos'",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "ecommerce"
+    }
+  }
+}
+[2026-01-09 12:20:05.714] [ERROR   ] [ERROR     ] [Thread-140440263041664] {
+  "timestamp": "2026-01-09T12:20:05.714118",
+  "error_type": "SearchByHashtag",
+  "message": "No sessions created, please create sessions first",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "ecommerce"
+    }
+  }
+}
+[2026-01-09 12:20:12.187] [ERROR   ] [ERROR     ] [Thread-140440263041664] {
+  "timestamp": "2026-01-09T12:20:12.187152",
+  "error_type": "SearchByKeyword",
+  "message": "type object 'Search' has no attribute 'videos'",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "dropshipping"
+    }
+  }
+}
+[2026-01-09 12:20:12.187] [ERROR   ] [ERROR     ] [Thread-140440263041664] {
+  "timestamp": "2026-01-09T12:20:12.187940",
+  "error_type": "SearchByHashtag",
+  "message": "No sessions created, please create sessions first",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "dropshipping"
+    }
+  }
+}
+[2026-01-09 12:20:19.265] [ERROR   ] [ERROR     ] [Thread-140440263041664] {
+  "timestamp": "2026-01-09T12:20:19.265671",
+  "error_type": "SearchByKeyword",
+  "message": "type object 'Search' has no attribute 'videos'",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "content creation"
+    }
+  }
+}
+[2026-01-09 12:20:19.266] [ERROR   ] [ERROR     ] [Thread-140440263041664] {
+  "timestamp": "2026-01-09T12:20:19.266611",
+  "error_type": "SearchByHashtag",
+  "message": "No sessions created, please create sessions first",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "contentcreation"
+    }
+  }
+}
+[2026-01-09 12:20:24.416] [ERROR   ] [ERROR     ] [Thread-140440263041664] {
+  "timestamp": "2026-01-09T12:20:24.416743",
+  "error_type": "SearchByKeyword",
+  "message": "type object 'Search' has no attribute 'videos'",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "monetization"
+    }
+  }
+}
+[2026-01-09 12:20:24.417] [ERROR   ] [ERROR     ] [Thread-140440263041664] {
+  "timestamp": "2026-01-09T12:20:24.417888",
+  "error_type": "SearchByHashtag",
+  "message": "No sessions created, please create sessions first",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "monetization"
+    }
+  }
+}
+[2026-01-09 12:49:36.862] [ERROR   ] [ERROR     ] [Thread-140228380177024] {
+  "timestamp": "2026-01-09T12:49:36.862684",
+  "error_type": "TikTokAPIInit",
+  "message": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://www.tiktok.com/\", waiting until \"load\"\n",
+  "stack_trace": null,
+  "context": {}
+}
+[2026-01-09 12:49:36.865] [ERROR   ] [ERROR     ] [Thread-140228380177024] {
+  "timestamp": "2026-01-09T12:49:36.865519",
+  "error_type": "SearchByKeyword",
+  "message": "Search() takes no arguments",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "affiliate marketing"
+    }
+  }
+}
+[2026-01-09 12:49:36.866] [ERROR   ] [ERROR     ] [Thread-140228380177024] {
+  "timestamp": "2026-01-09T12:49:36.866674",
+  "error_type": "SearchByHashtag",
+  "message": "No sessions created, please create sessions first",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "affiliatemarketing"
+    }
+  }
+}
+[2026-01-09 12:49:41.946] [ERROR   ] [ERROR     ] [Thread-140228380177024] {
+  "timestamp": "2026-01-09T12:49:41.946444",
+  "error_type": "SearchByKeyword",
+  "message": "Search() takes no arguments",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "make money online"
+    }
+  }
+}
+[2026-01-09 12:49:41.947] [ERROR   ] [ERROR     ] [Thread-140228380177024] {
+  "timestamp": "2026-01-09T12:49:41.947258",
+  "error_type": "SearchByHashtag",
+  "message": "No sessions created, please create sessions first",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "makemoneyonline"
+    }
+  }
+}
+[2026-01-09 12:49:48.130] [ERROR   ] [ERROR     ] [Thread-140228380177024] {
+  "timestamp": "2026-01-09T12:49:48.129982",
+  "error_type": "SearchByKeyword",
+  "message": "Search() takes no arguments",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "passive income"
+    }
+  }
+}
+[2026-01-09 12:49:48.130] [ERROR   ] [ERROR     ] [Thread-140228380177024] {
+  "timestamp": "2026-01-09T12:49:48.130795",
+  "error_type": "SearchByHashtag",
+  "message": "No sessions created, please create sessions first",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "passiveincome"
+    }
+  }
+}
+[2026-01-09 12:49:55.360] [ERROR   ] [ERROR     ] [Thread-140228380177024] {
+  "timestamp": "2026-01-09T12:49:55.360656",
+  "error_type": "SearchByKeyword",
+  "message": "Search() takes no arguments",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "side hustle"
+    }
+  }
+}
+[2026-01-09 12:49:55.361] [ERROR   ] [ERROR     ] [Thread-140228380177024] {
+  "timestamp": "2026-01-09T12:49:55.361438",
+  "error_type": "SearchByHashtag",
+  "message": "No sessions created, please create sessions first",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "sidehustle"
+    }
+  }
+}
+[2026-01-09 12:50:00.658] [ERROR   ] [ERROR     ] [Thread-140228380177024] {
+  "timestamp": "2026-01-09T12:50:00.658387",
+  "error_type": "SearchByKeyword",
+  "message": "Search() takes no arguments",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "online business"
+    }
+  }
+}
+[2026-01-09 12:50:00.659] [ERROR   ] [ERROR     ] [Thread-140228380177024] {
+  "timestamp": "2026-01-09T12:50:00.659406",
+  "error_type": "SearchByHashtag",
+  "message": "No sessions created, please create sessions first",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "onlinebusiness"
+    }
+  }
+}
+[2026-01-09 12:50:06.320] [ERROR   ] [ERROR     ] [Thread-140228380177024] {
+  "timestamp": "2026-01-09T12:50:06.320572",
+  "error_type": "SearchByKeyword",
+  "message": "Search() takes no arguments",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "digital marketing"
+    }
+  }
+}
+[2026-01-09 12:50:06.321] [ERROR   ] [ERROR     ] [Thread-140228380177024] {
+  "timestamp": "2026-01-09T12:50:06.321380",
+  "error_type": "SearchByHashtag",
+  "message": "No sessions created, please create sessions first",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "digitalmarketing"
+    }
+  }
+}
+[2026-01-09 12:50:15.413] [ERROR   ] [ERROR     ] [Thread-140228380177024] {
+  "timestamp": "2026-01-09T12:50:15.412997",
+  "error_type": "SearchByKeyword",
+  "message": "Search() takes no arguments",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "entrepreneur"
+    }
+  }
+}
+[2026-01-09 12:50:15.413] [ERROR   ] [ERROR     ] [Thread-140228380177024] {
+  "timestamp": "2026-01-09T12:50:15.413731",
+  "error_type": "SearchByHashtag",
+  "message": "No sessions created, please create sessions first",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "entrepreneur"
+    }
+  }
+}
+[2026-01-09 12:50:22.206] [ERROR   ] [ERROR     ] [Thread-140228380177024] {
+  "timestamp": "2026-01-09T12:50:22.206112",
+  "error_type": "SearchByKeyword",
+  "message": "Search() takes no arguments",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "work from home"
+    }
+  }
+}
+[2026-01-09 12:50:22.206] [ERROR   ] [ERROR     ] [Thread-140228380177024] {
+  "timestamp": "2026-01-09T12:50:22.206884",
+  "error_type": "SearchByHashtag",
+  "message": "No sessions created, please create sessions first",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "workfromhome"
+    }
+  }
+}
+[2026-01-09 12:50:29.401] [ERROR   ] [ERROR     ] [Thread-140228380177024] {
+  "timestamp": "2026-01-09T12:50:29.401446",
+  "error_type": "SearchByKeyword",
+  "message": "Search() takes no arguments",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "financial freedom"
+    }
+  }
+}
+[2026-01-09 12:50:29.402] [ERROR   ] [ERROR     ] [Thread-140228380177024] {
+  "timestamp": "2026-01-09T12:50:29.402417",
+  "error_type": "SearchByHashtag",
+  "message": "No sessions created, please create sessions first",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "financialfreedom"
+    }
+  }
+}
+[2026-01-09 12:50:34.885] [ERROR   ] [ERROR     ] [Thread-140228380177024] {
+  "timestamp": "2026-01-09T12:50:34.885270",
+  "error_type": "SearchByKeyword",
+  "message": "Search() takes no arguments",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "email marketing"
+    }
+  }
+}
+[2026-01-09 12:50:34.886] [ERROR   ] [ERROR     ] [Thread-140228380177024] {
+  "timestamp": "2026-01-09T12:50:34.886211",
+  "error_type": "SearchByHashtag",
+  "message": "No sessions created, please create sessions first",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "emailmarketing"
+    }
+  }
+}
+[2026-01-09 12:50:42.200] [ERROR   ] [ERROR     ] [Thread-140228380177024] {
+  "timestamp": "2026-01-09T12:50:42.200057",
+  "error_type": "SearchByKeyword",
+  "message": "Search() takes no arguments",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "social media marketing"
+    }
+  }
+}
+[2026-01-09 12:50:42.200] [ERROR   ] [ERROR     ] [Thread-140228380177024] {
+  "timestamp": "2026-01-09T12:50:42.200820",
+  "error_type": "SearchByHashtag",
+  "message": "No sessions created, please create sessions first",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "socialmediamarketing"
+    }
+  }
+}
+[2026-01-09 12:50:48.605] [ERROR   ] [ERROR     ] [Thread-140228380177024] {
+  "timestamp": "2026-01-09T12:50:48.605011",
+  "error_type": "SearchByKeyword",
+  "message": "Search() takes no arguments",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "ecommerce"
+    }
+  }
+}
+[2026-01-09 12:50:48.606] [ERROR   ] [ERROR     ] [Thread-140228380177024] {
+  "timestamp": "2026-01-09T12:50:48.606249",
+  "error_type": "SearchByHashtag",
+  "message": "No sessions created, please create sessions first",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "ecommerce"
+    }
+  }
+}
+[2026-01-09 12:50:58.396] [ERROR   ] [ERROR     ] [Thread-140228380177024] {
+  "timestamp": "2026-01-09T12:50:58.396820",
+  "error_type": "SearchByKeyword",
+  "message": "Search() takes no arguments",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "dropshipping"
+    }
+  }
+}
+[2026-01-09 12:50:58.397] [ERROR   ] [ERROR     ] [Thread-140228380177024] {
+  "timestamp": "2026-01-09T12:50:58.397892",
+  "error_type": "SearchByHashtag",
+  "message": "No sessions created, please create sessions first",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "dropshipping"
+    }
+  }
+}
+[2026-01-09 12:51:06.780] [ERROR   ] [ERROR     ] [Thread-140228380177024] {
+  "timestamp": "2026-01-09T12:51:06.780796",
+  "error_type": "SearchByKeyword",
+  "message": "Search() takes no arguments",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "content creation"
+    }
+  }
+}
+[2026-01-09 12:51:06.781] [ERROR   ] [ERROR     ] [Thread-140228380177024] {
+  "timestamp": "2026-01-09T12:51:06.781575",
+  "error_type": "SearchByHashtag",
+  "message": "No sessions created, please create sessions first",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "contentcreation"
+    }
+  }
+}
+[2026-01-09 12:51:13.267] [ERROR   ] [ERROR     ] [Thread-140228380177024] {
+  "timestamp": "2026-01-09T12:51:13.267425",
+  "error_type": "SearchByKeyword",
+  "message": "Search() takes no arguments",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "monetization"
+    }
+  }
+}
+[2026-01-09 12:51:13.268] [ERROR   ] [ERROR     ] [Thread-140228380177024] {
+  "timestamp": "2026-01-09T12:51:13.268229",
+  "error_type": "SearchByHashtag",
+  "message": "No sessions created, please create sessions first",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "monetization"
+    }
+  }
+}
+[2026-01-09 12:51:51.894] [ERROR   ] [ERROR     ] [Thread-139814862537344] {
+  "timestamp": "2026-01-09T12:51:51.894426",
+  "error_type": "SearchByKeyword",
+  "message": "Search() takes no arguments",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "affiliate marketing"
+    }
+  }
+}
+[2026-01-09 12:51:52.185] [ERROR   ] [ERROR     ] [Thread-139814862537344] {
+  "timestamp": "2026-01-09T12:51:52.185217",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "affiliatemarketing"
+    }
+  }
+}
+[2026-01-09 12:51:58.261] [ERROR   ] [ERROR     ] [Thread-139814862537344] {
+  "timestamp": "2026-01-09T12:51:58.261722",
+  "error_type": "SearchByKeyword",
+  "message": "Search() takes no arguments",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "make money online"
+    }
+  }
+}
+[2026-01-09 12:51:58.349] [ERROR   ] [ERROR     ] [Thread-139814862537344] {
+  "timestamp": "2026-01-09T12:51:58.349523",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "makemoneyonline"
+    }
+  }
+}
+[2026-01-09 12:52:04.571] [ERROR   ] [ERROR     ] [Thread-139814862537344] {
+  "timestamp": "2026-01-09T12:52:04.571696",
+  "error_type": "SearchByKeyword",
+  "message": "Search() takes no arguments",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "passive income"
+    }
+  }
+}
+[2026-01-09 12:52:04.669] [ERROR   ] [ERROR     ] [Thread-139814862537344] {
+  "timestamp": "2026-01-09T12:52:04.669064",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "passiveincome"
+    }
+  }
+}
+[2026-01-09 12:52:09.838] [ERROR   ] [ERROR     ] [Thread-139814862537344] {
+  "timestamp": "2026-01-09T12:52:09.838018",
+  "error_type": "SearchByKeyword",
+  "message": "Search() takes no arguments",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "side hustle"
+    }
+  }
+}
+[2026-01-09 12:52:09.943] [ERROR   ] [ERROR     ] [Thread-139814862537344] {
+  "timestamp": "2026-01-09T12:52:09.943666",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "sidehustle"
+    }
+  }
+}
+[2026-01-09 12:52:15.453] [ERROR   ] [ERROR     ] [Thread-139814862537344] {
+  "timestamp": "2026-01-09T12:52:15.453018",
+  "error_type": "SearchByKeyword",
+  "message": "Search() takes no arguments",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "online business"
+    }
+  }
+}
+[2026-01-09 12:52:15.538] [ERROR   ] [ERROR     ] [Thread-139814862537344] {
+  "timestamp": "2026-01-09T12:52:15.538096",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "onlinebusiness"
+    }
+  }
+}
+[2026-01-09 12:52:24.151] [ERROR   ] [ERROR     ] [Thread-139814862537344] {
+  "timestamp": "2026-01-09T12:52:24.151153",
+  "error_type": "SearchByKeyword",
+  "message": "Search() takes no arguments",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "digital marketing"
+    }
+  }
+}
+[2026-01-09 12:52:24.235] [ERROR   ] [ERROR     ] [Thread-139814862537344] {
+  "timestamp": "2026-01-09T12:52:24.235741",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "digitalmarketing"
+    }
+  }
+}
+[2026-01-09 12:52:33.563] [ERROR   ] [ERROR     ] [Thread-139814862537344] {
+  "timestamp": "2026-01-09T12:52:33.563160",
+  "error_type": "SearchByKeyword",
+  "message": "Search() takes no arguments",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "entrepreneur"
+    }
+  }
+}
+[2026-01-09 12:52:33.644] [ERROR   ] [ERROR     ] [Thread-139814862537344] {
+  "timestamp": "2026-01-09T12:52:33.644355",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "entrepreneur"
+    }
+  }
+}
+[2026-01-09 12:52:37.426] [ERROR   ] [ERROR     ] [Thread-139689960469120] {
+  "timestamp": "2026-01-09T12:52:37.426248",
+  "error_type": "SearchByKeyword",
+  "message": "type object 'Search' has no attribute 'videos'",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "affiliate marketing"
+    }
+  }
+}
+[2026-01-09 12:52:37.536] [ERROR   ] [ERROR     ] [Thread-139689960469120] {
+  "timestamp": "2026-01-09T12:52:37.536751",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "affiliatemarketing"
+    }
+  }
+}
+[2026-01-09 12:52:42.016] [ERROR   ] [ERROR     ] [Thread-139814862537344] {
+  "timestamp": "2026-01-09T12:52:42.016674",
+  "error_type": "SearchByKeyword",
+  "message": "Search() takes no arguments",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "work from home"
+    }
+  }
+}
+[2026-01-09 12:52:42.116] [ERROR   ] [ERROR     ] [Thread-139814862537344] {
+  "timestamp": "2026-01-09T12:52:42.116703",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "workfromhome"
+    }
+  }
+}
+[2026-01-09 12:52:43.041] [ERROR   ] [ERROR     ] [Thread-139689960469120] {
+  "timestamp": "2026-01-09T12:52:43.041655",
+  "error_type": "SearchByKeyword",
+  "message": "type object 'Search' has no attribute 'videos'",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "make money online"
+    }
+  }
+}
+[2026-01-09 12:52:43.139] [ERROR   ] [ERROR     ] [Thread-139689960469120] {
+  "timestamp": "2026-01-09T12:52:43.139058",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "makemoneyonline"
+    }
+  }
+}
+[2026-01-09 12:52:48.398] [ERROR   ] [ERROR     ] [Thread-139689960469120] {
+  "timestamp": "2026-01-09T12:52:48.398893",
+  "error_type": "SearchByKeyword",
+  "message": "type object 'Search' has no attribute 'videos'",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "passive income"
+    }
+  }
+}
+[2026-01-09 12:52:48.496] [ERROR   ] [ERROR     ] [Thread-139689960469120] {
+  "timestamp": "2026-01-09T12:52:48.495909",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "passiveincome"
+    }
+  }
+}
+[2026-01-09 12:52:49.530] [ERROR   ] [ERROR     ] [Thread-139814862537344] {
+  "timestamp": "2026-01-09T12:52:49.530626",
+  "error_type": "SearchByKeyword",
+  "message": "Search() takes no arguments",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "financial freedom"
+    }
+  }
+}
+[2026-01-09 12:52:49.630] [ERROR   ] [ERROR     ] [Thread-139814862537344] {
+  "timestamp": "2026-01-09T12:52:49.630206",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "financialfreedom"
+    }
+  }
+}
+[2026-01-09 12:52:56.371] [ERROR   ] [ERROR     ] [Thread-139814862537344] {
+  "timestamp": "2026-01-09T12:52:56.371205",
+  "error_type": "SearchByKeyword",
+  "message": "Search() takes no arguments",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "email marketing"
+    }
+  }
+}
+[2026-01-09 12:52:56.473] [ERROR   ] [ERROR     ] [Thread-139814862537344] {
+  "timestamp": "2026-01-09T12:52:56.473547",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "emailmarketing"
+    }
+  }
+}
+[2026-01-09 12:52:56.835] [ERROR   ] [ERROR     ] [Thread-139689960469120] {
+  "timestamp": "2026-01-09T12:52:56.835299",
+  "error_type": "SearchByKeyword",
+  "message": "type object 'Search' has no attribute 'videos'",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "side hustle"
+    }
+  }
+}
+[2026-01-09 12:52:57.014] [ERROR   ] [ERROR     ] [Thread-139689960469120] {
+  "timestamp": "2026-01-09T12:52:57.014020",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "sidehustle"
+    }
+  }
+}
+[2026-01-09 12:53:01.581] [ERROR   ] [ERROR     ] [Thread-139814862537344] {
+  "timestamp": "2026-01-09T12:53:01.581611",
+  "error_type": "SearchByKeyword",
+  "message": "Search() takes no arguments",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "social media marketing"
+    }
+  }
+}
+[2026-01-09 12:53:01.660] [ERROR   ] [ERROR     ] [Thread-139814862537344] {
+  "timestamp": "2026-01-09T12:53:01.660157",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "socialmediamarketing"
+    }
+  }
+}
+[2026-01-09 12:53:05.851] [ERROR   ] [ERROR     ] [Thread-139689960469120] {
+  "timestamp": "2026-01-09T12:53:05.851669",
+  "error_type": "SearchByKeyword",
+  "message": "type object 'Search' has no attribute 'videos'",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "online business"
+    }
+  }
+}
+[2026-01-09 12:53:05.940] [ERROR   ] [ERROR     ] [Thread-139689960469120] {
+  "timestamp": "2026-01-09T12:53:05.940450",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "onlinebusiness"
+    }
+  }
+}
+[2026-01-09 12:53:06.843] [ERROR   ] [ERROR     ] [Thread-139814862537344] {
+  "timestamp": "2026-01-09T12:53:06.843430",
+  "error_type": "SearchByKeyword",
+  "message": "Search() takes no arguments",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "ecommerce"
+    }
+  }
+}
+[2026-01-09 12:53:06.974] [ERROR   ] [ERROR     ] [Thread-139814862537344] {
+  "timestamp": "2026-01-09T12:53:06.974257",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "ecommerce"
+    }
+  }
+}
+[2026-01-09 12:53:11.132] [ERROR   ] [ERROR     ] [Thread-140586017235584] {
+  "timestamp": "2026-01-09T12:53:11.132378",
+  "error_type": "SearchByKeyword",
+  "message": "Search() takes no arguments",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "affiliate marketing"
+    }
+  }
+}
+[2026-01-09 12:53:11.245] [ERROR   ] [ERROR     ] [Thread-140586017235584] {
+  "timestamp": "2026-01-09T12:53:11.245047",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "affiliatemarketing"
+    }
+  }
+}
+[2026-01-09 12:53:15.336] [ERROR   ] [ERROR     ] [Thread-139689960469120] {
+  "timestamp": "2026-01-09T12:53:15.336863",
+  "error_type": "SearchByKeyword",
+  "message": "type object 'Search' has no attribute 'videos'",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "digital marketing"
+    }
+  }
+}
+[2026-01-09 12:53:16.364] [ERROR   ] [ERROR     ] [Thread-139814862537344] {
+  "timestamp": "2026-01-09T12:53:16.364722",
+  "error_type": "SearchByKeyword",
+  "message": "Search() takes no arguments",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "dropshipping"
+    }
+  }
+}
+[2026-01-09 12:53:16.458] [ERROR   ] [ERROR     ] [Thread-139814862537344] {
+  "timestamp": "2026-01-09T12:53:16.458179",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "dropshipping"
+    }
+  }
+}
+[2026-01-09 12:53:20.866] [ERROR   ] [ERROR     ] [Thread-140586017235584] {
+  "timestamp": "2026-01-09T12:53:20.866668",
+  "error_type": "SearchByKeyword",
+  "message": "Search() takes no arguments",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "make money online"
+    }
+  }
+}
+[2026-01-09 12:53:20.944] [ERROR   ] [ERROR     ] [Thread-140586017235584] {
+  "timestamp": "2026-01-09T12:53:20.944109",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "makemoneyonline"
+    }
+  }
+}
+[2026-01-09 12:53:21.932] [ERROR   ] [ERROR     ] [Thread-139689960469120] {
+  "timestamp": "2026-01-09T12:53:21.932741",
+  "error_type": "SearchByKeyword",
+  "message": "type object 'Search' has no attribute 'videos'",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "entrepreneur"
+    }
+  }
+}
+[2026-01-09 12:53:22.021] [ERROR   ] [ERROR     ] [Thread-139689960469120] {
+  "timestamp": "2026-01-09T12:53:22.021233",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "entrepreneur"
+    }
+  }
+}
+[2026-01-09 12:53:25.026] [ERROR   ] [ERROR     ] [Thread-139814862537344] {
+  "timestamp": "2026-01-09T12:53:25.026815",
+  "error_type": "SearchByKeyword",
+  "message": "Search() takes no arguments",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "content creation"
+    }
+  }
+}
+[2026-01-09 12:53:25.119] [ERROR   ] [ERROR     ] [Thread-139814862537344] {
+  "timestamp": "2026-01-09T12:53:25.119567",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "contentcreation"
+    }
+  }
+}
+[2026-01-09 12:53:27.755] [ERROR   ] [ERROR     ] [Thread-139689960469120] {
+  "timestamp": "2026-01-09T12:53:27.755134",
+  "error_type": "SearchByKeyword",
+  "message": "type object 'Search' has no attribute 'videos'",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "work from home"
+    }
+  }
+}
+[2026-01-09 12:53:28.046] [ERROR   ] [ERROR     ] [Thread-139689960469120] {
+  "timestamp": "2026-01-09T12:53:28.045961",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "workfromhome"
+    }
+  }
+}
+[2026-01-09 12:53:30.355] [ERROR   ] [ERROR     ] [Thread-140586017235584] {
+  "timestamp": "2026-01-09T12:53:30.355141",
+  "error_type": "SearchByKeyword",
+  "message": "Search() takes no arguments",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "passive income"
+    }
+  }
+}
+[2026-01-09 12:53:30.426] [ERROR   ] [ERROR     ] [Thread-140586017235584] {
+  "timestamp": "2026-01-09T12:53:30.426638",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "passiveincome"
+    }
+  }
+}
+[2026-01-09 12:53:31.039] [ERROR   ] [ERROR     ] [Thread-139814862537344] {
+  "timestamp": "2026-01-09T12:53:31.039172",
+  "error_type": "SearchByKeyword",
+  "message": "Search() takes no arguments",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "monetization"
+    }
+  }
+}
+[2026-01-09 12:53:31.127] [ERROR   ] [ERROR     ] [Thread-139814862537344] {
+  "timestamp": "2026-01-09T12:53:31.126987",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "monetization"
+    }
+  }
+}
+[2026-01-09 12:53:33.279] [ERROR   ] [ERROR     ] [Thread-139689960469120] {
+  "timestamp": "2026-01-09T12:53:33.279656",
+  "error_type": "SearchByKeyword",
+  "message": "type object 'Search' has no attribute 'videos'",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "financial freedom"
+    }
+  }
+}
+[2026-01-09 12:53:33.447] [ERROR   ] [ERROR     ] [Thread-139689960469120] {
+  "timestamp": "2026-01-09T12:53:33.447604",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "financialfreedom"
+    }
+  }
+}
+[2026-01-09 12:53:36.283] [ERROR   ] [ERROR     ] [Thread-140586017235584] {
+  "timestamp": "2026-01-09T12:53:36.283016",
+  "error_type": "SearchByKeyword",
+  "message": "Search() takes no arguments",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "side hustle"
+    }
+  }
+}
+[2026-01-09 12:53:36.358] [ERROR   ] [ERROR     ] [Thread-140586017235584] {
+  "timestamp": "2026-01-09T12:53:36.358689",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "sidehustle"
+    }
+  }
+}
+[2026-01-09 12:53:39.227] [ERROR   ] [ERROR     ] [Thread-139689960469120] {
+  "timestamp": "2026-01-09T12:53:39.227232",
+  "error_type": "SearchByKeyword",
+  "message": "type object 'Search' has no attribute 'videos'",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "email marketing"
+    }
+  }
+}
+[2026-01-09 12:53:39.348] [ERROR   ] [ERROR     ] [Thread-139689960469120] {
+  "timestamp": "2026-01-09T12:53:39.348292",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "emailmarketing"
+    }
+  }
+}
+[2026-01-09 12:53:42.611] [ERROR   ] [ERROR     ] [Thread-140586017235584] {
+  "timestamp": "2026-01-09T12:53:42.611161",
+  "error_type": "SearchByKeyword",
+  "message": "Search() takes no arguments",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "online business"
+    }
+  }
+}
+[2026-01-09 12:53:42.693] [ERROR   ] [ERROR     ] [Thread-140586017235584] {
+  "timestamp": "2026-01-09T12:53:42.693078",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "onlinebusiness"
+    }
+  }
+}
+[2026-01-09 12:53:45.514] [ERROR   ] [ERROR     ] [Thread-139689960469120] {
+  "timestamp": "2026-01-09T12:53:45.514680",
+  "error_type": "SearchByKeyword",
+  "message": "type object 'Search' has no attribute 'videos'",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "social media marketing"
+    }
+  }
+}
+[2026-01-09 12:53:45.606] [ERROR   ] [ERROR     ] [Thread-139689960469120] {
+  "timestamp": "2026-01-09T12:53:45.606036",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "socialmediamarketing"
+    }
+  }
+}
+[2026-01-09 12:53:49.244] [ERROR   ] [ERROR     ] [Thread-140586017235584] {
+  "timestamp": "2026-01-09T12:53:49.244418",
+  "error_type": "SearchByKeyword",
+  "message": "Search() takes no arguments",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "digital marketing"
+    }
+  }
+}
+[2026-01-09 12:53:49.325] [ERROR   ] [ERROR     ] [Thread-140586017235584] {
+  "timestamp": "2026-01-09T12:53:49.325437",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "digitalmarketing"
+    }
+  }
+}
+[2026-01-09 12:53:50.079] [ERROR   ] [ERROR     ] [Thread-140286231380608] {
+  "timestamp": "2026-01-09T12:53:50.079169",
+  "error_type": "SearchByKeyword",
+  "message": "type object 'Search' has no attribute 'videos'",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "affiliate marketing"
+    }
+  }
+}
+[2026-01-09 12:53:50.165] [ERROR   ] [ERROR     ] [Thread-140286231380608] {
+  "timestamp": "2026-01-09T12:53:50.165069",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "affiliatemarketing"
+    }
+  }
+}
+[2026-01-09 12:53:50.778] [ERROR   ] [ERROR     ] [Thread-139689960469120] {
+  "timestamp": "2026-01-09T12:53:50.778900",
+  "error_type": "SearchByKeyword",
+  "message": "type object 'Search' has no attribute 'videos'",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "ecommerce"
+    }
+  }
+}
+[2026-01-09 12:53:50.874] [ERROR   ] [ERROR     ] [Thread-139689960469120] {
+  "timestamp": "2026-01-09T12:53:50.874412",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "ecommerce"
+    }
+  }
+}
+[2026-01-09 12:53:57.178] [ERROR   ] [ERROR     ] [Thread-140586017235584] {
+  "timestamp": "2026-01-09T12:53:57.177992",
+  "error_type": "SearchByKeyword",
+  "message": "Search() takes no arguments",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "entrepreneur"
+    }
+  }
+}
+[2026-01-09 12:53:57.248] [ERROR   ] [ERROR     ] [Thread-140586017235584] {
+  "timestamp": "2026-01-09T12:53:57.248082",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "entrepreneur"
+    }
+  }
+}
+[2026-01-09 12:54:00.129] [ERROR   ] [ERROR     ] [Thread-140286231380608] {
+  "timestamp": "2026-01-09T12:54:00.128995",
+  "error_type": "SearchByKeyword",
+  "message": "type object 'Search' has no attribute 'videos'",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "make money online"
+    }
+  }
+}
+[2026-01-09 12:54:00.195] [ERROR   ] [ERROR     ] [Thread-140286231380608] {
+  "timestamp": "2026-01-09T12:54:00.195319",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "makemoneyonline"
+    }
+  }
+}
+[2026-01-09 12:54:00.278] [ERROR   ] [ERROR     ] [Thread-139689960469120] {
+  "timestamp": "2026-01-09T12:54:00.278823",
+  "error_type": "SearchByKeyword",
+  "message": "type object 'Search' has no attribute 'videos'",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "dropshipping"
+    }
+  }
+}
+[2026-01-09 12:54:00.521] [ERROR   ] [ERROR     ] [Thread-139689960469120] {
+  "timestamp": "2026-01-09T12:54:00.521432",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "dropshipping"
+    }
+  }
+}
+[2026-01-09 12:54:01.695] [ERROR   ] [ERROR     ] [Thread-140521661411968] {
+  "timestamp": "2026-01-09T12:54:01.695085",
+  "error_type": "DolphinX1_Setup",
+  "message": "Failed to setup: Command '['ollama', 'pull', 'dolphin-x1-llama-3.1:latest']' returned non-zero exit status 1.",
+  "stack_trace": null,
+  "context": {}
+}
+[2026-01-09 12:54:05.475] [ERROR   ] [ERROR     ] [Thread-140586017235584] {
+  "timestamp": "2026-01-09T12:54:05.475303",
+  "error_type": "SearchByKeyword",
+  "message": "Search() takes no arguments",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "work from home"
+    }
+  }
+}
+[2026-01-09 12:54:05.578] [ERROR   ] [ERROR     ] [Thread-140286231380608] {
+  "timestamp": "2026-01-09T12:54:05.578381",
+  "error_type": "SearchByKeyword",
+  "message": "type object 'Search' has no attribute 'videos'",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "passive income"
+    }
+  }
+}
+[2026-01-09 12:54:05.610] [ERROR   ] [ERROR     ] [Thread-140586017235584] {
+  "timestamp": "2026-01-09T12:54:05.610384",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "workfromhome"
+    }
+  }
+}
+[2026-01-09 12:54:05.645] [ERROR   ] [ERROR     ] [Thread-140286231380608] {
+  "timestamp": "2026-01-09T12:54:05.645431",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "passiveincome"
+    }
+  }
+}
+[2026-01-09 12:54:05.651] [ERROR   ] [ERROR     ] [Thread-139689960469120] {
+  "timestamp": "2026-01-09T12:54:05.651629",
+  "error_type": "SearchByKeyword",
+  "message": "type object 'Search' has no attribute 'videos'",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "content creation"
+    }
+  }
+}
+[2026-01-09 12:54:05.797] [ERROR   ] [ERROR     ] [Thread-139689960469120] {
+  "timestamp": "2026-01-09T12:54:05.797374",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "contentcreation"
+    }
+  }
+}
+[2026-01-09 12:54:11.887] [ERROR   ] [ERROR     ] [Thread-139689960469120] {
+  "timestamp": "2026-01-09T12:54:11.887238",
+  "error_type": "SearchByKeyword",
+  "message": "type object 'Search' has no attribute 'videos'",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "monetization"
+    }
+  }
+}
+[2026-01-09 12:54:11.989] [ERROR   ] [ERROR     ] [Thread-139689960469120] {
+  "timestamp": "2026-01-09T12:54:11.988932",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "monetization"
+    }
+  }
+}
+[2026-01-09 12:54:13.735] [ERROR   ] [ERROR     ] [Thread-140586017235584] {
+  "timestamp": "2026-01-09T12:54:13.735222",
+  "error_type": "SearchByKeyword",
+  "message": "Search() takes no arguments",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "financial freedom"
+    }
+  }
+}
+[2026-01-09 12:54:13.812] [ERROR   ] [ERROR     ] [Thread-140586017235584] {
+  "timestamp": "2026-01-09T12:54:13.811955",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "financialfreedom"
+    }
+  }
+}
+[2026-01-09 12:54:15.052] [ERROR   ] [ERROR     ] [Thread-140286231380608] {
+  "timestamp": "2026-01-09T12:54:15.052026",
+  "error_type": "SearchByKeyword",
+  "message": "type object 'Search' has no attribute 'videos'",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "side hustle"
+    }
+  }
+}
+[2026-01-09 12:54:15.129] [ERROR   ] [ERROR     ] [Thread-140286231380608] {
+  "timestamp": "2026-01-09T12:54:15.129793",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "sidehustle"
+    }
+  }
+}
+[2026-01-09 12:54:18.720] [ERROR   ] [ERROR     ] [Thread-139965946040960] {
+  "timestamp": "2026-01-09T12:54:18.719909",
+  "error_type": "DolphinX1_Setup",
+  "message": "Failed to setup: Command '['ollama', 'pull', 'dolphin-x1-llama-3.1:latest']' returned non-zero exit status 1.",
+  "stack_trace": null,
+  "context": {}
+}
+[2026-01-09 12:54:20.199] [ERROR   ] [ERROR     ] [Thread-140286231380608] {
+  "timestamp": "2026-01-09T12:54:20.199761",
+  "error_type": "SearchByKeyword",
+  "message": "type object 'Search' has no attribute 'videos'",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "online business"
+    }
+  }
+}
+[2026-01-09 12:54:20.276] [ERROR   ] [ERROR     ] [Thread-140286231380608] {
+  "timestamp": "2026-01-09T12:54:20.275952",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "onlinebusiness"
+    }
+  }
+}
+[2026-01-09 12:54:23.574] [ERROR   ] [ERROR     ] [Thread-140586017235584] {
+  "timestamp": "2026-01-09T12:54:23.574388",
+  "error_type": "SearchByKeyword",
+  "message": "Search() takes no arguments",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "email marketing"
+    }
+  }
+}
+[2026-01-09 12:54:23.635] [ERROR   ] [ERROR     ] [Thread-140586017235584] {
+  "timestamp": "2026-01-09T12:54:23.635450",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "emailmarketing"
+    }
+  }
+}
+[2026-01-09 12:54:25.810] [ERROR   ] [ERROR     ] [Thread-140286231380608] {
+  "timestamp": "2026-01-09T12:54:25.810633",
+  "error_type": "SearchByKeyword",
+  "message": "type object 'Search' has no attribute 'videos'",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "digital marketing"
+    }
+  }
+}
+[2026-01-09 12:54:25.874] [ERROR   ] [ERROR     ] [Thread-140286231380608] {
+  "timestamp": "2026-01-09T12:54:25.874145",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "digitalmarketing"
+    }
+  }
+}
+[2026-01-09 12:54:27.752] [ERROR   ] [ERROR     ] [Thread-139844802019968] {
+  "timestamp": "2026-01-09T12:54:27.752605",
+  "error_type": "DolphinX1_Setup",
+  "message": "Failed to setup: Command '['ollama', 'pull', 'dolphin-x1-llama-3.1:latest']' returned non-zero exit status 1.",
+  "stack_trace": null,
+  "context": {}
+}
+[2026-01-09 12:54:32.853] [ERROR   ] [ERROR     ] [Thread-140586017235584] {
+  "timestamp": "2026-01-09T12:54:32.853319",
+  "error_type": "SearchByKeyword",
+  "message": "Search() takes no arguments",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "social media marketing"
+    }
+  }
+}
+[2026-01-09 12:54:32.942] [ERROR   ] [ERROR     ] [Thread-140586017235584] {
+  "timestamp": "2026-01-09T12:54:32.942613",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "socialmediamarketing"
+    }
+  }
+}
+[2026-01-09 12:54:33.349] [ERROR   ] [ERROR     ] [Thread-140286231380608] {
+  "timestamp": "2026-01-09T12:54:33.349877",
+  "error_type": "SearchByKeyword",
+  "message": "type object 'Search' has no attribute 'videos'",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "entrepreneur"
+    }
+  }
+}
+[2026-01-09 12:54:33.429] [ERROR   ] [ERROR     ] [Thread-140286231380608] {
+  "timestamp": "2026-01-09T12:54:33.429872",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "entrepreneur"
+    }
+  }
+}
+[2026-01-09 12:54:36.387] [ERROR   ] [ERROR     ] [Thread-139744485188224] {
+  "timestamp": "2026-01-09T12:54:36.387424",
+  "error_type": "DolphinX1_Setup",
+  "message": "Failed to setup: Command '['ollama', 'pull', 'dolphin-x1-llama-3.1:latest']' returned non-zero exit status 1.",
+  "stack_trace": null,
+  "context": {}
+}
+[2026-01-09 12:54:39.699] [ERROR   ] [ERROR     ] [Thread-140586017235584] {
+  "timestamp": "2026-01-09T12:54:39.699593",
+  "error_type": "SearchByKeyword",
+  "message": "Search() takes no arguments",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "ecommerce"
+    }
+  }
+}
+[2026-01-09 12:54:39.778] [ERROR   ] [ERROR     ] [Thread-140586017235584] {
+  "timestamp": "2026-01-09T12:54:39.777972",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "ecommerce"
+    }
+  }
+}
+[2026-01-09 12:54:41.237] [ERROR   ] [ERROR     ] [Thread-140286231380608] {
+  "timestamp": "2026-01-09T12:54:41.237434",
+  "error_type": "SearchByKeyword",
+  "message": "type object 'Search' has no attribute 'videos'",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "work from home"
+    }
+  }
+}
+[2026-01-09 12:54:41.301] [ERROR   ] [ERROR     ] [Thread-140286231380608] {
+  "timestamp": "2026-01-09T12:54:41.301483",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "workfromhome"
+    }
+  }
+}
+[2026-01-09 12:54:45.669] [ERROR   ] [ERROR     ] [Thread-140417415787136] {
+  "timestamp": "2026-01-09T12:54:45.669548",
+  "error_type": "DolphinX1_Setup",
+  "message": "Failed to setup: Command '['ollama', 'pull', 'dolphin-x1-llama-3.1:latest']' returned non-zero exit status 1.",
+  "stack_trace": null,
+  "context": {}
+}
+[2026-01-09 12:54:46.348] [ERROR   ] [ERROR     ] [Thread-140286231380608] {
+  "timestamp": "2026-01-09T12:54:46.348812",
+  "error_type": "SearchByKeyword",
+  "message": "type object 'Search' has no attribute 'videos'",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "financial freedom"
+    }
+  }
+}
+[2026-01-09 12:54:46.527] [ERROR   ] [ERROR     ] [Thread-140286231380608] {
+  "timestamp": "2026-01-09T12:54:46.527098",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "financialfreedom"
+    }
+  }
+}
+[2026-01-09 12:54:48.922] [ERROR   ] [ERROR     ] [Thread-140586017235584] {
+  "timestamp": "2026-01-09T12:54:48.922857",
+  "error_type": "SearchByKeyword",
+  "message": "Search() takes no arguments",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "dropshipping"
+    }
+  }
+}
+[2026-01-09 12:54:48.991] [ERROR   ] [ERROR     ] [Thread-140586017235584] {
+  "timestamp": "2026-01-09T12:54:48.990958",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "dropshipping"
+    }
+  }
+}
+[2026-01-09 12:54:54.577] [ERROR   ] [ERROR     ] [Thread-140286231380608] {
+  "timestamp": "2026-01-09T12:54:54.577803",
+  "error_type": "SearchByKeyword",
+  "message": "type object 'Search' has no attribute 'videos'",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "email marketing"
+    }
+  }
+}
+[2026-01-09 12:54:54.781] [ERROR   ] [ERROR     ] [Thread-140286231380608] {
+  "timestamp": "2026-01-09T12:54:54.780981",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "emailmarketing"
+    }
+  }
+}
+[2026-01-09 12:54:54.806] [ERROR   ] [ERROR     ] [Thread-140553767957120] {
+  "timestamp": "2026-01-09T12:54:54.806417",
+  "error_type": "DolphinX1_Setup",
+  "message": "Failed to setup: Command '['ollama', 'pull', 'dolphin-x1-llama-3.1:latest']' returned non-zero exit status 1.",
+  "stack_trace": null,
+  "context": {}
+}
+[2026-01-09 12:54:57.158] [ERROR   ] [ERROR     ] [Thread-140586017235584] {
+  "timestamp": "2026-01-09T12:54:57.158563",
+  "error_type": "SearchByKeyword",
+  "message": "Search() takes no arguments",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "content creation"
+    }
+  }
+}
+[2026-01-09 12:54:57.250] [ERROR   ] [ERROR     ] [Thread-140586017235584] {
+  "timestamp": "2026-01-09T12:54:57.250600",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "contentcreation"
+    }
+  }
+}
+[2026-01-09 12:55:00.853] [ERROR   ] [ERROR     ] [Thread-140286231380608] {
+  "timestamp": "2026-01-09T12:55:00.853177",
+  "error_type": "SearchByKeyword",
+  "message": "type object 'Search' has no attribute 'videos'",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "social media marketing"
+    }
+  }
+}
+[2026-01-09 12:55:00.915] [ERROR   ] [ERROR     ] [Thread-140286231380608] {
+  "timestamp": "2026-01-09T12:55:00.915293",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "socialmediamarketing"
+    }
+  }
+}
+[2026-01-09 12:55:03.582] [ERROR   ] [ERROR     ] [Thread-140269718508160] {
+  "timestamp": "2026-01-09T12:55:03.582004",
+  "error_type": "DolphinX1_Setup",
+  "message": "Failed to setup: Command '['ollama', 'pull', 'dolphin-x1-llama-3.1:latest']' returned non-zero exit status 1.",
+  "stack_trace": null,
+  "context": {}
+}
+[2026-01-09 12:55:04.970] [ERROR   ] [ERROR     ] [Thread-140586017235584] {
+  "timestamp": "2026-01-09T12:55:04.970131",
+  "error_type": "SearchByKeyword",
+  "message": "Search() takes no arguments",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "monetization"
+    }
+  }
+}
+[2026-01-09 12:55:05.084] [ERROR   ] [ERROR     ] [Thread-140586017235584] {
+  "timestamp": "2026-01-09T12:55:05.084115",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "monetization"
+    }
+  }
+}
+[2026-01-09 12:55:06.618] [ERROR   ] [ERROR     ] [Thread-140286231380608] {
+  "timestamp": "2026-01-09T12:55:06.618100",
+  "error_type": "SearchByKeyword",
+  "message": "type object 'Search' has no attribute 'videos'",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "ecommerce"
+    }
+  }
+}
+[2026-01-09 12:55:06.679] [ERROR   ] [ERROR     ] [Thread-140286231380608] {
+  "timestamp": "2026-01-09T12:55:06.679273",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "ecommerce"
+    }
+  }
+}
+[2026-01-09 12:55:14.977] [ERROR   ] [ERROR     ] [Thread-140286231380608] {
+  "timestamp": "2026-01-09T12:55:14.977402",
+  "error_type": "SearchByKeyword",
+  "message": "type object 'Search' has no attribute 'videos'",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "dropshipping"
+    }
+  }
+}
+[2026-01-09 12:55:15.046] [ERROR   ] [ERROR     ] [Thread-140286231380608] {
+  "timestamp": "2026-01-09T12:55:15.046280",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "dropshipping"
+    }
+  }
+}
+[2026-01-09 12:55:22.491] [ERROR   ] [ERROR     ] [Thread-140286231380608] {
+  "timestamp": "2026-01-09T12:55:22.491495",
+  "error_type": "SearchByKeyword",
+  "message": "type object 'Search' has no attribute 'videos'",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "content creation"
+    }
+  }
+}
+[2026-01-09 12:55:22.567] [ERROR   ] [ERROR     ] [Thread-140286231380608] {
+  "timestamp": "2026-01-09T12:55:22.567812",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "contentcreation"
+    }
+  }
+}
+[2026-01-09 12:55:30.070] [ERROR   ] [ERROR     ] [Thread-140286231380608] {
+  "timestamp": "2026-01-09T12:55:30.070059",
+  "error_type": "SearchByKeyword",
+  "message": "type object 'Search' has no attribute 'videos'",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "monetization"
+    }
+  }
+}
+[2026-01-09 12:55:30.149] [ERROR   ] [ERROR     ] [Thread-140286231380608] {
+  "timestamp": "2026-01-09T12:55:30.149486",
+  "error_type": "SearchByHashtag",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "monetization"
+    }
+  }
+}
+[2026-01-09 12:55:35.378] [ERROR   ] [ERROR     ] [Thread-139880548246144] {
+  "timestamp": "2026-01-09T12:55:35.378694",
+  "error_type": "DolphinX1_Setup",
+  "message": "Failed to setup: Command '['ollama', 'pull', 'dolphin-x1-llama-3.1:latest']' returned non-zero exit status 1.",
+  "stack_trace": null,
+  "context": {}
+}
+[2026-01-09 12:55:41.362] [ERROR   ] [ERROR     ] [Thread-139878559666816] {
+  "timestamp": "2026-01-09T12:55:41.362324",
+  "error_type": "DolphinX1_Setup",
+  "message": "Failed to setup: Command '['ollama', 'pull', 'dolphin-x1-llama-3.1:latest']' returned non-zero exit status 1.",
+  "stack_trace": null,
+  "context": {}
+}
+[2026-01-09 12:56:39.069] [ERROR   ] [ERROR     ] [Thread-139991500890752] {
+  "timestamp": "2026-01-09T12:56:39.069472",
+  "error_type": "DolphinX1_Setup",
+  "message": "Failed to setup: Command '['ollama', 'pull', 'dolphin-x1-llama-3.1:latest']' returned non-zero exit status 1.",
+  "stack_trace": null,
+  "context": {}
+}
+[2026-01-09 12:56:41.965] [ERROR   ] [ERROR     ] [Thread-139991500890752] {
+  "timestamp": "2026-01-09T12:56:41.965569",
+  "error_type": "CommandCenter_Startup",
+  "message": "name 'affilify_logger' is not defined",
+  "stack_trace": null,
+  "context": {}
+}
+[2026-01-09 12:56:52.652] [ERROR   ] [ERROR     ] [Thread-140513488908928] {
+  "timestamp": "2026-01-09T12:56:52.652797",
+  "error_type": "DolphinX1_Setup",
+  "message": "Failed to setup: Command '['ollama', 'pull', 'dolphin-x1-llama-3.1:latest']' returned non-zero exit status 1.",
+  "stack_trace": null,
+  "context": {}
+}
+[2026-01-09 12:57:28.337] [ERROR   ] [ERROR     ] [Thread-140513488908928] {
+  "timestamp": "2026-01-09T12:57:28.337042",
+  "error_type": "TikTokAPIInit",
+  "message": "BrowserContext.cookies: Connection closed while reading from the driver",
+  "stack_trace": null,
+  "context": {}
+}
+[2026-01-09 12:57:28.339] [ERROR   ] [ERROR     ] [Thread-140513488908928] {
+  "timestamp": "2026-01-09T12:57:28.339078",
+  "error_type": "SearchByKeyword",
+  "message": "type object 'Search' has no attribute 'videos'",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "affiliate marketing"
+    }
+  }
+}
+[2026-01-09 12:57:28.340] [ERROR   ] [ERROR     ] [Thread-140513488908928] {
+  "timestamp": "2026-01-09T12:57:28.340246",
+  "error_type": "SearchByHashtag",
+  "message": "No sessions created, please create sessions first",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "affiliatemarketing"
+    }
+  }
+}
+[2026-01-09 12:57:33.781] [ERROR   ] [ERROR     ] [Thread-140513488908928] {
+  "timestamp": "2026-01-09T12:57:33.781798",
+  "error_type": "SearchByKeyword",
+  "message": "type object 'Search' has no attribute 'videos'",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "keyword": "make money online"
+    }
+  }
+}
+[2026-01-09 12:57:33.783] [ERROR   ] [ERROR     ] [Thread-140513488908928] {
+  "timestamp": "2026-01-09T12:57:33.783229",
+  "error_type": "SearchByHashtag",
+  "message": "No sessions created, please create sessions first",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "hashtag": "makemoneyonline"
+    }
+  }
+}
