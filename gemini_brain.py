@@ -1,6 +1,7 @@
-# gemini_brain.py - THE AI BRAIN (Gemini 2.5 Flash Edition)
+# gemini_brain.py - THE AI BRAIN (Gemini 2.5 Flash Edition - Modern SDK)
 
-import google.generativeai as genai
+from google import genai
+from google.genai import types
 import json
 import asyncio
 import os
@@ -9,9 +10,8 @@ from logger_system import log_ai, log_error, log_start, log_end, affilify_logger
 
 class GeminiAssistant:
     """
-    Gemini 2.5 Flash Integration
-    Adaptive code generation & decision making
-    Replaces Dolphin-X1 for better performance and lower resource usage.
+    Gemini 2.5 Flash Integration using the modern google.genai SDK.
+    Adaptive code generation & decision making.
     """
     
     def __init__(self, api_key: Optional[str] = None):
@@ -20,18 +20,9 @@ class GeminiAssistant:
             affilify_logger.main_logger.error("❌ GEMINI_API_KEY not found for GeminiAssistant")
             raise ValueError("GEMINI_API_KEY is required")
             
-        genai.configure(api_key=self.api_key)
+        self.client = genai.Client(api_key=self.api_key)
         self.model_name = 'gemini-2.5-flash'
-        self.model = genai.GenerativeModel(
-            model_name=self.model_name,
-            generation_config={
-                'temperature': 0.2,  # Lower temperature for code generation
-                'top_p': 0.95,
-                'top_k': 40,
-                'max_output_tokens': 2048,
-            }
-        )
-        affilify_logger.main_logger.info(f"✅ Gemini Assistant initialized with {self.model_name}")
+        affilify_logger.main_logger.info(f"✅ Gemini Assistant initialized with {self.model_name} (Modern SDK)")
     
     async def generate_code(self, task: str, context: Dict, html_snippet: str = None) -> Optional[str]:
         """
@@ -42,8 +33,15 @@ class GeminiAssistant:
         
         try:
             response = await asyncio.to_thread(
-                self.model.generate_content,
-                prompt
+                self.client.models.generate_content,
+                model=self.model_name,
+                contents=prompt,
+                config=types.GenerateContentConfig(
+                    temperature=0.2,
+                    top_p=0.95,
+                    top_k=40,
+                    max_output_tokens=2048,
+                )
             )
             
             code = response.text.strip()
@@ -125,8 +123,9 @@ Generate the complete function now:
         start = log_start("Gemini_HealthAnalysis")
         try:
             response = await asyncio.to_thread(
-                self.model.generate_content,
-                prompt
+                self.client.models.generate_content,
+                model=self.model_name,
+                contents=prompt
             )
             
             text = response.text.strip()
@@ -166,7 +165,11 @@ Respond with JSON:
 }}
 """
         try:
-            response = await asyncio.to_thread(self.model.generate_content, prompt)
+            response = await asyncio.to_thread(
+                self.client.models.generate_content,
+                model=self.model_name,
+                contents=prompt
+            )
             text = response.text.strip()
             if '{' in text:
                 json_str = text[text.find('{'):text.rfind('}')+1]
@@ -186,7 +189,11 @@ FAILED OPERATIONS: {json.dumps(failure_data[:20])}
 Respond with JSON containing optimized values.
 """
         try:
-            response = await asyncio.to_thread(self.model.generate_content, prompt)
+            response = await asyncio.to_thread(
+                self.client.models.generate_content,
+                model=self.model_name,
+                contents=prompt
+            )
             text = response.text.strip()
             if '{' in text:
                 return json.loads(text[text.find('{'):text.rfind('}')+1])
@@ -200,7 +207,11 @@ HTML: {html_context[:2000]}
 Respond with JSON array: ["sel1", "sel2", ...]
 """
         try:
-            response = await asyncio.to_thread(self.model.generate_content, prompt)
+            response = await asyncio.to_thread(
+                self.client.models.generate_content,
+                model=self.model_name,
+                contents=prompt
+            )
             text = response.text.strip()
             if '[' in text:
                 return json.loads(text[text.find('['):text.rfind(']')+1])

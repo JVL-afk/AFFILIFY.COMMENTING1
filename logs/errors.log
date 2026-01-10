@@ -2368,3 +2368,24 @@
     }
   }
 }
+[2026-01-10 02:13:17.458] [ERROR   ] [ERROR     ] [Thread-140083531129472] {
+  "timestamp": "2026-01-10T02:13:17.457678",
+  "error_type": "TargetCoordinator",
+  "message": "'MilitaryGradeVideoScraper' object has no attribute 'initialize_api'",
+  "stack_trace": null,
+  "context": {}
+}
+[2026-01-10 02:14:07.854] [ERROR   ] [ERROR     ] [Thread-140139357811328] {
+  "timestamp": "2026-01-10T02:14:07.854810",
+  "error_type": "SearchByKeyword",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {}
+}
+[2026-01-10 02:14:12.174] [ERROR   ] [ERROR     ] [Thread-140139357811328] {
+  "timestamp": "2026-01-10T02:14:12.174377",
+  "error_type": "SearchByKeyword",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {}
+}
