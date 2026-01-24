@@ -2389,3 +2389,10 @@
   "stack_trace": null,
   "context": {}
 }
+[2026-01-24 02:39:48.790] [ERROR   ] [ERROR     ] [Thread-140573395432064] {
+  "timestamp": "2026-01-24T02:39:48.790768",
+  "error_type": "SearchByKeyword",
+  "message": "None -> TikTok returned an empty response. They are detecting you're a bot, try some of these: headless=False, browser='webkit', consider using a proxy",
+  "stack_trace": null,
+  "context": {}
+}
