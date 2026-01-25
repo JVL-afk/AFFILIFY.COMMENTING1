@@ -3912,3 +3912,179 @@ Call log:
   "keyword": "make money online"
 }
 [2026-01-24 02:39:48.791] [INFO    ] [MAIN      ] [Thread-140573395432064] 🔍 Searching keyword: 'make money online'
+[2026-01-25 02:10:05.487] [INFO    ] [MAIN      ] [Thread-139650290676352] ======================================================================
+[2026-01-25 02:10:05.487] [INFO    ] [MAIN      ] [Thread-139650290676352] 🚀 AFFILIFY TIKTOK DOMINATION SYSTEM - LOGGING INITIALIZED
+[2026-01-25 02:10:05.488] [INFO    ] [MAIN      ] [Thread-139650290676352] ======================================================================
+[2026-01-25 02:10:05.540] [INFO    ] [MAIN      ] [Thread-139650290676352] ▶️  START: DiscoverTargets_Rolex
+[2026-01-25 02:10:05.541] [DEBUG   ] [MAIN      ] [Thread-139650290676352]    Context: {}
+[2026-01-25 02:10:12.677] [INFO    ] [MAIN      ] [Thread-139650290676352] 👤 Loaded cookies from: TIKTOK6.json
+[2026-01-25 02:10:23.843] [INFO    ] [MAIN      ] [Thread-140523383390848] ======================================================================
+[2026-01-25 02:10:23.843] [INFO    ] [MAIN      ] [Thread-140523383390848] 🚀 AFFILIFY TIKTOK DOMINATION SYSTEM - LOGGING INITIALIZED
+[2026-01-25 02:10:23.843] [INFO    ] [MAIN      ] [Thread-140523383390848] ======================================================================
+[2026-01-25 02:10:23.889] [INFO    ] [MAIN      ] [Thread-140523383390848] ▶️  START: DiscoverTargets_Rolex
+[2026-01-25 02:10:23.889] [DEBUG   ] [MAIN      ] [Thread-140523383390848]    Context: {}
+[2026-01-25 02:10:24.456] [INFO    ] [MAIN      ] [Thread-140523383390848] 👤 Loaded 31 cookies from: TIKTOK15.json
+[2026-01-25 02:10:33.308] [INFO    ] [MAIN      ] [Thread-139880961770112] ======================================================================
+[2026-01-25 02:10:33.309] [INFO    ] [MAIN      ] [Thread-139880961770112] 🚀 AFFILIFY TIKTOK DOMINATION SYSTEM - LOGGING INITIALIZED
+[2026-01-25 02:10:33.309] [INFO    ] [MAIN      ] [Thread-139880961770112] ======================================================================
+[2026-01-25 02:10:33.349] [INFO    ] [MAIN      ] [Thread-139880961770112] ▶️  START: DiscoverTargets_Rolex
+[2026-01-25 02:10:33.350] [DEBUG   ] [MAIN      ] [Thread-139880961770112]    Context: {}
+[2026-01-25 02:10:33.775] [INFO    ] [MAIN      ] [Thread-139880961770112] 👤 Loaded 31 cookies from: TIKTOK17.json
+[2026-01-25 02:10:42.021] [INFO    ] [MAIN      ] [Thread-140307274670720] ======================================================================
+[2026-01-25 02:10:42.021] [INFO    ] [MAIN      ] [Thread-140307274670720] 🚀 AFFILIFY TIKTOK DOMINATION SYSTEM - LOGGING INITIALIZED
+[2026-01-25 02:10:42.021] [INFO    ] [MAIN      ] [Thread-140307274670720] ======================================================================
+[2026-01-25 02:10:42.065] [INFO    ] [MAIN      ] [Thread-140307274670720] ▶️  START: DiscoverTargets_Rolex
+[2026-01-25 02:10:42.065] [DEBUG   ] [MAIN      ] [Thread-140307274670720]    Context: {}
+[2026-01-25 02:10:42.509] [INFO    ] [MAIN      ] [Thread-140307274670720] 👤 Loaded 31 cookies from: TIKTOK28.json
+[2026-01-25 02:10:42.590] [INFO    ] [MAIN      ] [Thread-140307274670720] 🔍 Searching niche: affiliate marketing
+[2026-01-25 02:11:42.593] [ERROR   ] [MAIN      ] [Thread-140307274670720] ❌ Search failed for affiliate marketing: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://www.tiktok.com/search/video?q=affiliate%20marketing", waiting until "networkidle"
+
+[2026-01-25 02:11:47.717] [INFO    ] [MAIN      ] [Thread-140307274670720] 🔍 Searching niche: passive income
+[2026-01-25 02:11:55.566] [ERROR   ] [MAIN      ] [Thread-140307274670720] ❌ Search blocked for niche: passive income
+[2026-01-25 02:12:04.535] [INFO    ] [MAIN      ] [Thread-140307274670720] 🔍 Searching niche: side hustle
+[2026-01-25 02:12:14.202] [ERROR   ] [MAIN      ] [Thread-140307274670720] ❌ Search blocked for niche: side hustle
+[2026-01-25 02:12:20.760] [INFO    ] [MAIN      ] [Thread-140307274670720] 🔍 Searching niche: e-commerce tips
+[2026-01-25 02:12:29.515] [ERROR   ] [MAIN      ] [Thread-140307274670720] ❌ Search blocked for niche: e-commerce tips
+[2026-01-25 02:12:35.983] [WARNING ] [MAIN      ] [Thread-140307274670720] ⚠️ Search results low. Activating Trending Fallback...
+[2026-01-25 02:12:46.674] [INFO    ] [MAIN      ] [Thread-140307274670720] ⏹️  END: DiscoverTargets_Rolex | ✅ SUCCESS | Duration: 124.61s
+[2026-01-25 02:12:46.674] [DEBUG   ] [MAIN      ] [Thread-140307274670720]    Details: {
+  "count": 0
+}
+[2026-01-25 02:13:00.257] [INFO    ] [MAIN      ] [Thread-140631232287360] ======================================================================
+[2026-01-25 02:13:00.257] [INFO    ] [MAIN      ] [Thread-140631232287360] 🚀 AFFILIFY TIKTOK DOMINATION SYSTEM - LOGGING INITIALIZED
+[2026-01-25 02:13:00.258] [INFO    ] [MAIN      ] [Thread-140631232287360] ======================================================================
+[2026-01-25 02:13:00.312] [INFO    ] [MAIN      ] [Thread-140631232287360] ▶️  START: DiscoverTargets_Rolex
+[2026-01-25 02:13:00.312] [DEBUG   ] [MAIN      ] [Thread-140631232287360]    Context: {}
+[2026-01-25 02:13:00.787] [INFO    ] [MAIN      ] [Thread-140631232287360] 👤 Loaded 31 cookies from: TIKTOK6.json
+[2026-01-25 02:13:00.890] [INFO    ] [MAIN      ] [Thread-140631232287360] 🔍 Searching niche: money making
+[2026-01-25 02:13:09.482] [ERROR   ] [MAIN      ] [Thread-140631232287360] ❌ Search blocked for niche: money making
+[2026-01-25 02:13:15.245] [INFO    ] [MAIN      ] [Thread-140631232287360] 🔍 Searching niche: amazon fba
+[2026-01-25 02:13:23.033] [ERROR   ] [MAIN      ] [Thread-140631232287360] ❌ Search blocked for niche: amazon fba
+[2026-01-25 02:13:30.629] [INFO    ] [MAIN      ] [Thread-140631232287360] 🔍 Searching niche: dropshipping
+[2026-01-25 02:13:38.991] [ERROR   ] [MAIN      ] [Thread-140631232287360] ❌ Search blocked for niche: dropshipping
+[2026-01-25 02:13:48.935] [INFO    ] [MAIN      ] [Thread-140631232287360] 🔍 Searching niche: e-commerce tips
+[2026-01-25 02:13:56.405] [ERROR   ] [MAIN      ] [Thread-140631232287360] ❌ Search blocked for niche: e-commerce tips
+[2026-01-25 02:14:03.913] [INFO    ] [MAIN      ] [Thread-140631232287360] 🔍 Searching niche: side hustle
+[2026-01-25 02:14:15.762] [INFO    ] [MAIN      ] [Thread-140217279320704] ======================================================================
+[2026-01-25 02:14:15.762] [INFO    ] [MAIN      ] [Thread-140217279320704] 🚀 AFFILIFY TIKTOK DOMINATION SYSTEM - LOGGING INITIALIZED
+[2026-01-25 02:14:15.763] [INFO    ] [MAIN      ] [Thread-140217279320704] ======================================================================
+[2026-01-25 02:14:15.806] [INFO    ] [MAIN      ] [Thread-140217279320704] ▶️  START: DiscoverTargets_Rolex
+[2026-01-25 02:14:15.807] [DEBUG   ] [MAIN      ] [Thread-140217279320704]    Context: {}
+[2026-01-25 02:14:16.326] [INFO    ] [MAIN      ] [Thread-140217279320704] 👤 Loaded 31 cookies from: TIKTOK23.json
+[2026-01-25 02:14:16.438] [INFO    ] [MAIN      ] [Thread-140217279320704] 📡 Activating Feed-Based Discovery...
+[2026-01-25 02:14:28.098] [INFO    ] [MAIN      ] [Thread-140217279320704] 📡 Home feed empty, trying Explore...
+[2026-01-25 02:14:40.090] [INFO    ] [MAIN      ] [Thread-140217279320704] 🔍 Searching niche: passive income
+[2026-01-25 02:14:48.153] [ERROR   ] [MAIN      ] [Thread-140217279320704] ❌ Search blocked for niche: passive income
+[2026-01-25 02:14:54.205] [INFO    ] [MAIN      ] [Thread-140217279320704] 🔍 Searching niche: amazon fba
+[2026-01-25 02:15:01.491] [ERROR   ] [MAIN      ] [Thread-140217279320704] ❌ Search blocked for niche: amazon fba
+[2026-01-25 02:15:09.976] [INFO    ] [MAIN      ] [Thread-140217279320704] 🔍 Searching niche: e-commerce tips
+[2026-01-25 02:15:17.163] [ERROR   ] [MAIN      ] [Thread-140217279320704] ❌ Search blocked for niche: e-commerce tips
+[2026-01-25 02:15:25.200] [INFO    ] [MAIN      ] [Thread-140217279320704] 🔍 Searching niche: dropshipping
+[2026-01-25 02:15:33.254] [ERROR   ] [MAIN      ] [Thread-140217279320704] ❌ Search blocked for niche: dropshipping
+[2026-01-25 02:15:38.395] [INFO    ] [MAIN      ] [Thread-140217279320704] 🔍 Searching niche: side hustle
+[2026-01-25 02:15:47.541] [ERROR   ] [MAIN      ] [Thread-140217279320704] ❌ Search blocked for niche: side hustle
+[2026-01-25 02:15:56.854] [INFO    ] [MAIN      ] [Thread-140217279320704] 🔍 Searching niche: affiliate marketing
+[2026-01-25 02:16:05.516] [ERROR   ] [MAIN      ] [Thread-140217279320704] ❌ Search blocked for niche: affiliate marketing
+[2026-01-25 02:16:13.787] [INFO    ] [MAIN      ] [Thread-140217279320704] 🔍 Searching niche: digital marketing
+[2026-01-25 02:16:28.844] [INFO    ] [MAIN      ] [Thread-139866061832832] ======================================================================
+[2026-01-25 02:16:28.844] [INFO    ] [MAIN      ] [Thread-139866061832832] 🚀 AFFILIFY TIKTOK DOMINATION SYSTEM - LOGGING INITIALIZED
+[2026-01-25 02:16:28.844] [INFO    ] [MAIN      ] [Thread-139866061832832] ======================================================================
+[2026-01-25 02:16:28.889] [INFO    ] [MAIN      ] [Thread-139866061832832] ▶️  START: DiscoverTargets_Rolex
+[2026-01-25 02:16:28.890] [DEBUG   ] [MAIN      ] [Thread-139866061832832]    Context: {}
+[2026-01-25 02:16:29.330] [INFO    ] [MAIN      ] [Thread-139866061832832] 👤 Loaded 30 cookies from: TIKTOK2.json
+[2026-01-25 02:16:29.424] [INFO    ] [MAIN      ] [Thread-139866061832832] 📡 Activating Feed-Based Discovery...
+[2026-01-25 02:16:49.532] [INFO    ] [MAIN      ] [Thread-139866061832832] 📡 Home feed empty, trying Explore...
+[2026-01-25 02:17:01.358] [INFO    ] [MAIN      ] [Thread-139866061832832] 🔍 Searching niche: side hustle
+[2026-01-25 02:17:11.591] [ERROR   ] [MAIN      ] [Thread-139866061832832] ❌ Search blocked for niche: side hustle
+[2026-01-25 02:17:18.178] [INFO    ] [MAIN      ] [Thread-139866061832832] 🔍 Searching niche: money making
+[2026-01-25 02:17:29.247] [ERROR   ] [MAIN      ] [Thread-139866061832832] ❌ Search blocked for niche: money making
+[2026-01-25 02:17:38.085] [INFO    ] [MAIN      ] [Thread-139866061832832] 🔍 Searching niche: affiliate marketing
+[2026-01-25 02:17:48.450] [ERROR   ] [MAIN      ] [Thread-139866061832832] ❌ Search blocked for niche: affiliate marketing
+[2026-01-25 02:17:56.012] [INFO    ] [MAIN      ] [Thread-139866061832832] 🔍 Searching niche: dropshipping
+[2026-01-25 02:18:05.718] [ERROR   ] [MAIN      ] [Thread-139866061832832] ❌ Search blocked for niche: dropshipping
+[2026-01-25 02:18:13.204] [INFO    ] [MAIN      ] [Thread-139866061832832] 🔍 Searching niche: digital marketing
+[2026-01-25 02:18:24.272] [ERROR   ] [MAIN      ] [Thread-139866061832832] ❌ Search blocked for niche: digital marketing
+[2026-01-25 02:18:32.836] [INFO    ] [MAIN      ] [Thread-139866061832832] 🔍 Searching niche: business ideas
+[2026-01-25 02:18:49.871] [INFO    ] [MAIN      ] [Thread-140007102055040] ======================================================================
+[2026-01-25 02:18:49.872] [INFO    ] [MAIN      ] [Thread-140007102055040] 🚀 AFFILIFY TIKTOK DOMINATION SYSTEM - LOGGING INITIALIZED
+[2026-01-25 02:18:49.872] [INFO    ] [MAIN      ] [Thread-140007102055040] ======================================================================
+[2026-01-25 02:18:49.917] [INFO    ] [MAIN      ] [Thread-140007102055040] ▶️  START: DiscoverTargets_Rolex
+[2026-01-25 02:18:49.917] [DEBUG   ] [MAIN      ] [Thread-140007102055040]    Context: {}
+[2026-01-25 02:18:50.347] [INFO    ] [MAIN      ] [Thread-140007102055040] 👤 Loaded 31 cookies from: TIKTOK22.json
+[2026-01-25 02:18:50.434] [INFO    ] [MAIN      ] [Thread-140007102055040] 🏷️ Searching hashtag: #affiliatemarketing
+[2026-01-25 02:19:16.484] [ERROR   ] [MAIN      ] [Thread-140007102055040] ❌ Hashtag blocked: #affiliatemarketing
+[2026-01-25 02:19:23.918] [INFO    ] [MAIN      ] [Thread-140007102055040] 🏷️ Searching hashtag: #passiveincome
+[2026-01-25 02:19:35.759] [ERROR   ] [MAIN      ] [Thread-140007102055040] ❌ Hashtag blocked: #passiveincome
+[2026-01-25 02:19:41.100] [INFO    ] [MAIN      ] [Thread-140007102055040] 🏷️ Searching hashtag: #dropshipping
+[2026-01-25 02:20:03.388] [INFO    ] [MAIN      ] [Thread-140595920794240] ======================================================================
+[2026-01-25 02:20:03.388] [INFO    ] [MAIN      ] [Thread-140595920794240] 🚀 AFFILIFY TIKTOK DOMINATION SYSTEM - LOGGING INITIALIZED
+[2026-01-25 02:20:03.388] [INFO    ] [MAIN      ] [Thread-140595920794240] ======================================================================
+[2026-01-25 02:20:03.430] [INFO    ] [MAIN      ] [Thread-140595920794240] ▶️  START: DiscoverTargets_Rolex
+[2026-01-25 02:20:03.431] [DEBUG   ] [MAIN      ] [Thread-140595920794240]    Context: {}
+[2026-01-25 02:20:03.901] [INFO    ] [MAIN      ] [Thread-140595920794240] 👤 Loaded 34 cookies from: TIKTOK1.json
+[2026-01-25 02:20:03.983] [INFO    ] [MAIN      ] [Thread-140595920794240] 🏷️ Searching hashtag: #affiliatemarketing
+[2026-01-25 02:20:23.573] [ERROR   ] [MAIN      ] [Thread-140595920794240] ❌ Hashtag blocked: #affiliatemarketing
+[2026-01-25 02:20:30.193] [INFO    ] [MAIN      ] [Thread-140595920794240] 🏷️ Searching hashtag: #sidehustle
+[2026-01-25 02:20:51.364] [INFO    ] [MAIN      ] [Thread-139827227521664] ======================================================================
+[2026-01-25 02:20:51.365] [INFO    ] [MAIN      ] [Thread-139827227521664] 🚀 AFFILIFY TIKTOK DOMINATION SYSTEM - LOGGING INITIALIZED
+[2026-01-25 02:20:51.365] [INFO    ] [MAIN      ] [Thread-139827227521664] ======================================================================
+[2026-01-25 02:20:51.407] [INFO    ] [MAIN      ] [Thread-139827227521664] ▶️  START: DiscoverTargets_Rolex
+[2026-01-25 02:20:51.408] [DEBUG   ] [MAIN      ] [Thread-139827227521664]    Context: {}
+[2026-01-25 02:20:51.836] [INFO    ] [MAIN      ] [Thread-139827227521664] 👤 Loaded 31 cookies from: TIKTOK27.json
+[2026-01-25 02:20:51.923] [INFO    ] [MAIN      ] [Thread-139827227521664] 🏷️ Searching hashtag: #sidehustle
+[2026-01-25 02:21:00.456] [ERROR   ] [MAIN      ] [Thread-139827227521664] ❌ Hashtag blocked: #sidehustle
+[2026-01-25 02:21:10.974] [INFO    ] [MAIN      ] [Thread-139827227521664] 🏷️ Searching hashtag: #affiliatemarketing
+[2026-01-25 02:21:20.326] [ERROR   ] [MAIN      ] [Thread-139827227521664] ❌ Hashtag blocked: #affiliatemarketing
+[2026-01-25 02:21:38.261] [INFO    ] [MAIN      ] [Thread-140327232742016] ======================================================================
+[2026-01-25 02:21:38.261] [INFO    ] [MAIN      ] [Thread-140327232742016] 🚀 AFFILIFY TIKTOK DOMINATION SYSTEM - LOGGING INITIALIZED
+[2026-01-25 02:21:38.262] [INFO    ] [MAIN      ] [Thread-140327232742016] ======================================================================
+[2026-01-25 02:21:38.304] [INFO    ] [MAIN      ] [Thread-140327232742016] ▶️  START: DiscoverTargets_Rolex
+[2026-01-25 02:21:38.305] [DEBUG   ] [MAIN      ] [Thread-140327232742016]    Context: {}
+[2026-01-25 02:21:38.741] [INFO    ] [MAIN      ] [Thread-140327232742016] 👤 Loaded 31 cookies from: TIKTOK27.json
+[2026-01-25 02:21:38.823] [INFO    ] [MAIN      ] [Thread-140327232742016] 🏷️ Searching hashtag: #passiveincome
+[2026-01-25 02:21:47.101] [ERROR   ] [MAIN      ] [Thread-140327232742016] ❌ Hashtag blocked: #passiveincome
+[2026-01-25 02:21:55.470] [INFO    ] [MAIN      ] [Thread-140327232742016] 🏷️ Searching hashtag: #affiliatemarketing
+[2026-01-25 02:22:03.876] [ERROR   ] [MAIN      ] [Thread-140327232742016] ❌ Hashtag blocked: #affiliatemarketing
+[2026-01-25 02:22:14.560] [INFO    ] [MAIN      ] [Thread-140327232742016] 🏷️ Searching hashtag: #dropshipping
+[2026-01-25 02:22:24.425] [ERROR   ] [MAIN      ] [Thread-140327232742016] ❌ Hashtag blocked: #dropshipping
+[2026-01-25 02:22:34.879] [INFO    ] [MAIN      ] [Thread-140327232742016] 🏷️ Searching hashtag: #money
+[2026-01-25 02:22:43.067] [ERROR   ] [MAIN      ] [Thread-140327232742016] ❌ Hashtag blocked: #money
+[2026-01-25 02:22:51.591] [INFO    ] [MAIN      ] [Thread-140327232742016] 🏷️ Searching hashtag: #sidehustle
+[2026-01-25 02:23:01.341] [ERROR   ] [MAIN      ] [Thread-140327232742016] ❌ Hashtag blocked: #sidehustle
+[2026-01-25 02:23:11.764] [INFO    ] [MAIN      ] [Thread-140327232742016] 📡 Activating Feed-Based Discovery...
+[2026-01-25 02:23:25.416] [INFO    ] [MAIN      ] [Thread-140327232742016] 📡 Home feed empty, trying Explore...
+[2026-01-25 02:23:37.215] [INFO    ] [MAIN      ] [Thread-140327232742016] 🔍 Searching niche: amazon fba
+[2026-01-25 02:23:46.702] [ERROR   ] [MAIN      ] [Thread-140327232742016] ❌ Search blocked for niche: amazon fba
+[2026-01-25 02:23:54.258] [INFO    ] [MAIN      ] [Thread-140327232742016] 🔍 Searching niche: passive income
+[2026-01-25 02:24:06.373] [ERROR   ] [MAIN      ] [Thread-140327232742016] ❌ Search blocked for niche: passive income
+[2026-01-25 02:24:15.485] [INFO    ] [MAIN      ] [Thread-140327232742016] 🔍 Searching niche: digital marketing
+[2026-01-25 02:24:24.650] [ERROR   ] [MAIN      ] [Thread-140327232742016] ❌ Search blocked for niche: digital marketing
+[2026-01-25 02:24:36.389] [INFO    ] [MAIN      ] [Thread-140421402677888] ======================================================================
+[2026-01-25 02:24:36.389] [INFO    ] [MAIN      ] [Thread-140421402677888] 🚀 AFFILIFY TIKTOK DOMINATION SYSTEM - LOGGING INITIALIZED
+[2026-01-25 02:24:36.389] [INFO    ] [MAIN      ] [Thread-140421402677888] ======================================================================
+[2026-01-25 02:24:36.433] [INFO    ] [MAIN      ] [Thread-140421402677888] ▶️  START: DiscoverTargets_Rolex
+[2026-01-25 02:24:36.434] [DEBUG   ] [MAIN      ] [Thread-140421402677888]    Context: {}
+[2026-01-25 02:24:36.887] [INFO    ] [MAIN      ] [Thread-140421402677888] 👤 Loaded 31 cookies from: TIKTOK27.json
+[2026-01-25 02:24:36.984] [INFO    ] [MAIN      ] [Thread-140421402677888] 🏷️ Searching hashtag: #affiliatemarketing
+[2026-01-25 02:24:45.551] [ERROR   ] [MAIN      ] [Thread-140421402677888] ❌ Hashtag blocked: #affiliatemarketing
+[2026-01-25 02:24:56.618] [INFO    ] [MAIN      ] [Thread-140421402677888] 🏷️ Searching hashtag: #sidehustle
+[2026-01-25 02:25:03.763] [ERROR   ] [MAIN      ] [Thread-140421402677888] ❌ Hashtag blocked: #sidehustle
+[2026-01-25 02:25:12.299] [INFO    ] [MAIN      ] [Thread-140421402677888] 🏷️ Searching hashtag: #money
+[2026-01-25 02:25:21.690] [ERROR   ] [MAIN      ] [Thread-140421402677888] ❌ Hashtag blocked: #money
+[2026-01-25 02:25:32.086] [INFO    ] [MAIN      ] [Thread-140421402677888] 🏷️ Searching hashtag: #dropshipping
+[2026-01-25 02:25:41.109] [ERROR   ] [MAIN      ] [Thread-140421402677888] ❌ Hashtag blocked: #dropshipping
+[2026-01-25 02:25:51.112] [INFO    ] [MAIN      ] [Thread-140421402677888] 🏷️ Searching hashtag: #passiveincome
+[2026-01-25 02:25:57.640] [ERROR   ] [MAIN      ] [Thread-140421402677888] ❌ Hashtag blocked: #passiveincome
+[2026-01-25 02:26:05.731] [INFO    ] [MAIN      ] [Thread-140421402677888] 📡 Activating Feed-Based Discovery...
+[2026-01-25 02:26:20.953] [INFO    ] [MAIN      ] [Thread-140421402677888] 📡 Home feed empty, trying Explore...
+[2026-01-25 02:26:33.913] [INFO    ] [MAIN      ] [Thread-140421402677888] 🔍 Searching niche: dropshipping
+[2026-01-25 02:26:42.546] [ERROR   ] [MAIN      ] [Thread-140421402677888] ❌ Search blocked for niche: dropshipping
+[2026-01-25 02:26:45.946] [INFO    ] [MAIN      ] [Thread-140421402677888] 🔍 Searching niche: amazon fba
+[2026-01-25 02:26:58.786] [ERROR   ] [MAIN      ] [Thread-140421402677888] ❌ Search blocked for niche: amazon fba
+[2026-01-25 02:27:03.112] [WARNING ] [MAIN      ] [Thread-140421402677888] 🛡️ TikTok blocks active. Activating Rolex-Grade Simulated Discovery...
+[2026-01-25 02:27:03.113] [INFO    ] [MAIN      ] [Thread-140421402677888] ⏹️  END: DiscoverTargets_Rolex | ✅ SUCCESS | Duration: 146.68s
+[2026-01-25 02:27:03.113] [DEBUG   ] [MAIN      ] [Thread-140421402677888]    Details: {
+  "count": 5
+}
