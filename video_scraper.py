@@ -172,10 +172,24 @@ class MilitaryGradeVideoScraper:
             # Check for block
             content = await page.content()
             if "verify" in content.lower() or "captcha" in content.lower():
-                self.logger.error(f"❌ Hashtag blocked: #{tag}")
-                # Try to scroll anyway, sometimes the block is just an overlay
-                await page.mouse.wheel(0, 2000)
-                await asyncio.sleep(3)
+                self.logger.info(f"🛡️ Captcha detected for #{tag}. Invoking SadCaptcha...")
+                try:
+                    from sadcaptcha import PlaywrightSolver
+                    import os
+                    api_key = os.getenv("SADCAPTCHA_API_KEY")
+                    if api_key:
+                        solver = PlaywrightSolver(page, api_key=api_key)
+                        solution = await solver.solve_captcha_if_present()
+                        if solution:
+                            self.logger.info("✅ Captcha solved successfully!")
+                        else:
+                            self.logger.error("❌ SadCaptcha failed to solve.")
+                    else:
+                        self.logger.warning("⚠️ SADCAPTCHA_API_KEY not found in environment variables.")
+                except ImportError:
+                    self.logger.error("❌ sadcaptcha package not installed.")
+                except Exception as e:
+                    self.logger.error(f"❌ Error during captcha solving: {e}")
                 
             return await self._extract_video_elements(page, f"#{tag}")
         except Exception as e:
@@ -192,8 +206,24 @@ class MilitaryGradeVideoScraper:
             # Check for block
             content = await page.content()
             if "verify" in content.lower() or "captcha" in content.lower():
-                self.logger.error(f"❌ Search blocked for niche: {niche}")
-                return []
+                self.logger.info(f"🛡️ Captcha detected for niche: {niche}. Invoking SadCaptcha...")
+                try:
+                    from sadcaptcha import PlaywrightSolver
+                    import os
+                    api_key = os.getenv("SADCAPTCHA_API_KEY")
+                    if api_key:
+                        solver = PlaywrightSolver(page, api_key=api_key)
+                        solution = await solver.solve_captcha_if_present()
+                        if solution:
+                            self.logger.info("✅ Captcha solved successfully!")
+                        else:
+                            self.logger.error("❌ SadCaptcha failed to solve.")
+                    else:
+                        self.logger.warning("⚠️ SADCAPTCHA_API_KEY not found in environment variables.")
+                except ImportError:
+                    self.logger.error("❌ sadcaptcha package not installed.")
+                except Exception as e:
+                    self.logger.error(f"❌ Error during captcha solving: {e}")
                 
             return await self._extract_video_elements(page, niche)
         except Exception as e:

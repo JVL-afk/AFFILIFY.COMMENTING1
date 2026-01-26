@@ -344,8 +344,30 @@ class TikTokAutomationV2:
     
     async def _check_for_errors(self, page, metadata: Dict) -> Optional[str]:
         """
-        Check for TikTok error messages
+        Check for TikTok error messages and handle captchas
         """
+        # First, check for captchas
+        try:
+            content = await page.content()
+            if "verify" in content.lower() or "captcha" in content.lower():
+                affilify_logger.main_logger.info("🛡️ Captcha detected during automation. Invoking SadCaptcha...")
+                from sadcaptcha import PlaywrightSolver
+                import os
+                api_key = os.getenv("SADCAPTCHA_API_KEY")
+                if api_key:
+                    solver = PlaywrightSolver(page, api_key=api_key)
+                    solution = await solver.solve_captcha_if_present()
+                    if solution:
+                        affilify_logger.main_logger.info("✅ Captcha solved successfully!")
+                        # Wait a bit for the page to stabilize after solving
+                        await asyncio.sleep(3)
+                    else:
+                        affilify_logger.main_logger.error("❌ SadCaptcha failed to solve.")
+                else:
+                    affilify_logger.main_logger.warning("⚠️ SADCAPTCHA_API_KEY not found in environment variables.")
+        except Exception as e:
+            affilify_logger.main_logger.error(f"❌ Error during captcha check/solve: {e}")
+
         error_selectors = [
             'text="Please try again later"',
             'text="Too many attempts"',

@@ -23,3 +23,6 @@ requests>=2.31.0
 # System
 asyncio>=3.4.3
 typing-extensions>=4.8.0
+
+# Anti-Captcha
+sadcaptcha
