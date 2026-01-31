@@ -26,3 +26,7 @@ typing-extensions>=4.8.0
 
 # Anti-Captcha
 sadcaptcha
+
+# Additional dependencies discovered during setup
+playwright-stealth>=2.0.1
+fake-useragent>=2.2.0
