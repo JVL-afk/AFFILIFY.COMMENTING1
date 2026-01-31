@@ -350,21 +350,9 @@ class TikTokAutomationV2:
         try:
             content = await page.content()
             if "verify" in content.lower() or "captcha" in content.lower():
-                affilify_logger.main_logger.info("🛡️ Captcha detected during automation. Invoking SadCaptcha...")
-                from sadcaptcha import PlaywrightSolver
-                import os
-                api_key = os.getenv("SADCAPTCHA_API_KEY")
-                if api_key:
-                    solver = PlaywrightSolver(page, api_key=api_key)
-                    solution = await solver.solve_captcha_if_present()
-                    if solution:
-                        affilify_logger.main_logger.info("✅ Captcha solved successfully!")
-                        # Wait a bit for the page to stabilize after solving
-                        await asyncio.sleep(3)
-                    else:
-                        affilify_logger.main_logger.error("❌ SadCaptcha failed to solve.")
-                else:
-                    affilify_logger.main_logger.warning("⚠️ SADCAPTCHA_API_KEY not found in environment variables.")
+                affilify_logger.main_logger.info("🛡️ Captcha detected during automation. SadCaptcha extension will handle it...")
+                # SadCaptcha is integrated at browser level, just wait for it to solve
+                await asyncio.sleep(10)
         except Exception as e:
             affilify_logger.main_logger.error(f"❌ Error during captcha check/solve: {e}")
 

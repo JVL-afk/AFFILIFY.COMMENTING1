@@ -22,7 +22,7 @@ class MilitaryGradeVideoScraper:
     def __init__(self):
         self.ua = UserAgent()
         self.logger = affilify_logger.main_logger
-        self.cookie_dir = "/home/ubuntu/AFFILIFY.COMMENTING/affilify_data/cookies"
+        self.cookie_dir = "/home/ubuntu/AFFILIFY.COMMENTING1/affilify_data/cookies"
         self.targets = []
 
     async def _get_random_cookie_file(self):
@@ -31,12 +31,96 @@ class MilitaryGradeVideoScraper:
             return None
         files = [f for f in os.listdir(self.cookie_dir) if f.endswith('.json')]
         return os.path.join(self.cookie_dir, random.choice(files)) if files else None
+    
+    async def _load_cookies(self, cookie_file):
+        """Load and fix cookies from a file."""
+        try:
+            with open(cookie_file, 'r') as f:
+                data = json.load(f)
+                # Handle the specific structure: {"username": "...", "cookies": [...]}
+                if isinstance(data, dict) and "cookies" in data:
+                    cookies = data["cookies"]
+                else:
+                    cookies = data
+                
+                # Fix sameSite values for Playwright compatibility
+                for cookie in cookies:
+                    if "sameSite" in cookie:
+                        ss = cookie["sameSite"].lower()
+                        if ss == "unspecified":
+                            cookie["sameSite"] = "Lax"
+                        elif ss == "no_restriction":
+                            cookie["sameSite"] = "None"
+                        else:
+                            cookie["sameSite"] = cookie["sameSite"].capitalize()
+                    
+                    # Fix expiration values
+                    if "expires" in cookie and cookie["expires"] is None:
+                        del cookie["expires"]
+                    elif "expires" in cookie and not isinstance(cookie["expires"], (int, float)):
+                        del cookie["expires"]
+                            
+            self.logger.info(f"👤 Loaded {len(cookies)} cookies from: {os.path.basename(cookie_file)}")
+            return cookies
+        except Exception as e:
+            self.logger.error(f"❌ Failed to load cookies: {e}")
+            return []
 
     async def _init_stealth_context(self, playwright):
-        """Initialize a stealthy browser context with account cookies."""
-        # Use a real browser user agent and disable headless if possible
+        """Initialize a stealthy browser context with account cookies and SadCaptcha."""
+        # Try to use SadCaptcha integration if available
+        api_key = os.getenv("SADCAPTCHA_API_KEY")
+        
+        if api_key:
+            try:
+                from tiktok_captcha_solver import make_async_playwright_solver_context
+                self.logger.info("🔑 Initializing SadCaptcha solver (this may take 10-15 seconds)...")
+                
+                # SadCaptcha creates a persistent context with the solver extension
+                # Note: This returns a BrowserContext, not a Browser
+                # Add timeout to prevent hanging
+                context = await asyncio.wait_for(
+                    make_async_playwright_solver_context(
+                        playwright,
+                        api_key,
+                        args=["--headless=chrome", "--no-sandbox", "--disable-setuid-sandbox"]
+                    ),
+                    timeout=30.0  # 30 second timeout
+                )
+                self.logger.info("✅ SadCaptcha solver context initialized successfully")
+                
+                # Load cookies into the context
+                cookie_file = await self._get_random_cookie_file()
+                if cookie_file:
+                    cookies = await self._load_cookies(cookie_file)
+                    if cookies:
+                        await context.add_cookies(cookies)
+                
+                # Create page with stealth - CRITICAL: Use correct config to avoid white screen
+                page = await context.new_page()
+                from playwright_stealth import Stealth
+                stealth = Stealth(
+                    navigator_languages=False,
+                    navigator_vendor=False,
+                    navigator_user_agent=False
+                )
+                await stealth.apply_stealth_async(page)
+                
+                self.logger.info("🎯 SadCaptcha is active and will automatically solve captchas!")
+                # Return the context (acts like browser) and page
+                return context, page
+            except asyncio.TimeoutError:
+                self.logger.warning("⚠️ SadCaptcha initialization timed out (30s), using manual browser launch")
+            except ImportError:
+                self.logger.warning("⚠️ tiktok-captcha-solver not installed, using manual browser launch")
+            except Exception as e:
+                self.logger.error(f"❌ Failed to initialize SadCaptcha: {e}")
+                import traceback
+                self.logger.error(traceback.format_exc())
+        
+        # Fallback to manual browser launch
         browser = await playwright.chromium.launch(
-            headless=True, # Still headless for sandbox, but with better args
+            headless=True,
             args=[
                 "--no-sandbox", 
                 "--disable-setuid-sandbox", 
@@ -53,35 +137,7 @@ class MilitaryGradeVideoScraper:
         cookie_file = await self._get_random_cookie_file()
         cookies = []
         if cookie_file:
-            try:
-                with open(cookie_file, 'r') as f:
-                    data = json.load(f)
-                    # Handle the specific structure: {"username": "...", "cookies": [...]}
-                    if isinstance(data, dict) and "cookies" in data:
-                        cookies = data["cookies"]
-                    else:
-                        cookies = data
-                    
-                    # Fix sameSite values for Playwright compatibility
-                    for cookie in cookies:
-                        if "sameSite" in cookie:
-                            ss = cookie["sameSite"].lower()
-                            if ss == "unspecified":
-                                cookie["sameSite"] = "Lax"
-                            elif ss == "no_restriction":
-                                cookie["sameSite"] = "None"
-                            else:
-                                cookie["sameSite"] = cookie["sameSite"].capitalize()
-                        
-                        # Fix expiration values
-                        if "expires" in cookie and cookie["expires"] is None:
-                            del cookie["expires"]
-                        elif "expires" in cookie and not isinstance(cookie["expires"], (int, float)):
-                            del cookie["expires"]
-                                
-                self.logger.info(f"👤 Loaded {len(cookies)} cookies from: {os.path.basename(cookie_file)}")
-            except Exception as e:
-                self.logger.error(f"❌ Failed to load cookies: {e}")
+            cookies = await self._load_cookies(cookie_file)
 
         # Use mobile emulation for better stealth
         iphone = playwright.devices['iPhone 13']
@@ -169,27 +225,12 @@ class MilitaryGradeVideoScraper:
             await page.goto(tag_url, wait_until="domcontentloaded", timeout=60000)
             await asyncio.sleep(random.uniform(5, 10))
             
-            # Check for block
+            # SadCaptcha is now integrated at the browser level and handles captchas automatically
+            # Just wait a bit if we detect a captcha page
             content = await page.content()
             if "verify" in content.lower() or "captcha" in content.lower():
-                self.logger.info(f"🛡️ Captcha detected for #{tag}. Invoking SadCaptcha...")
-                try:
-                    from sadcaptcha import PlaywrightSolver
-                    import os
-                    api_key = os.getenv("SADCAPTCHA_API_KEY")
-                    if api_key:
-                        solver = PlaywrightSolver(page, api_key=api_key)
-                        solution = await solver.solve_captcha_if_present()
-                        if solution:
-                            self.logger.info("✅ Captcha solved successfully!")
-                        else:
-                            self.logger.error("❌ SadCaptcha failed to solve.")
-                    else:
-                        self.logger.warning("⚠️ SADCAPTCHA_API_KEY not found in environment variables.")
-                except ImportError:
-                    self.logger.error("❌ sadcaptcha package not installed.")
-                except Exception as e:
-                    self.logger.error(f"❌ Error during captcha solving: {e}")
+                self.logger.info(f"🛡️ Captcha detected for #{tag}. SadCaptcha extension will handle it...")
+                await asyncio.sleep(10)  # Give SadCaptcha time to solve
                 
             return await self._extract_video_elements(page, f"#{tag}")
         except Exception as e:
@@ -203,27 +244,11 @@ class MilitaryGradeVideoScraper:
             await page.goto(search_url, wait_until="networkidle", timeout=60000)
             await asyncio.sleep(random.uniform(3, 6))
             
-            # Check for block
+            # SadCaptcha is now integrated at the browser level
             content = await page.content()
             if "verify" in content.lower() or "captcha" in content.lower():
-                self.logger.info(f"🛡️ Captcha detected for niche: {niche}. Invoking SadCaptcha...")
-                try:
-                    from sadcaptcha import PlaywrightSolver
-                    import os
-                    api_key = os.getenv("SADCAPTCHA_API_KEY")
-                    if api_key:
-                        solver = PlaywrightSolver(page, api_key=api_key)
-                        solution = await solver.solve_captcha_if_present()
-                        if solution:
-                            self.logger.info("✅ Captcha solved successfully!")
-                        else:
-                            self.logger.error("❌ SadCaptcha failed to solve.")
-                    else:
-                        self.logger.warning("⚠️ SADCAPTCHA_API_KEY not found in environment variables.")
-                except ImportError:
-                    self.logger.error("❌ sadcaptcha package not installed.")
-                except Exception as e:
-                    self.logger.error(f"❌ Error during captcha solving: {e}")
+                self.logger.info(f"🛡️ Captcha detected for niche: {niche}. SadCaptcha extension will handle it...")
+                await asyncio.sleep(10)  # Give SadCaptcha time to solve
                 
             return await self._extract_video_elements(page, niche)
         except Exception as e:
@@ -274,6 +299,14 @@ class MilitaryGradeVideoScraper:
                 if not a_tag: continue
                 url = await a_tag.get_attribute("href")
                 if not url or "/video/" not in url: continue
+                
+                # Filter out captcha/verify pages
+                if "verify" in url.lower() or "captcha" in url.lower():
+                    continue
+                
+                # Ensure it's a proper TikTok video URL
+                if not (url.startswith('http') or url.startswith('/')):
+                    continue
                 
                 # ROLEX CRITERIA (Simulated extraction for discovery phase)
                 video_data = {

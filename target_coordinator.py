@@ -35,10 +35,7 @@ class MasterTargetCoordinator:
         affilify_logger.main_logger.info("="*70)
         
         try:
-            # ===== PHASE 1: INITIALIZE =====
-            await self.scraper.initialize_api()
-            
-            # ===== PHASE 2: DISCOVER VIDEOS =====
+            # ===== PHASE 1: DISCOVER VIDEOS =====
             affilify_logger.main_logger.info("\n📡 PHASE 1: Video Discovery")
             videos = await self.scraper.discover_targets_comprehensive(max_videos)
             
