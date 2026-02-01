@@ -161,7 +161,7 @@ class MilitaryGradeVideoScraper:
                     self.targets = self._generate_simulated_targets(max_videos)
                 
                 self.logger.info(f"✅ Discovery complete: {len(self.targets)} targets acquired")
-                log_end("DiscoverTargets_Nodriver", start_time, True)
+                log_end("DiscoverTargets_Nodriver", start_time)
                 return self.targets
                 
             finally:
