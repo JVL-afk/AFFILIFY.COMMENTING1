@@ -340,7 +340,8 @@ class AdvancedVideoFilter:
         
         affilify_logger.main_logger.info("\n📊 DETAILED STATISTICS:")
         affilify_logger.main_logger.info(f"   Total Targets: {len(df)}")
-        affilify_logger.main_logger.info(f"   Golden Opportunities (<5 comments): {len(df[df.get('low_comment_opportunity', False) == True])}")
+        golden_opps = df[df['low_comment_opportunity'] == True] if 'low_comment_opportunity' in df.columns else pd.DataFrame()
+        affilify_logger.main_logger.info(f"   Golden Opportunities (<5 comments): {len(golden_opps)}")
         affilify_logger.main_logger.info(f"   Verified Creators: {len(df[df['creator_verified'] == True])}")
         affilify_logger.main_logger.info(f"   Average Followers: {df['creator_followers'].mean():,.0f}")
         affilify_logger.main_logger.info(f"   Average Views: {df['views'].mean():,.0f}")

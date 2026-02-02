@@ -112,7 +112,7 @@ class MilitaryGradeVideoScraper:
         except Exception as e:
             self.logger.error(f"❌ Cookie injection failed: {e}")
 
-    async def discover_targets_comprehensive(self, max_videos: int = 40):
+    async def discover_targets_comprehensive(self, max_videos: int = 150):
         """Main entry point for target discovery with Nodriver and SadCaptcha."""
         start_time = log_start("DiscoverTargets_Nodriver")
         niches = ["affiliate marketing", "passive income", "side hustle", "e-commerce tips", 
@@ -125,17 +125,27 @@ class MilitaryGradeVideoScraper:
             driver, tab = await self._init_nodriver_context()
             
             try:
-                # Attempt 1: Hashtag-based discovery
-                hashtags = ["affiliatemarketing", "passiveincome", "sidehustle", "dropshipping", "money"]
+                # Attempt 1: Hashtag-based discovery (SCALE UP for ROLEX GRADE filtering)
+                hashtags = [
+                    "affiliatemarketing", "passiveincome", "sidehustle", "dropshipping", 
+                    "money", "makemoneyonline", "digitalmarketing", "ecommerce",
+                    "entrepreneur", "businesstips", "onlinebusiness", "workfromhome"
+                ]
                 random.shuffle(hashtags)
                 
-                for tag in hashtags:
+                # Search MORE hashtags to get 100+ videos for filtering
+                for tag in hashtags[:12]:  # Search up to 12 hashtags for ROLEX GRADE
                     self.logger.info(f"🏷️ Searching hashtag: #{tag}")
                     tag_videos = await self._search_hashtag_nodriver(tab, tag)
                     all_videos.extend(tag_videos)
+                    self.logger.info(f"📊 Total videos collected: {len(all_videos)}")
+                    
+                    # Continue until we have enough for filtering
                     if len(all_videos) >= max_videos: 
+                        self.logger.info(f"✅ Reached target of {max_videos} videos")
                         break
-                    await asyncio.sleep(random.uniform(5, 8))
+                    
+                    await asyncio.sleep(random.uniform(3, 5))  # Faster between searches
 
                 # Attempt 2: Trending/Home Feed discovery (Fallback)
                 if len(all_videos) < 5:
@@ -177,7 +187,7 @@ class MilitaryGradeVideoScraper:
             return self.targets
 
     async def _search_hashtag_nodriver(self, tab, hashtag: str) -> List[Dict]:
-        """Search TikTok by hashtag using Nodriver."""
+        """Search TikTok by hashtag using Nodriver with scrolling for more videos."""
         try:
             url = f"https://www.tiktok.com/tag/{hashtag}"
             await tab.get(url)
@@ -194,10 +204,34 @@ class MilitaryGradeVideoScraper:
                 # Get updated page source
                 page_source = await tab.get_content()
             
-            # Extract videos
-            videos = await self._extract_video_elements_nodriver(tab, page_source)
-            self.logger.info(f"✅ Found {len(videos)} videos for #{hashtag}")
-            return videos
+            # Extract videos from initial page
+            all_videos = await self._extract_video_elements_nodriver(tab, page_source)
+            
+            # Scroll down 2-3 times to load more videos
+            for scroll_num in range(3):
+                try:
+                    # Scroll to bottom
+                    await tab.scroll_down(1000)
+                    await asyncio.sleep(2)  # Wait for content to load
+                    
+                    # Get new page source
+                    page_source = await tab.get_content()
+                    new_videos = await self._extract_video_elements_nodriver(tab, page_source)
+                    
+                    # Add only new unique videos
+                    existing_ids = {v['video_id'] for v in all_videos}
+                    for video in new_videos:
+                        if video['video_id'] not in existing_ids:
+                            all_videos.append(video)
+                            existing_ids.add(video['video_id'])
+                    
+                    self.logger.info(f"📜 Scroll {scroll_num+1}: Total {len(all_videos)} unique videos")
+                except Exception as e:
+                    self.logger.warning(f"⚠️ Scroll {scroll_num+1} failed: {e}")
+                    break
+            
+            self.logger.info(f"✅ Found {len(all_videos)} videos for #{hashtag}")
+            return all_videos
             
         except Exception as e:
             self.logger.error(f"❌ Hashtag search failed for #{hashtag}: {e}")
@@ -252,32 +286,54 @@ class MilitaryGradeVideoScraper:
             return []
 
     async def _extract_video_elements_nodriver(self, tab, page_source: str) -> List[Dict]:
-        """Extract video data from page source."""
+        """Extract FULL video metadata from page source (ROLEX GRADE)."""
         videos = []
         
         try:
-            # Look for video links in the page source
             import re
+            import json
+            
+            # Try to extract from __UNIVERSAL_DATA_FOR_REHYDRATION__ (TikTok's main data object)
+            universal_data_pattern = r'<script id="__UNIVERSAL_DATA_FOR_REHYDRATION__" type="application/json">(.*?)</script>'
+            universal_match = re.search(universal_data_pattern, page_source, re.DOTALL)
+            
+            if universal_match:
+                try:
+                    data = json.loads(universal_match.group(1))
+                    self.logger.info("🔍 Found TikTok universal data object")
+                    
+                    # Extract videos from the data structure
+                    videos_extracted = self._parse_tiktok_universal_data(data)
+                    if videos_extracted:
+                        self.logger.info(f"✅ Extracted {len(videos_extracted)} videos with FULL metadata")
+                        return videos_extracted
+                except Exception as e:
+                    self.logger.warning(f"⚠️ Failed to parse universal data: {e}")
+            
+            # Fallback: Extract video IDs only and mark for metadata enrichment
+            self.logger.info("📋 Falling back to ID extraction (will need metadata enrichment)")
             
             # Pattern 1: Direct video URLs
-            video_pattern = r'https://www\.tiktok\.com/@[\w.-]+/video/(\d+)'
+            video_pattern = r'https://www\.tiktok\.com/@([\w.-]+)/video/(\d+)'
             matches = re.findall(video_pattern, page_source)
             
             # Pattern 2: Video IDs in data attributes
             if not matches:
                 id_pattern = r'"id":"(\d{19})"'
-                matches = re.findall(id_pattern, page_source)
+                id_matches = re.findall(id_pattern, page_source)
+                matches = [('unknown', vid) for vid in id_matches]
             
             # Filter to ensure they're real TikTok video IDs (19 digits)
-            valid_ids = [m for m in matches if len(str(m)) == 19]
+            valid_videos = [(author, vid) for author, vid in matches if len(str(vid)) == 19]
             
-            self.logger.info(f"✅ Found {len(valid_ids)} valid video IDs")
+            self.logger.info(f"✅ Found {len(valid_videos)} valid video IDs (metadata needed)")
             
-            for video_id in valid_ids[:20]:  # Limit to 20 per page
+            for author, video_id in valid_videos[:50]:  # Increased to 50 per page
                 videos.append({
-                    'video_url': f'https://www.tiktok.com/@unknown/video/{video_id}',
+                    'video_url': f'https://www.tiktok.com/@{author}/video/{video_id}',
                     'video_id': video_id,
-                    'author': 'unknown',
+                    'author': author,
+                    'needs_metadata': True,  # Flag for enrichment
                     'views': 0,
                     'likes': 0,
                     'comments': 0,
@@ -287,8 +343,114 @@ class MilitaryGradeVideoScraper:
             
         except Exception as e:
             self.logger.error(f"❌ Video extraction failed: {e}")
+            import traceback
+            traceback.print_exc()
         
         return videos
+    
+    def _parse_tiktok_universal_data(self, data: dict) -> List[Dict]:
+        """Parse TikTok's universal data object to extract video metadata."""
+        videos = []
+        
+        try:
+            # Navigate the complex nested structure
+            # TikTok stores video data in: __DEFAULT_SCOPE__['webapp.video-detail'] or similar
+            
+            if '__DEFAULT_SCOPE__' in data:
+                scope = data['__DEFAULT_SCOPE__']
+                
+                # Try different possible paths
+                video_paths = [
+                    'webapp.video-detail',
+                    'webapp.search-item',
+                    'webapp.user-detail',
+                    'ItemModule',
+                    'ItemList'
+                ]
+                
+                for path in video_paths:
+                    if path in scope:
+                        items = scope[path]
+                        
+                        if isinstance(items, dict):
+                            # ItemModule structure
+                            for video_id, video_data in items.items():
+                                if isinstance(video_data, dict) and 'id' in video_data:
+                                    video = self._extract_video_from_item(video_data)
+                                    if video:
+                                        videos.append(video)
+                        elif isinstance(items, list):
+                            # List structure
+                            for item in items:
+                                if isinstance(item, dict):
+                                    video = self._extract_video_from_item(item)
+                                    if video:
+                                        videos.append(video)
+            
+            self.logger.info(f"📊 Parsed {len(videos)} videos from universal data")
+            
+        except Exception as e:
+            self.logger.error(f"❌ Failed to parse universal data: {e}")
+        
+        return videos
+    
+    def _extract_video_from_item(self, item: dict) -> Optional[Dict]:
+        """Extract video metadata from a single item."""
+        try:
+            video_id = item.get('id', '')
+            if not video_id or len(str(video_id)) != 19:
+                return None
+            
+            # Extract author info
+            author_data = item.get('author', {}) or item.get('authorInfo', {})
+            author = author_data.get('uniqueId', 'unknown')
+            author_followers = author_data.get('followerCount', 0) or author_data.get('fans', 0)
+            author_verified = author_data.get('verified', False)
+            
+            # Extract stats
+            stats = item.get('stats', {}) or item.get('statsV2', {})
+            views = stats.get('playCount', 0) or stats.get('viewCount', 0)
+            likes = stats.get('diggCount', 0) or stats.get('likeCount', 0)
+            comments = stats.get('commentCount', 0)
+            shares = stats.get('shareCount', 0)
+            
+            # Extract description and hashtags
+            desc = item.get('desc', '') or item.get('description', '')
+            hashtags = [tag.get('name', '') for tag in item.get('textExtra', []) if tag.get('hashtagName')]
+            
+            # Calculate engagement rate
+            engagement = likes + comments + shares
+            engagement_rate = (engagement / views * 100) if views > 0 else 0
+            
+            # Calculate video age
+            create_time = item.get('createTime', 0)
+            if create_time:
+                hours_old = (datetime.now().timestamp() - create_time) / 3600
+            else:
+                hours_old = 999  # Unknown age
+            
+            return {
+                'video_url': f'https://www.tiktok.com/@{author}/video/{video_id}',
+                'video_id': video_id,
+                'author': author,
+                'creator_username': author,
+                'creator_followers': author_followers,
+                'creator_verified': author_verified,
+                'views': views,
+                'likes': likes,
+                'comments': comments,
+                'shares': shares,
+                'description': desc,
+                'hashtags': hashtags,
+                'engagement_rate': engagement_rate,
+                'hours_old': hours_old,
+                'timestamp': datetime.now().isoformat(),
+                'needs_metadata': False  # Full metadata extracted!
+            }
+            
+        except Exception as e:
+            self.logger.error(f"❌ Failed to extract video from item: {e}")
+            return None
 
     def _generate_simulated_targets(self, count: int = 10) -> List[Dict]:
         """Generate high-quality simulated targets for testing/demo."""
