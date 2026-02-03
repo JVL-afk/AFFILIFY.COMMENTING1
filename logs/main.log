@@ -4088,3 +4088,250 @@ Call log:
 [2026-01-25 02:27:03.113] [DEBUG   ] [MAIN      ] [Thread-140421402677888]    Details: {
   "count": 5
 }
+[2026-02-03 09:23:28.414] [INFO    ] [MAIN      ] [Thread-139632531022464] ======================================================================
+[2026-02-03 09:23:28.414] [INFO    ] [MAIN      ] [Thread-139632531022464] 🚀 AFFILIFY TIKTOK DOMINATION SYSTEM - LOGGING INITIALIZED
+[2026-02-03 09:23:28.414] [INFO    ] [MAIN      ] [Thread-139632531022464] ======================================================================
+[2026-02-03 09:23:28.737] [INFO    ] [MAIN      ] [Thread-139632531022464] 🧠 Gemini Comment Generator initialized with AFFILIFY knowledge (Modern SDK)
+[2026-02-03 09:23:28.738] [INFO    ] [MAIN      ] [Thread-139632531022464] 🎯 Comment Strategy Selector initialized
+[2026-02-03 09:23:28.738] [INFO    ] [MAIN      ] [Thread-139632531022464]    🌟 GOLDEN OPPORTUNITY: @rakos.media - Tagging creator in comment for maximum visibility!
+[2026-02-03 09:23:28.738] [INFO    ] [MAIN      ] [Thread-139632531022464] ▶️  START: GenerateGeminiComment
+[2026-02-03 09:23:28.738] [DEBUG   ] [MAIN      ] [Thread-139632531022464]    Context: {
+  "video_id": "7594419148805934367",
+  "strategy": "GOLDEN_OPPORTUNITY"
+}
+[2026-02-03 09:23:28.808] [ERROR   ] [MAIN      ] [Thread-139632531022464] 🔥 ERROR: GeminiGeneration | 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.5-pro\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.5-pro\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.5-pro\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.5-pro\nPlease retry in 31.195834219s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerDay-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-pro'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-pro', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-pro', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-pro'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '31s'}]}}
+[2026-02-03 09:23:28.808] [INFO    ] [MAIN      ] [Thread-139632531022464] ⏹️  END: GenerateGeminiComment | ❌ FAILED | Duration: 0.07s
+[2026-02-03 09:23:28.808] [DEBUG   ] [MAIN      ] [Thread-139632531022464]    Details: {
+  "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.5-pro\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.5-pro\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.5-pro\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.5-pro\\nPlease retry in 31.195834219s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerDay-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-pro'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-pro', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-pro', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-pro'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '31s'}]}}"
+}
+[2026-02-03 09:23:54.413] [INFO    ] [MAIN      ] [Thread-139699317600896] ======================================================================
+[2026-02-03 09:23:54.414] [INFO    ] [MAIN      ] [Thread-139699317600896] 🚀 AFFILIFY TIKTOK DOMINATION SYSTEM - LOGGING INITIALIZED
+[2026-02-03 09:23:54.414] [INFO    ] [MAIN      ] [Thread-139699317600896] ======================================================================
+[2026-02-03 09:23:54.671] [INFO    ] [MAIN      ] [Thread-139699317600896] 🧠 Gemini Comment Generator initialized with AFFILIFY knowledge (Modern SDK)
+[2026-02-03 09:23:54.671] [INFO    ] [MAIN      ] [Thread-139699317600896] 🎯 Comment Strategy Selector initialized
+[2026-02-03 09:23:54.672] [INFO    ] [MAIN      ] [Thread-139699317600896]    🌟 GOLDEN OPPORTUNITY: @rakos.media - Tagging creator in comment for maximum visibility!
+[2026-02-03 09:23:54.672] [INFO    ] [MAIN      ] [Thread-139699317600896] ▶️  START: GenerateGeminiComment
+[2026-02-03 09:23:54.672] [DEBUG   ] [MAIN      ] [Thread-139699317600896]    Context: {
+  "video_id": "7594419148805934367",
+  "strategy": "GOLDEN_OPPORTUNITY"
+}
+[2026-02-03 09:23:54.715] [ERROR   ] [MAIN      ] [Thread-139699317600896] 🔥 ERROR: GeminiGeneration | 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. ', 'status': 'RESOURCE_EXHAUSTED'}}
+[2026-02-03 09:23:54.715] [INFO    ] [MAIN      ] [Thread-139699317600896] ⏹️  END: GenerateGeminiComment | ❌ FAILED | Duration: 0.04s
+[2026-02-03 09:23:54.715] [DEBUG   ] [MAIN      ] [Thread-139699317600896]    Details: {
+  "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. ', 'status': 'RESOURCE_EXHAUSTED'}}"
+}
+[2026-02-03 09:23:54.715] [INFO    ] [MAIN      ] [Thread-139699317600896] ▶️  START: GenerateGeminiComment
+[2026-02-03 09:23:54.715] [DEBUG   ] [MAIN      ] [Thread-139699317600896]    Context: {
+  "video_id": "7487858254840597790",
+  "strategy": "VIRAL_VIDEO"
+}
+[2026-02-03 09:23:54.740] [ERROR   ] [MAIN      ] [Thread-139699317600896] 🔥 ERROR: GeminiGeneration | 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. ', 'status': 'RESOURCE_EXHAUSTED'}}
+[2026-02-03 09:23:54.740] [INFO    ] [MAIN      ] [Thread-139699317600896] ⏹️  END: GenerateGeminiComment | ❌ FAILED | Duration: 0.02s
+[2026-02-03 09:23:54.740] [DEBUG   ] [MAIN      ] [Thread-139699317600896]    Details: {
+  "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. ', 'status': 'RESOURCE_EXHAUSTED'}}"
+}
+[2026-02-03 09:23:54.740] [INFO    ] [MAIN      ] [Thread-139699317600896] ▶️  START: GenerateGeminiComment
+[2026-02-03 09:23:54.740] [DEBUG   ] [MAIN      ] [Thread-139699317600896]    Context: {
+  "video_id": "7600011639911435551",
+  "strategy": "FRESH_CONTENT"
+}
+[2026-02-03 09:23:54.774] [ERROR   ] [MAIN      ] [Thread-139699317600896] 🔥 ERROR: GeminiGeneration | 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. ', 'status': 'RESOURCE_EXHAUSTED'}}
+[2026-02-03 09:23:54.774] [INFO    ] [MAIN      ] [Thread-139699317600896] ⏹️  END: GenerateGeminiComment | ❌ FAILED | Duration: 0.03s
+[2026-02-03 09:23:54.774] [DEBUG   ] [MAIN      ] [Thread-139699317600896]    Details: {
+  "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. ', 'status': 'RESOURCE_EXHAUSTED'}}"
+}
+[2026-02-03 09:23:54.774] [INFO    ] [MAIN      ] [Thread-139699317600896] ▶️  START: GenerateGeminiComment
+[2026-02-03 09:23:54.774] [DEBUG   ] [MAIN      ] [Thread-139699317600896]    Context: {
+  "video_id": "7601749983737515277",
+  "strategy": "VERIFIED_CREATOR"
+}
+[2026-02-03 09:23:54.806] [ERROR   ] [MAIN      ] [Thread-139699317600896] 🔥 ERROR: GeminiGeneration | 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. ', 'status': 'RESOURCE_EXHAUSTED'}}
+[2026-02-03 09:23:54.806] [INFO    ] [MAIN      ] [Thread-139699317600896] ⏹️  END: GenerateGeminiComment | ❌ FAILED | Duration: 0.03s
+[2026-02-03 09:23:54.806] [DEBUG   ] [MAIN      ] [Thread-139699317600896]    Details: {
+  "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. ', 'status': 'RESOURCE_EXHAUSTED'}}"
+}
+[2026-02-03 11:09:10.764] [INFO    ] [MAIN      ] [Thread-139777449321088] ======================================================================
+[2026-02-03 11:09:10.764] [INFO    ] [MAIN      ] [Thread-139777449321088] 🚀 AFFILIFY TIKTOK DOMINATION SYSTEM - LOGGING INITIALIZED
+[2026-02-03 11:09:10.764] [INFO    ] [MAIN      ] [Thread-139777449321088] ======================================================================
+[2026-02-03 11:09:12.368] [INFO    ] [MAIN      ] [Thread-139777449321088] 🚀 DolphinX1 interface redirected to Gemini 2.5 Flash
+[2026-02-03 11:09:12.404] [INFO    ] [MAIN      ] [Thread-139777449321088] ▶️  START: DiscoverTargets_Nodriver
+[2026-02-03 11:09:12.404] [DEBUG   ] [MAIN      ] [Thread-139777449321088]    Context: {}
+[2026-02-03 11:09:13.543] [INFO    ] [MAIN      ] [Thread-139777449321088] 🔑 Initializing Nodriver with SadCaptcha (this may take 10-15 seconds)...
+[2026-02-03 11:09:14.607] [INFO    ] [MAIN      ] [Thread-139777449321088] ✅ Nodriver with SadCaptcha initialized successfully!
+[2026-02-03 11:09:14.608] [INFO    ] [MAIN      ] [Thread-139777449321088] 👤 Loaded 33 cookies from: TIKTOK12.json
+[2026-02-03 11:09:14.608] [INFO    ] [MAIN      ] [Thread-139777449321088] ✅ Injected 33 cookies
+[2026-02-03 11:09:14.608] [INFO    ] [MAIN      ] [Thread-139777449321088] 🎯 SadCaptcha is active and will automatically solve captchas!
+[2026-02-03 11:09:14.608] [INFO    ] [MAIN      ] [Thread-139777449321088] 🏷️ Searching hashtag: #entrepreneur
+[2026-02-03 11:09:18.923] [INFO    ] [MAIN      ] [Thread-139777449321088] 🛡️ Captcha detected for #entrepreneur. SadCaptcha extension will handle it...
+[2026-02-03 11:10:18.991] [INFO    ] [MAIN      ] [Thread-139777449321088] 🔍 Found TikTok universal data object
+[2026-02-03 11:10:18.991] [INFO    ] [MAIN      ] [Thread-139777449321088] 📊 Parsed 0 videos from universal data
+[2026-02-03 11:10:18.991] [INFO    ] [MAIN      ] [Thread-139777449321088] 📋 Falling back to ID extraction (will need metadata enrichment)
+[2026-02-03 11:10:18.992] [INFO    ] [MAIN      ] [Thread-139777449321088] ✅ Found 60 valid video IDs (metadata needed)
+[2026-02-03 11:10:22.847] [INFO    ] [MAIN      ] [Thread-139777449321088] 🔍 Found TikTok universal data object
+[2026-02-03 11:10:22.847] [INFO    ] [MAIN      ] [Thread-139777449321088] 📊 Parsed 0 videos from universal data
+[2026-02-03 11:10:22.847] [INFO    ] [MAIN      ] [Thread-139777449321088] 📋 Falling back to ID extraction (will need metadata enrichment)
+[2026-02-03 11:10:22.848] [INFO    ] [MAIN      ] [Thread-139777449321088] ✅ Found 120 valid video IDs (metadata needed)
+[2026-02-03 11:10:22.849] [INFO    ] [MAIN      ] [Thread-139777449321088] 📜 Scroll 1: Total 50 unique videos
+[2026-02-03 11:10:27.238] [INFO    ] [MAIN      ] [Thread-139777449321088] 🔍 Found TikTok universal data object
+[2026-02-03 11:10:27.239] [INFO    ] [MAIN      ] [Thread-139777449321088] 📊 Parsed 0 videos from universal data
+[2026-02-03 11:10:27.239] [INFO    ] [MAIN      ] [Thread-139777449321088] 📋 Falling back to ID extraction (will need metadata enrichment)
+[2026-02-03 11:10:27.240] [INFO    ] [MAIN      ] [Thread-139777449321088] ✅ Found 176 valid video IDs (metadata needed)
+[2026-02-03 11:10:27.241] [INFO    ] [MAIN      ] [Thread-139777449321088] 📜 Scroll 2: Total 50 unique videos
+[2026-02-03 11:10:31.210] [INFO    ] [MAIN      ] [Thread-139777449321088] 🔍 Found TikTok universal data object
+[2026-02-03 11:10:31.210] [INFO    ] [MAIN      ] [Thread-139777449321088] 📊 Parsed 0 videos from universal data
+[2026-02-03 11:10:31.210] [INFO    ] [MAIN      ] [Thread-139777449321088] 📋 Falling back to ID extraction (will need metadata enrichment)
+[2026-02-03 11:10:31.211] [INFO    ] [MAIN      ] [Thread-139777449321088] ✅ Found 228 valid video IDs (metadata needed)
+[2026-02-03 11:10:31.212] [INFO    ] [MAIN      ] [Thread-139777449321088] 📜 Scroll 3: Total 50 unique videos
+[2026-02-03 11:10:31.212] [INFO    ] [MAIN      ] [Thread-139777449321088] ✅ Found 50 videos for #entrepreneur
+[2026-02-03 11:10:31.212] [INFO    ] [MAIN      ] [Thread-139777449321088] 📊 Total videos collected: 50
+[2026-02-03 11:10:31.212] [INFO    ] [MAIN      ] [Thread-139777449321088] ✅ Reached target of 30 videos
+[2026-02-03 11:10:31.212] [INFO    ] [MAIN      ] [Thread-139777449321088] ✅ Discovery complete: 25 targets acquired
+[2026-02-03 11:10:31.213] [INFO    ] [MAIN      ] [Thread-139777449321088] ⏹️  END: DiscoverTargets_Nodriver | ✅ SUCCESS | Duration: 78.81s
+[2026-02-03 11:10:31.213] [INFO    ] [MAIN      ] [Thread-139777449321088] 🔬 Advanced Video Filter initialized
+[2026-02-03 11:10:31.213] [INFO    ] [MAIN      ] [Thread-139777449321088] ▶️  START: FilterVideos
+[2026-02-03 11:10:31.213] [DEBUG   ] [MAIN      ] [Thread-139777449321088]    Context: {
+  "total_videos": 25
+}
+[2026-02-03 11:10:31.213] [INFO    ] [MAIN      ] [Thread-139777449321088] ======================================================================
+[2026-02-03 11:10:31.213] [INFO    ] [MAIN      ] [Thread-139777449321088] 🔬 STARTING MULTI-STAGE FILTERING
+[2026-02-03 11:10:31.213] [INFO    ] [MAIN      ] [Thread-139777449321088] ======================================================================
+[2026-02-03 11:10:31.223] [INFO    ] [MAIN      ] [Thread-139777449321088] 
+📊 STAGE 1: Follower Count Filter (100K+ only)
+[2026-02-03 11:10:57.033] [INFO    ] [MAIN      ] [Thread-140714650624640] ======================================================================
+[2026-02-03 11:10:57.034] [INFO    ] [MAIN      ] [Thread-140714650624640] 🚀 AFFILIFY TIKTOK DOMINATION SYSTEM - LOGGING INITIALIZED
+[2026-02-03 11:10:57.034] [INFO    ] [MAIN      ] [Thread-140714650624640] ======================================================================
+[2026-02-03 11:10:57.985] [INFO    ] [MAIN      ] [Thread-140714650624640] 🚀 DolphinX1 interface redirected to Gemini 2.5 Flash
+[2026-02-03 11:10:58.011] [INFO    ] [MAIN      ] [Thread-140714650624640] ▶️  START: DiscoverTargets_Nodriver
+[2026-02-03 11:10:58.011] [DEBUG   ] [MAIN      ] [Thread-140714650624640]    Context: {}
+[2026-02-03 11:10:58.876] [INFO    ] [MAIN      ] [Thread-140714650624640] 🔑 Initializing Nodriver with SadCaptcha (this may take 10-15 seconds)...
+[2026-02-03 11:10:59.510] [INFO    ] [MAIN      ] [Thread-140714650624640] ✅ Nodriver with SadCaptcha initialized successfully!
+[2026-02-03 11:10:59.510] [INFO    ] [MAIN      ] [Thread-140714650624640] 👤 Loaded 31 cookies from: TIKTOK6.json
+[2026-02-03 11:10:59.510] [INFO    ] [MAIN      ] [Thread-140714650624640] ✅ Injected 31 cookies
+[2026-02-03 11:10:59.510] [INFO    ] [MAIN      ] [Thread-140714650624640] 🎯 SadCaptcha is active and will automatically solve captchas!
+[2026-02-03 11:10:59.510] [INFO    ] [MAIN      ] [Thread-140714650624640] 🏷️ Searching hashtag: #passiveincome
+[2026-02-03 11:11:03.596] [INFO    ] [MAIN      ] [Thread-140714650624640] 🛡️ Captcha detected for #passiveincome. SadCaptcha extension will handle it...
+[2026-02-03 11:12:03.656] [INFO    ] [MAIN      ] [Thread-140714650624640] 🔍 Found TikTok universal data object
+[2026-02-03 11:12:03.657] [INFO    ] [MAIN      ] [Thread-140714650624640] 📊 Parsed 0 videos from universal data
+[2026-02-03 11:12:03.657] [INFO    ] [MAIN      ] [Thread-140714650624640] 📋 Falling back to ID extraction (will need metadata enrichment)
+[2026-02-03 11:12:03.658] [INFO    ] [MAIN      ] [Thread-140714650624640] ✅ Found 58 valid video IDs (metadata needed)
+[2026-02-03 11:12:07.341] [INFO    ] [MAIN      ] [Thread-140714650624640] 🔍 Found TikTok universal data object
+[2026-02-03 11:12:07.341] [INFO    ] [MAIN      ] [Thread-140714650624640] 📊 Parsed 0 videos from universal data
+[2026-02-03 11:12:07.341] [INFO    ] [MAIN      ] [Thread-140714650624640] 📋 Falling back to ID extraction (will need metadata enrichment)
+[2026-02-03 11:12:07.342] [INFO    ] [MAIN      ] [Thread-140714650624640] ✅ Found 116 valid video IDs (metadata needed)
+[2026-02-03 11:12:07.343] [INFO    ] [MAIN      ] [Thread-140714650624640] 📜 Scroll 1: Total 50 unique videos
+[2026-02-03 11:12:11.100] [INFO    ] [MAIN      ] [Thread-140714650624640] 🔍 Found TikTok universal data object
+[2026-02-03 11:12:11.101] [INFO    ] [MAIN      ] [Thread-140714650624640] 📊 Parsed 0 videos from universal data
+[2026-02-03 11:12:11.101] [INFO    ] [MAIN      ] [Thread-140714650624640] 📋 Falling back to ID extraction (will need metadata enrichment)
+[2026-02-03 11:12:11.102] [INFO    ] [MAIN      ] [Thread-140714650624640] ✅ Found 160 valid video IDs (metadata needed)
+[2026-02-03 11:12:11.102] [INFO    ] [MAIN      ] [Thread-140714650624640] 📜 Scroll 2: Total 50 unique videos
+[2026-02-03 11:12:14.799] [INFO    ] [MAIN      ] [Thread-140714650624640] 🔍 Found TikTok universal data object
+[2026-02-03 11:12:14.800] [INFO    ] [MAIN      ] [Thread-140714650624640] 📊 Parsed 0 videos from universal data
+[2026-02-03 11:12:14.800] [INFO    ] [MAIN      ] [Thread-140714650624640] 📋 Falling back to ID extraction (will need metadata enrichment)
+[2026-02-03 11:12:14.801] [INFO    ] [MAIN      ] [Thread-140714650624640] ✅ Found 204 valid video IDs (metadata needed)
+[2026-02-03 11:12:14.802] [INFO    ] [MAIN      ] [Thread-140714650624640] 📜 Scroll 3: Total 50 unique videos
+[2026-02-03 11:12:14.802] [INFO    ] [MAIN      ] [Thread-140714650624640] ✅ Found 50 videos for #passiveincome
+[2026-02-03 11:12:14.802] [INFO    ] [MAIN      ] [Thread-140714650624640] 📊 Total videos collected: 50
+[2026-02-03 11:12:14.802] [INFO    ] [MAIN      ] [Thread-140714650624640] ✅ Reached target of 30 videos
+[2026-02-03 11:12:14.803] [INFO    ] [MAIN      ] [Thread-140714650624640] ✅ Discovery complete: 25 targets acquired
+[2026-02-03 11:12:14.803] [INFO    ] [MAIN      ] [Thread-140714650624640] ⏹️  END: DiscoverTargets_Nodriver | ✅ SUCCESS | Duration: 76.79s
+[2026-02-03 11:12:14.803] [INFO    ] [MAIN      ] [Thread-140714650624640] 🎯 Comment Strategy Selector initialized
+[2026-02-03 11:12:14.803] [INFO    ] [MAIN      ] [Thread-140714650624640] 🤖 TikTok Automation V2 initialized
+[2026-02-03 11:12:14.803] [INFO    ] [MAIN      ] [Thread-140714650624640] ▶️  START: PostComment
+[2026-02-03 11:12:14.803] [DEBUG   ] [MAIN      ] [Thread-140714650624640]    Context: {
+  "username": "TIKTOK1",
+  "video_url": "https://www.tiktok.com/@unknown/video/7595704503194635551",
+  "comment_preview": "Great content! For anyone looking to automate thei"
+}
+[2026-02-03 11:12:14.804] [INFO    ] [MAIN      ] [Thread-140714650624640] ▶️  START: CreateBrowserContext
+[2026-02-03 11:12:14.804] [DEBUG   ] [MAIN      ] [Thread-140714650624640]    Context: {
+  "username": "TIKTOK1",
+  "headless": false
+}
+[2026-02-03 11:12:14.804] [INFO    ] [MAIN      ] [Thread-140714650624640] ▶️  START: LoadCookies
+[2026-02-03 11:12:14.804] [DEBUG   ] [MAIN      ] [Thread-140714650624640]    Context: {
+  "username": "TIKTOK1"
+}
+[2026-02-03 11:12:14.804] [INFO    ] [MAIN      ] [Thread-140714650624640] ⏹️  END: LoadCookies | ✅ SUCCESS | Duration: 0.00s
+[2026-02-03 11:12:17.427] [ERROR   ] [MAIN      ] [Thread-140714650624640] 🔥 ERROR: CreateBrowserContext | BrowserType.launch: Executable doesn't exist at /home/ubuntu/.cache/ms-playwright/chromium-1187/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+[2026-02-03 11:12:17.427] [INFO    ] [MAIN      ] [Thread-140714650624640] ⏹️  END: CreateBrowserContext | ❌ FAILED | Duration: 2.62s
+[2026-02-03 11:12:17.427] [DEBUG   ] [MAIN      ] [Thread-140714650624640]    Details: {
+  "error": "BrowserType.launch: Executable doesn't exist at /home/ubuntu/.cache/ms-playwright/chromium-1187/chrome-linux/chrome\n\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557\n\u2551 Looks like Playwright was just installed or updated.       \u2551\n\u2551 Please run the following command to download new browsers: \u2551\n\u2551                                                            \u2551\n\u2551     playwright install                                     \u2551\n\u2551                                                            \u2551\n\u2551 <3 Playwright Team                                         \u2551\n\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d"
+}
+[2026-02-03 11:12:17.427] [INFO    ] [MAIN      ] [Thread-140714650624640] ⏹️  END: PostComment | ❌ FAILED | Duration: 2.62s
+[2026-02-03 11:12:17.427] [DEBUG   ] [MAIN      ] [Thread-140714650624640]    Details: {
+  "error": "Context creation failed"
+}
+[2026-02-03 11:12:47.450] [INFO    ] [MAIN      ] [Thread-140714650624640] ▶️  START: PostComment
+[2026-02-03 11:12:47.450] [DEBUG   ] [MAIN      ] [Thread-140714650624640]    Context: {
+  "username": "TIKTOK1",
+  "video_url": "https://www.tiktok.com/@unknown/video/7602521785145363743",
+  "comment_preview": "Great content! For anyone looking to automate thei"
+}
+[2026-02-03 11:12:47.450] [INFO    ] [MAIN      ] [Thread-140714650624640] ▶️  START: CreateBrowserContext
+[2026-02-03 11:12:47.450] [DEBUG   ] [MAIN      ] [Thread-140714650624640]    Context: {
+  "username": "TIKTOK1",
+  "headless": false
+}
+[2026-02-03 11:12:47.450] [INFO    ] [MAIN      ] [Thread-140714650624640] ▶️  START: LoadCookies
+[2026-02-03 11:12:47.450] [DEBUG   ] [MAIN      ] [Thread-140714650624640]    Context: {
+  "username": "TIKTOK1"
+}
+[2026-02-03 11:12:47.451] [INFO    ] [MAIN      ] [Thread-140714650624640] ⏹️  END: LoadCookies | ✅ SUCCESS | Duration: 0.00s
+[2026-02-03 11:12:47.724] [ERROR   ] [MAIN      ] [Thread-140714650624640] 🔥 ERROR: CreateBrowserContext | BrowserType.launch: Executable doesn't exist at /home/ubuntu/.cache/ms-playwright/chromium-1187/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+[2026-02-03 11:12:47.724] [INFO    ] [MAIN      ] [Thread-140714650624640] ⏹️  END: CreateBrowserContext | ❌ FAILED | Duration: 0.27s
+[2026-02-03 11:12:47.724] [DEBUG   ] [MAIN      ] [Thread-140714650624640]    Details: {
+  "error": "BrowserType.launch: Executable doesn't exist at /home/ubuntu/.cache/ms-playwright/chromium-1187/chrome-linux/chrome\n\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557\n\u2551 Looks like Playwright was just installed or updated.       \u2551\n\u2551 Please run the following command to download new browsers: \u2551\n\u2551                                                            \u2551\n\u2551     playwright install                                     \u2551\n\u2551                                                            \u2551\n\u2551 <3 Playwright Team                                         \u2551\n\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d"
+}
+[2026-02-03 11:12:47.724] [INFO    ] [MAIN      ] [Thread-140714650624640] ⏹️  END: PostComment | ❌ FAILED | Duration: 0.27s
+[2026-02-03 11:12:47.724] [DEBUG   ] [MAIN      ] [Thread-140714650624640]    Details: {
+  "error": "Context creation failed"
+}
+[2026-02-03 11:13:17.751] [INFO    ] [MAIN      ] [Thread-140714650624640] ▶️  START: PostComment
+[2026-02-03 11:13:17.751] [DEBUG   ] [MAIN      ] [Thread-140714650624640]    Context: {
+  "username": "TIKTOK1",
+  "video_url": "https://www.tiktok.com/@unknown/video/7303149977247747370",
+  "comment_preview": "Great content! For anyone looking to automate thei"
+}
+[2026-02-03 11:13:17.752] [INFO    ] [MAIN      ] [Thread-140714650624640] ▶️  START: CreateBrowserContext
+[2026-02-03 11:13:17.752] [DEBUG   ] [MAIN      ] [Thread-140714650624640]    Context: {
+  "username": "TIKTOK1",
+  "headless": false
+}
+[2026-02-03 11:13:17.752] [INFO    ] [MAIN      ] [Thread-140714650624640] ▶️  START: LoadCookies
+[2026-02-03 11:13:17.752] [DEBUG   ] [MAIN      ] [Thread-140714650624640]    Context: {
+  "username": "TIKTOK1"
+}
+[2026-02-03 11:13:17.752] [INFO    ] [MAIN      ] [Thread-140714650624640] ⏹️  END: LoadCookies | ✅ SUCCESS | Duration: 0.00s
+[2026-02-03 11:13:18.011] [ERROR   ] [MAIN      ] [Thread-140714650624640] 🔥 ERROR: CreateBrowserContext | BrowserType.launch: Executable doesn't exist at /home/ubuntu/.cache/ms-playwright/chromium-1187/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+[2026-02-03 11:13:18.011] [INFO    ] [MAIN      ] [Thread-140714650624640] ⏹️  END: CreateBrowserContext | ❌ FAILED | Duration: 0.26s
+[2026-02-03 11:13:18.011] [DEBUG   ] [MAIN      ] [Thread-140714650624640]    Details: {
+  "error": "BrowserType.launch: Executable doesn't exist at /home/ubuntu/.cache/ms-playwright/chromium-1187/chrome-linux/chrome\n\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557\n\u2551 Looks like Playwright was just installed or updated.       \u2551\n\u2551 Please run the following command to download new browsers: \u2551\n\u2551                                                            \u2551\n\u2551     playwright install                                     \u2551\n\u2551                                                            \u2551\n\u2551 <3 Playwright Team                                         \u2551\n\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d"
+}
+[2026-02-03 11:13:18.012] [INFO    ] [MAIN      ] [Thread-140714650624640] ⏹️  END: PostComment | ❌ FAILED | Duration: 0.26s
+[2026-02-03 11:13:18.012] [DEBUG   ] [MAIN      ] [Thread-140714650624640]    Details: {
+  "error": "Context creation failed"
+}

@@ -17,7 +17,7 @@ class GeminiCommentGenerator:
     
     def __init__(self, api_key: str):
         self.client = genai.Client(api_key=api_key)
-        self.model_name = 'gemini-2.5-pro'
+        self.model_name = 'gemini-2.5-flash'  # Using Flash for higher rate limits
         
         # AFFILIFY PRODUCT KNOWLEDGE
         self.affilify_knowledge = """

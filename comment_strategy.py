@@ -1,5 +1,6 @@
 # comment_strategy.py - INTELLIGENT COMMENT SELECTION
 
+import random
 from typing import Dict, Tuple
 from logger_system import *
 
