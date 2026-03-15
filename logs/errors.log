@@ -2467,3 +2467,27 @@
   }
 }
 [2026-02-03 11:13:18.012] [ERROR   ] [ERROR     ] [Thread-140714650624640] Account TIKTOK1 | CreateBrowserContext | FAILED
+[2026-03-13 13:27:23.995] [ERROR   ] [ERROR     ] [Thread-139911600194176] {
+  "timestamp": "2026-03-13T13:27:23.995729",
+  "error_type": "PostComment",
+  "message": "Unexpected error: 'video_player'",
+  "stack_trace": null,
+  "context": {
+    "context": {
+      "username": "test_user_affilify",
+      "video_url": "https://www.tiktok.com/@bellapoarch/video/6862153058223197445",
+      "comment_length": 64,
+      "timestamps": {
+        "context_created": 0.72956,
+        "navigation": 17.865988
+      },
+      "errors": [],
+      "selectors_tried": [],
+      "actions_performed": [
+        "context_created",
+        "page_opened",
+        "navigated"
+      ]
+    }
+  }
+}

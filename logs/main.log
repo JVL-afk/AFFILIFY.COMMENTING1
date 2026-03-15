@@ -4338,3 +4338,327 @@ Call log:
 [2026-02-07 05:03:29.967] [INFO    ] [MAIN      ] [Thread-140422824706688] ======================================================================
 [2026-02-07 05:03:29.967] [INFO    ] [MAIN      ] [Thread-140422824706688] 🚀 AFFILIFY TIKTOK DOMINATION SYSTEM - LOGGING INITIALIZED
 [2026-02-07 05:03:29.967] [INFO    ] [MAIN      ] [Thread-140422824706688] ======================================================================
+[2026-03-13 13:27:00.132] [INFO    ] [MAIN      ] [Thread-139911600194176] ======================================================================
+[2026-03-13 13:27:00.135] [INFO    ] [MAIN      ] [Thread-139911600194176] 🚀 AFFILIFY TIKTOK DOMINATION SYSTEM - LOGGING INITIALIZED
+[2026-03-13 13:27:00.135] [INFO    ] [MAIN      ] [Thread-139911600194176] ======================================================================
+[2026-03-13 13:27:02.164] [INFO    ] [MAIN      ] [Thread-139911600194176] ======================================================================
+[2026-03-13 13:27:02.164] [INFO    ] [MAIN      ] [Thread-139911600194176] 🧠 JARVIS BRAIN ONLINE
+[2026-03-13 13:27:02.164] [INFO    ] [MAIN      ] [Thread-139911600194176]    Gemini 2.5 Flash Neural Network: ACTIVE
+[2026-03-13 13:27:02.164] [INFO    ] [MAIN      ] [Thread-139911600194176]    Monitoring Systems: INITIALIZING
+[2026-03-13 13:27:02.164] [INFO    ] [MAIN      ] [Thread-139911600194176]    Code Modification Engine: READY
+[2026-03-13 13:27:02.164] [INFO    ] [MAIN      ] [Thread-139911600194176] ======================================================================
+[2026-03-13 13:27:03.865] [INFO    ] [MAIN      ] [Thread-139911600194176] 🚀 DolphinX1 interface redirected to Gemini 2.5 Flash
+[2026-03-13 13:27:04.984] [INFO    ] [MAIN      ] [Thread-139911600194176] 🚀 Starting AFFILIFY Comment Posting Test...
+[2026-03-13 13:27:04.985] [INFO    ] [MAIN      ] [Thread-139911600194176] ▶️  START: SaveCookies
+[2026-03-13 13:27:04.985] [DEBUG   ] [MAIN      ] [Thread-139911600194176]    Context: {
+  "username": "test_user_affilify"
+}
+[2026-03-13 13:27:04.987] [INFO    ] [MAIN      ] [Thread-139911600194176] ⏹️  END: SaveCookies | ✅ SUCCESS | Duration: 0.00s
+[2026-03-13 13:27:04.988] [INFO    ] [MAIN      ] [Thread-139911600194176] 🍪 Dummy cookies saved for test_user_affilify
+[2026-03-13 13:27:04.988] [INFO    ] [MAIN      ] [Thread-139911600194176] 
+================================================================================
+[2026-03-13 13:27:04.988] [INFO    ] [MAIN      ] [Thread-139911600194176] 🏢 AFFILIFY COMMAND CENTER - INITIALIZATION SEQUENCE
+[2026-03-13 13:27:04.988] [INFO    ] [MAIN      ] [Thread-139911600194176] ================================================================================
+[2026-03-13 13:27:04.988] [INFO    ] [MAIN      ] [Thread-139911600194176] 🏛️ Affillify Domination System Engine initialized
+[2026-03-13 13:27:04.989] [INFO    ] [MAIN      ] [Thread-139911600194176] 🤖 TikTok Automation V2 initialized
+[2026-03-13 13:27:05.030] [INFO    ] [MAIN      ] [Thread-139911600194176] 🔬 Advanced Video Filter initialized
+[2026-03-13 13:27:05.030] [INFO    ] [MAIN      ] [Thread-139911600194176] 🎯 Comment Strategy Selector initialized
+[2026-03-13 13:27:05.030] [INFO    ] [MAIN      ] [Thread-139911600194176] 🎯 Master Target Coordinator initialized
+[2026-03-13 13:27:05.031] [INFO    ] [MAIN      ] [Thread-139911600194176] 🎯 Comment Strategy Selector initialized
+[2026-03-13 13:27:05.031] [INFO    ] [MAIN      ] [Thread-139911600194176] ✅ Command Center initialized
+[2026-03-13 13:27:05.364] [INFO    ] [MAIN      ] [Thread-139911600194176] 🧠 Gemini Comment Generator initialized with AFFILIFY knowledge (Modern SDK)
+[2026-03-13 13:27:05.365] [INFO    ] [MAIN      ] [Thread-139911600194176] Attempting to post comment: 'This is an automated test comment from Affilify! #affilify #test' to https://www.tiktok.com/@bellapoarch/video/6862153058223197445 using account test_user_affilify
+[2026-03-13 13:27:05.365] [INFO    ] [MAIN      ] [Thread-139911600194176] ▶️  START: PostComment
+[2026-03-13 13:27:05.365] [DEBUG   ] [MAIN      ] [Thread-139911600194176]    Context: {
+  "username": "test_user_affilify",
+  "video_url": "https://www.tiktok.com/@bellapoarch/video/6862153058223197445",
+  "comment_preview": "This is an automated test comment from Affilify! #"
+}
+[2026-03-13 13:27:05.365] [INFO    ] [MAIN      ] [Thread-139911600194176] ▶️  START: CreateBrowserContext
+[2026-03-13 13:27:05.365] [DEBUG   ] [MAIN      ] [Thread-139911600194176]    Context: {
+  "username": "test_user_affilify",
+  "headless": true
+}
+[2026-03-13 13:27:05.365] [INFO    ] [MAIN      ] [Thread-139911600194176] ▶️  START: LoadCookies
+[2026-03-13 13:27:05.365] [DEBUG   ] [MAIN      ] [Thread-139911600194176]    Context: {
+  "username": "test_user_affilify"
+}
+[2026-03-13 13:27:05.366] [INFO    ] [MAIN      ] [Thread-139911600194176] ⏹️  END: LoadCookies | ✅ SUCCESS | Duration: 0.00s
+[2026-03-13 13:27:06.094] [INFO    ] [MAIN      ] [Thread-139911600194176] ⏹️  END: CreateBrowserContext | ✅ SUCCESS | Duration: 0.73s
+[2026-03-13 13:27:23.999] [ERROR   ] [MAIN      ] [Thread-139911600194176] 🔥 ERROR: PostComment | Unexpected error: 'video_player'
+[2026-03-13 13:27:24.000] [INFO    ] [MAIN      ] [Thread-139911600194176] ⏹️  END: PostComment | ❌ FAILED | Duration: 18.63s
+[2026-03-13 13:27:24.000] [DEBUG   ] [MAIN      ] [Thread-139911600194176]    Details: {
+  "error": "Unexpected error: 'video_player'"
+}
+[2026-03-13 13:27:24.016] [INFO    ] [MAIN      ] [Thread-139911600194176] ▶️  START: CloseBrowserContext
+[2026-03-13 13:27:24.017] [DEBUG   ] [MAIN      ] [Thread-139911600194176]    Context: {
+  "username": "test_user_affilify"
+}
+[2026-03-13 13:27:24.073] [INFO    ] [MAIN      ] [Thread-139911600194176] ⏹️  END: CloseBrowserContext | ✅ SUCCESS | Duration: 0.06s
+[2026-03-13 13:27:24.073] [ERROR   ] [MAIN      ] [Thread-139911600194176] ❌ Test FAILED: Failed to post comment. Message: Unexpected error: 'video_player'
+[2026-03-13 13:27:24.073] [ERROR   ] [MAIN      ] [Thread-139911600194176] Metadata: {
+  "username": "test_user_affilify",
+  "video_url": "https://www.tiktok.com/@bellapoarch/video/6862153058223197445",
+  "comment_length": 64,
+  "timestamps": {
+    "context_created": 0.72956,
+    "navigation": 17.865988
+  },
+  "errors": [
+    "Unexpected error: 'video_player'"
+  ],
+  "selectors_tried": [],
+  "actions_performed": [
+    "context_created",
+    "page_opened",
+    "navigated"
+  ]
+}
+[2026-03-13 13:27:24.074] [INFO    ] [MAIN      ] [Thread-139911600194176] 🗑️ Cleaned up dummy cookie file for test_user_affilify
+[2026-03-13 13:27:24.074] [INFO    ] [MAIN      ] [Thread-139911600194176] 🏁 Test finished.
+[2026-03-13 13:27:43.048] [INFO    ] [MAIN      ] [Thread-139668213838464] ======================================================================
+[2026-03-13 13:27:43.048] [INFO    ] [MAIN      ] [Thread-139668213838464] 🚀 AFFILIFY TIKTOK DOMINATION SYSTEM - LOGGING INITIALIZED
+[2026-03-13 13:27:43.048] [INFO    ] [MAIN      ] [Thread-139668213838464] ======================================================================
+[2026-03-13 13:27:44.943] [INFO    ] [MAIN      ] [Thread-139668213838464] ======================================================================
+[2026-03-13 13:27:44.943] [INFO    ] [MAIN      ] [Thread-139668213838464] 🧠 JARVIS BRAIN ONLINE
+[2026-03-13 13:27:44.943] [INFO    ] [MAIN      ] [Thread-139668213838464]    Gemini 2.5 Flash Neural Network: ACTIVE
+[2026-03-13 13:27:44.943] [INFO    ] [MAIN      ] [Thread-139668213838464]    Monitoring Systems: INITIALIZING
+[2026-03-13 13:27:44.943] [INFO    ] [MAIN      ] [Thread-139668213838464]    Code Modification Engine: READY
+[2026-03-13 13:27:44.944] [INFO    ] [MAIN      ] [Thread-139668213838464] ======================================================================
+[2026-03-13 13:27:46.503] [INFO    ] [MAIN      ] [Thread-139668213838464] 🚀 DolphinX1 interface redirected to Gemini 2.5 Flash
+[2026-03-13 13:27:47.549] [INFO    ] [MAIN      ] [Thread-139668213838464] 🚀 Starting AFFILIFY Comment Posting Test...
+[2026-03-13 13:27:47.550] [INFO    ] [MAIN      ] [Thread-139668213838464] ▶️  START: SaveCookies
+[2026-03-13 13:27:47.550] [DEBUG   ] [MAIN      ] [Thread-139668213838464]    Context: {
+  "username": "test_user_affilify"
+}
+[2026-03-13 13:27:47.550] [INFO    ] [MAIN      ] [Thread-139668213838464] ⏹️  END: SaveCookies | ✅ SUCCESS | Duration: 0.00s
+[2026-03-13 13:27:47.551] [INFO    ] [MAIN      ] [Thread-139668213838464] 🍪 Dummy cookies saved for test_user_affilify
+[2026-03-13 13:27:47.551] [INFO    ] [MAIN      ] [Thread-139668213838464] 
+================================================================================
+[2026-03-13 13:27:47.551] [INFO    ] [MAIN      ] [Thread-139668213838464] 🏢 AFFILIFY COMMAND CENTER - INITIALIZATION SEQUENCE
+[2026-03-13 13:27:47.551] [INFO    ] [MAIN      ] [Thread-139668213838464] ================================================================================
+[2026-03-13 13:27:47.551] [INFO    ] [MAIN      ] [Thread-139668213838464] 🏛️ Affillify Domination System Engine initialized
+[2026-03-13 13:27:47.552] [INFO    ] [MAIN      ] [Thread-139668213838464] 🤖 TikTok Automation V2 initialized
+[2026-03-13 13:27:47.591] [INFO    ] [MAIN      ] [Thread-139668213838464] 🔬 Advanced Video Filter initialized
+[2026-03-13 13:27:47.591] [INFO    ] [MAIN      ] [Thread-139668213838464] 🎯 Comment Strategy Selector initialized
+[2026-03-13 13:27:47.591] [INFO    ] [MAIN      ] [Thread-139668213838464] 🎯 Master Target Coordinator initialized
+[2026-03-13 13:27:47.592] [INFO    ] [MAIN      ] [Thread-139668213838464] 🎯 Comment Strategy Selector initialized
+[2026-03-13 13:27:47.592] [INFO    ] [MAIN      ] [Thread-139668213838464] ✅ Command Center initialized
+[2026-03-13 13:27:47.913] [INFO    ] [MAIN      ] [Thread-139668213838464] 🧠 Gemini Comment Generator initialized with AFFILIFY knowledge (Modern SDK)
+[2026-03-13 13:27:47.913] [INFO    ] [MAIN      ] [Thread-139668213838464] Attempting to post comment: 'This is an automated test comment from Affilify! #affilify #test' to https://www.tiktok.com/@bellapoarch/video/6862153058223197445 using account test_user_affilify
+[2026-03-13 13:27:47.913] [INFO    ] [MAIN      ] [Thread-139668213838464] ▶️  START: PostComment
+[2026-03-13 13:27:47.913] [DEBUG   ] [MAIN      ] [Thread-139668213838464]    Context: {
+  "username": "test_user_affilify",
+  "video_url": "https://www.tiktok.com/@bellapoarch/video/6862153058223197445",
+  "comment_preview": "This is an automated test comment from Affilify! #"
+}
+[2026-03-13 13:27:47.914] [INFO    ] [MAIN      ] [Thread-139668213838464] ▶️  START: CreateBrowserContext
+[2026-03-13 13:27:47.914] [DEBUG   ] [MAIN      ] [Thread-139668213838464]    Context: {
+  "username": "test_user_affilify",
+  "headless": true
+}
+[2026-03-13 13:27:47.914] [INFO    ] [MAIN      ] [Thread-139668213838464] ▶️  START: LoadCookies
+[2026-03-13 13:27:47.914] [DEBUG   ] [MAIN      ] [Thread-139668213838464]    Context: {
+  "username": "test_user_affilify"
+}
+[2026-03-13 13:27:47.914] [INFO    ] [MAIN      ] [Thread-139668213838464] ⏹️  END: LoadCookies | ✅ SUCCESS | Duration: 0.00s
+[2026-03-13 13:27:48.591] [INFO    ] [MAIN      ] [Thread-139668213838464] ⏹️  END: CreateBrowserContext | ✅ SUCCESS | Duration: 0.68s
+[2026-03-13 13:28:31.440] [INFO    ] [MAIN      ] [Thread-139668213838464] ⏹️  END: PostComment | ❌ FAILED | Duration: 43.53s
+[2026-03-13 13:28:31.440] [DEBUG   ] [MAIN      ] [Thread-139668213838464]    Details: {
+  "error": "Comment box not found"
+}
+[2026-03-13 13:28:31.457] [INFO    ] [MAIN      ] [Thread-139668213838464] ▶️  START: CloseBrowserContext
+[2026-03-13 13:28:31.457] [DEBUG   ] [MAIN      ] [Thread-139668213838464]    Context: {
+  "username": "test_user_affilify"
+}
+[2026-03-13 13:28:31.493] [INFO    ] [MAIN      ] [Thread-139668213838464] ⏹️  END: CloseBrowserContext | ✅ SUCCESS | Duration: 0.04s
+[2026-03-13 13:28:31.493] [ERROR   ] [MAIN      ] [Thread-139668213838464] ❌ Test FAILED: Failed to post comment. Message: Could not find comment box
+[2026-03-13 13:28:31.493] [ERROR   ] [MAIN      ] [Thread-139668213838464] Metadata: {
+  "username": "test_user_affilify",
+  "video_url": "https://www.tiktok.com/@bellapoarch/video/6862153058223197445",
+  "comment_length": 64,
+  "timestamps": {
+    "context_created": 0.677918,
+    "navigation": 9.132266,
+    "video_watched": 26.462556,
+    "scrolled": 7.141581
+  },
+  "errors": [],
+  "selectors_tried": [],
+  "actions_performed": [
+    "context_created",
+    "page_opened",
+    "navigated",
+    "video_watched",
+    "scrolled_to_comments"
+  ]
+}
+[2026-03-13 13:28:31.494] [INFO    ] [MAIN      ] [Thread-139668213838464] 🗑️ Cleaned up dummy cookie file for test_user_affilify
+[2026-03-13 13:28:31.494] [INFO    ] [MAIN      ] [Thread-139668213838464] 🏁 Test finished.
+[2026-03-13 13:28:43.465] [INFO    ] [MAIN      ] [Thread-140005478703744] ======================================================================
+[2026-03-13 13:28:43.465] [INFO    ] [MAIN      ] [Thread-140005478703744] 🚀 AFFILIFY TIKTOK DOMINATION SYSTEM - LOGGING INITIALIZED
+[2026-03-13 13:28:43.465] [INFO    ] [MAIN      ] [Thread-140005478703744] ======================================================================
+[2026-03-13 13:28:45.266] [INFO    ] [MAIN      ] [Thread-140005478703744] ======================================================================
+[2026-03-13 13:28:45.266] [INFO    ] [MAIN      ] [Thread-140005478703744] 🧠 JARVIS BRAIN ONLINE
+[2026-03-13 13:28:45.266] [INFO    ] [MAIN      ] [Thread-140005478703744]    Gemini 2.5 Flash Neural Network: ACTIVE
+[2026-03-13 13:28:45.266] [INFO    ] [MAIN      ] [Thread-140005478703744]    Monitoring Systems: INITIALIZING
+[2026-03-13 13:28:45.266] [INFO    ] [MAIN      ] [Thread-140005478703744]    Code Modification Engine: READY
+[2026-03-13 13:28:45.266] [INFO    ] [MAIN      ] [Thread-140005478703744] ======================================================================
+[2026-03-13 13:28:46.899] [INFO    ] [MAIN      ] [Thread-140005478703744] 🚀 DolphinX1 interface redirected to Gemini 2.5 Flash
+[2026-03-13 13:28:48.024] [INFO    ] [MAIN      ] [Thread-140005478703744] 🚀 Starting AFFILIFY Comment Posting Test...
+[2026-03-13 13:28:48.024] [ERROR   ] [MAIN      ] [Thread-140005478703744] ❌ GEMINI_API_KEY or SADCAPTCHA_API_KEY not found in environment variables.
+[2026-03-13 13:28:48.024] [ERROR   ] [MAIN      ] [Thread-140005478703744] Please set them before running the test.
+[2026-03-13 13:28:55.950] [INFO    ] [MAIN      ] [Thread-140194678153856] ======================================================================
+[2026-03-13 13:28:55.950] [INFO    ] [MAIN      ] [Thread-140194678153856] 🚀 AFFILIFY TIKTOK DOMINATION SYSTEM - LOGGING INITIALIZED
+[2026-03-13 13:28:55.950] [INFO    ] [MAIN      ] [Thread-140194678153856] ======================================================================
+[2026-03-13 13:28:57.855] [INFO    ] [MAIN      ] [Thread-140194678153856] ======================================================================
+[2026-03-13 13:28:57.855] [INFO    ] [MAIN      ] [Thread-140194678153856] 🧠 JARVIS BRAIN ONLINE
+[2026-03-13 13:28:57.855] [INFO    ] [MAIN      ] [Thread-140194678153856]    Gemini 2.5 Flash Neural Network: ACTIVE
+[2026-03-13 13:28:57.855] [INFO    ] [MAIN      ] [Thread-140194678153856]    Monitoring Systems: INITIALIZING
+[2026-03-13 13:28:57.856] [INFO    ] [MAIN      ] [Thread-140194678153856]    Code Modification Engine: READY
+[2026-03-13 13:28:57.856] [INFO    ] [MAIN      ] [Thread-140194678153856] ======================================================================
+[2026-03-13 13:28:59.454] [INFO    ] [MAIN      ] [Thread-140194678153856] 🚀 DolphinX1 interface redirected to Gemini 2.5 Flash
+[2026-03-13 13:29:00.540] [INFO    ] [MAIN      ] [Thread-140194678153856] 🚀 Starting AFFILIFY Comment Posting Test...
+[2026-03-13 13:29:00.541] [INFO    ] [MAIN      ] [Thread-140194678153856] ▶️  START: SaveCookies
+[2026-03-13 13:29:00.541] [DEBUG   ] [MAIN      ] [Thread-140194678153856]    Context: {
+  "username": "test_user_affilify"
+}
+[2026-03-13 13:29:00.541] [INFO    ] [MAIN      ] [Thread-140194678153856] ⏹️  END: SaveCookies | ✅ SUCCESS | Duration: 0.00s
+[2026-03-13 13:29:00.541] [INFO    ] [MAIN      ] [Thread-140194678153856] 🍪 Dummy cookies saved for test_user_affilify
+[2026-03-13 13:29:00.542] [INFO    ] [MAIN      ] [Thread-140194678153856] 
+================================================================================
+[2026-03-13 13:29:00.542] [INFO    ] [MAIN      ] [Thread-140194678153856] 🏢 AFFILIFY COMMAND CENTER - INITIALIZATION SEQUENCE
+[2026-03-13 13:29:00.542] [INFO    ] [MAIN      ] [Thread-140194678153856] ================================================================================
+[2026-03-13 13:29:00.542] [INFO    ] [MAIN      ] [Thread-140194678153856] 🏛️ Affillify Domination System Engine initialized
+[2026-03-13 13:29:00.542] [INFO    ] [MAIN      ] [Thread-140194678153856] 🤖 TikTok Automation V2 initialized
+[2026-03-13 13:29:00.584] [INFO    ] [MAIN      ] [Thread-140194678153856] 🔬 Advanced Video Filter initialized
+[2026-03-13 13:29:00.585] [INFO    ] [MAIN      ] [Thread-140194678153856] 🎯 Comment Strategy Selector initialized
+[2026-03-13 13:29:00.585] [INFO    ] [MAIN      ] [Thread-140194678153856] 🎯 Master Target Coordinator initialized
+[2026-03-13 13:29:00.585] [INFO    ] [MAIN      ] [Thread-140194678153856] 🎯 Comment Strategy Selector initialized
+[2026-03-13 13:29:00.585] [INFO    ] [MAIN      ] [Thread-140194678153856] ✅ Command Center initialized
+[2026-03-13 13:29:00.918] [INFO    ] [MAIN      ] [Thread-140194678153856] 🧠 Gemini Comment Generator initialized with AFFILIFY knowledge (Modern SDK)
+[2026-03-13 13:29:00.919] [INFO    ] [MAIN      ] [Thread-140194678153856] Attempting to post comment: 'This is an automated test comment from Affilify! #affilify #test' to https://www.tiktok.com/@bellapoarch/video/6862153058223197445 using account test_user_affilify
+[2026-03-13 13:29:00.919] [INFO    ] [MAIN      ] [Thread-140194678153856] ▶️  START: PostComment
+[2026-03-13 13:29:00.919] [DEBUG   ] [MAIN      ] [Thread-140194678153856]    Context: {
+  "username": "test_user_affilify",
+  "video_url": "https://www.tiktok.com/@bellapoarch/video/6862153058223197445",
+  "comment_preview": "This is an automated test comment from Affilify! #"
+}
+[2026-03-13 13:29:00.919] [INFO    ] [MAIN      ] [Thread-140194678153856] ▶️  START: CreateBrowserContext
+[2026-03-13 13:29:00.919] [DEBUG   ] [MAIN      ] [Thread-140194678153856]    Context: {
+  "username": "test_user_affilify",
+  "headless": true
+}
+[2026-03-13 13:29:00.919] [INFO    ] [MAIN      ] [Thread-140194678153856] ▶️  START: LoadCookies
+[2026-03-13 13:29:00.919] [DEBUG   ] [MAIN      ] [Thread-140194678153856]    Context: {
+  "username": "test_user_affilify"
+}
+[2026-03-13 13:29:00.920] [INFO    ] [MAIN      ] [Thread-140194678153856] ⏹️  END: LoadCookies | ✅ SUCCESS | Duration: 0.00s
+[2026-03-13 13:29:01.563] [INFO    ] [MAIN      ] [Thread-140194678153856] ⏹️  END: CreateBrowserContext | ✅ SUCCESS | Duration: 0.64s
+[2026-03-13 13:29:55.708] [INFO    ] [MAIN      ] [Thread-140194678153856] ⏹️  END: PostComment | ❌ FAILED | Duration: 54.79s
+[2026-03-13 13:29:55.709] [DEBUG   ] [MAIN      ] [Thread-140194678153856]    Details: {
+  "error": "Comment box not found"
+}
+[2026-03-13 13:29:55.729] [INFO    ] [MAIN      ] [Thread-140194678153856] ▶️  START: CloseBrowserContext
+[2026-03-13 13:29:55.729] [DEBUG   ] [MAIN      ] [Thread-140194678153856]    Context: {
+  "username": "test_user_affilify"
+}
+[2026-03-13 13:29:55.770] [INFO    ] [MAIN      ] [Thread-140194678153856] ⏹️  END: CloseBrowserContext | ✅ SUCCESS | Duration: 0.04s
+[2026-03-13 13:29:55.770] [ERROR   ] [MAIN      ] [Thread-140194678153856] ❌ Test FAILED: Failed to post comment. Message: Could not find comment box
+[2026-03-13 13:29:55.770] [ERROR   ] [MAIN      ] [Thread-140194678153856] Metadata: {
+  "username": "test_user_affilify",
+  "video_url": "https://www.tiktok.com/@bellapoarch/video/6862153058223197445",
+  "comment_length": 64,
+  "timestamps": {
+    "context_created": 0.644686,
+    "navigation": 11.639993,
+    "video_watched": 35.071354,
+    "scrolled": 7.309287
+  },
+  "errors": [],
+  "selectors_tried": [],
+  "actions_performed": [
+    "context_created",
+    "page_opened",
+    "navigated",
+    "video_watched",
+    "scrolled_to_comments"
+  ]
+}
+[2026-03-13 13:29:55.771] [INFO    ] [MAIN      ] [Thread-140194678153856] 🗑️ Cleaned up dummy cookie file for test_user_affilify
+[2026-03-13 13:29:55.771] [INFO    ] [MAIN      ] [Thread-140194678153856] 🏁 Test finished.
+[2026-03-13 13:34:06.205] [INFO    ] [MAIN      ] [Thread-140022464049792] ======================================================================
+[2026-03-13 13:34:06.205] [INFO    ] [MAIN      ] [Thread-140022464049792] 🚀 AFFILIFY TIKTOK DOMINATION SYSTEM - LOGGING INITIALIZED
+[2026-03-13 13:34:06.205] [INFO    ] [MAIN      ] [Thread-140022464049792] ======================================================================
+[2026-03-13 13:34:08.015] [INFO    ] [MAIN      ] [Thread-140022464049792] ======================================================================
+[2026-03-13 13:34:08.016] [INFO    ] [MAIN      ] [Thread-140022464049792] 🧠 JARVIS BRAIN ONLINE
+[2026-03-13 13:34:08.016] [INFO    ] [MAIN      ] [Thread-140022464049792]    Gemini 2.5 Flash Neural Network: ACTIVE
+[2026-03-13 13:34:08.016] [INFO    ] [MAIN      ] [Thread-140022464049792]    Monitoring Systems: INITIALIZING
+[2026-03-13 13:34:08.016] [INFO    ] [MAIN      ] [Thread-140022464049792]    Code Modification Engine: READY
+[2026-03-13 13:34:08.016] [INFO    ] [MAIN      ] [Thread-140022464049792] ======================================================================
+[2026-03-13 13:34:09.569] [INFO    ] [MAIN      ] [Thread-140022464049792] 🚀 DolphinX1 interface redirected to Gemini 2.5 Flash
+[2026-03-13 13:34:10.688] [INFO    ] [MAIN      ] [Thread-140022464049792] 🚀 Starting AFFILIFY Comment Posting Test (REAL ACCOUNT)...
+[2026-03-13 13:34:10.689] [INFO    ] [MAIN      ] [Thread-140022464049792] 🍪 Using real cookies for account: lokihe
+[2026-03-13 13:34:10.689] [INFO    ] [MAIN      ] [Thread-140022464049792] 
+================================================================================
+[2026-03-13 13:34:10.689] [INFO    ] [MAIN      ] [Thread-140022464049792] 🏢 AFFILIFY COMMAND CENTER - INITIALIZATION SEQUENCE
+[2026-03-13 13:34:10.689] [INFO    ] [MAIN      ] [Thread-140022464049792] ================================================================================
+[2026-03-13 13:34:10.690] [INFO    ] [MAIN      ] [Thread-140022464049792] 🏛️ Affillify Domination System Engine initialized
+[2026-03-13 13:34:10.690] [INFO    ] [MAIN      ] [Thread-140022464049792] 🤖 TikTok Automation V2 initialized
+[2026-03-13 13:34:10.732] [INFO    ] [MAIN      ] [Thread-140022464049792] 🔬 Advanced Video Filter initialized
+[2026-03-13 13:34:10.732] [INFO    ] [MAIN      ] [Thread-140022464049792] 🎯 Comment Strategy Selector initialized
+[2026-03-13 13:34:10.732] [INFO    ] [MAIN      ] [Thread-140022464049792] 🎯 Master Target Coordinator initialized
+[2026-03-13 13:34:10.732] [INFO    ] [MAIN      ] [Thread-140022464049792] 🎯 Comment Strategy Selector initialized
+[2026-03-13 13:34:10.732] [INFO    ] [MAIN      ] [Thread-140022464049792] ✅ Command Center initialized
+[2026-03-13 13:34:11.065] [INFO    ] [MAIN      ] [Thread-140022464049792] 🧠 Gemini Comment Generator initialized with AFFILIFY knowledge (Modern SDK)
+[2026-03-13 13:34:11.066] [INFO    ] [MAIN      ] [Thread-140022464049792] Attempting to post comment: 'affilify.eu is actually insane for finding deals 🔥'
+[2026-03-13 13:34:11.066] [INFO    ] [MAIN      ] [Thread-140022464049792] Target video: https://www.tiktok.com/@bellapoarch/video/6862153058223197445
+[2026-03-13 13:34:11.066] [INFO    ] [MAIN      ] [Thread-140022464049792] Account: lokihe
+[2026-03-13 13:34:11.066] [INFO    ] [MAIN      ] [Thread-140022464049792] ▶️  START: PostComment
+[2026-03-13 13:34:11.066] [DEBUG   ] [MAIN      ] [Thread-140022464049792]    Context: {
+  "username": "lokihe",
+  "video_url": "https://www.tiktok.com/@bellapoarch/video/6862153058223197445",
+  "comment_preview": "affilify.eu is actually insane for finding deals \ud83d\udd25"
+}
+[2026-03-13 13:34:11.066] [INFO    ] [MAIN      ] [Thread-140022464049792] ▶️  START: CreateBrowserContext
+[2026-03-13 13:34:11.066] [DEBUG   ] [MAIN      ] [Thread-140022464049792]    Context: {
+  "username": "lokihe",
+  "headless": true
+}
+[2026-03-13 13:34:11.066] [INFO    ] [MAIN      ] [Thread-140022464049792] ▶️  START: LoadCookies
+[2026-03-13 13:34:11.067] [DEBUG   ] [MAIN      ] [Thread-140022464049792]    Context: {
+  "username": "lokihe"
+}
+[2026-03-13 13:34:11.067] [INFO    ] [MAIN      ] [Thread-140022464049792] ⏹️  END: LoadCookies | ✅ SUCCESS | Duration: 0.00s
+[2026-03-13 13:34:11.743] [INFO    ] [MAIN      ] [Thread-140022464049792] ⏹️  END: CreateBrowserContext | ✅ SUCCESS | Duration: 0.68s
+[2026-03-13 13:34:50.374] [INFO    ] [MAIN      ] [Thread-140022464049792] ⏹️  END: PostComment | ❌ FAILED | Duration: 39.31s
+[2026-03-13 13:34:50.374] [DEBUG   ] [MAIN      ] [Thread-140022464049792]    Details: {
+  "error": "Comment box not found"
+}
+[2026-03-13 13:34:50.393] [INFO    ] [MAIN      ] [Thread-140022464049792] ▶️  START: CloseBrowserContext
+[2026-03-13 13:34:50.394] [DEBUG   ] [MAIN      ] [Thread-140022464049792]    Context: {
+  "username": "lokihe"
+}
+[2026-03-13 13:34:50.431] [INFO    ] [MAIN      ] [Thread-140022464049792] ⏹️  END: CloseBrowserContext | ✅ SUCCESS | Duration: 0.04s
+[2026-03-13 13:34:50.431] [ERROR   ] [MAIN      ] [Thread-140022464049792] ❌ Test FAILED: Failed to post comment. Message: Could not find comment box
+[2026-03-13 13:34:50.432] [ERROR   ] [MAIN      ] [Thread-140022464049792] Metadata: {
+  "username": "lokihe",
+  "video_url": "https://www.tiktok.com/@bellapoarch/video/6862153058223197445",
+  "comment_length": 50,
+  "timestamps": {
+    "context_created": 0.676631,
+    "navigation": 10.805275,
+    "video_watched": 22.529411,
+    "scrolled": 5.173635
+  },
+  "errors": [],
+  "selectors_tried": [],
+  "actions_performed": [
+    "context_created",
+    "page_opened",
+    "navigated",
+    "video_watched",
+    "scrolled_to_comments"
+  ]
+}
+[2026-03-13 13:34:50.432] [INFO    ] [MAIN      ] [Thread-140022464049792] 🏁 Test finished.
