@@ -63,6 +63,51 @@ class AdvancedVideoFilter:
             log_end("FilterVideos", start, False, reason="No videos")
             return df
         
+        # ===== COLUMN NORMALIZATION: Ensure all expected fields exist =====
+        # The live scraper may not always return every field; fill defaults so
+        # downstream filters never crash with KeyError.
+        column_defaults = {
+            'creator_followers': 0,
+            'creator_username': '',
+            'creator_verified': False,
+            'hours_old': 999,
+            'description': '',
+            'hashtags': [],
+            'engagement_rate': 0.0,
+            'views': 0,
+            'likes': 0,
+            'comments': 0,
+            'shares': 0,
+            'relevance_score': 0,
+            'low_comment_opportunity': False,
+            'actual_comment_count': 0,
+        }
+        for col, default in column_defaults.items():
+            if col not in df.columns:
+                affilify_logger.main_logger.warning(
+                    f"⚠️ Column '{col}' missing from scraper data — using default: {default!r}"
+                )
+                # Use object dtype for list defaults to avoid length mismatch
+                if isinstance(default, list):
+                    df[col] = pd.array([default] * len(df), dtype=object)
+                else:
+                    df[col] = default
+            else:
+                # Fill NaN values with the default (only for non-list types)
+                if not isinstance(default, list):
+                    df[col] = df[col].fillna(default)
+                # For list columns, replace None/NaN with empty list
+                else:
+                    df[col] = df[col].apply(
+                        lambda x: x if isinstance(x, list) else default
+                    )
+        
+        # Ensure list columns are actually lists (not NaN or other types)
+        for list_col in ['hashtags']:
+            df[list_col] = df[list_col].apply(
+                lambda x: x if isinstance(x, list) else []
+            )
+        
         initial_count = len(df)
         
         # ===== STAGE 1: FOLLOWER COUNT FILTER =====

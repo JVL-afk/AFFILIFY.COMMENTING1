@@ -41,7 +41,7 @@ try:
 except ImportError:
     SADCAPTCHA_AVAILABLE = False
 
-SADCAPTCHA_API_KEY = os.environ.get("SADCAPTCHA_API_KEY", "87a671dd2cdd4f843e140115acc8d582")
+SADCAPTCHA_API_KEY = os.environ.get("SADCAPTCHA_API_KEY", "956a61447f0df4327e70c4f8b7ac7bb5")
 
 # ── Gemini Vision (for visual scanning) ───────────────────────────────────────
 try:
@@ -392,7 +392,13 @@ async def dismiss_overlays(page: Page):
 # ── Captcha solver ─────────────────────────────────────────────────────────────
 
 async def _human_drag_slider(page: Page, slider_el, distance_px: float):
-    """Drag a slider element by a given number of pixels to the right."""
+    """Drag a slider element by a given number of pixels to the right.
+    Uses a bezier-curve motion profile with realistic human acceleration
+    (slow start -> fast middle -> slow end) plus micro-jitter on Y axis.
+    """
+    import math
+    import random as _rnd
+
     box = await slider_el.bounding_box()
     if not box:
         print("  [drag] No bounding box for slider — skipping")
@@ -404,36 +410,59 @@ async def _human_drag_slider(page: Page, slider_el, distance_px: float):
 
     print(f"  [drag] Dragging from ({start_x:.0f},{start_y:.0f}) to ({target_x:.0f},{start_y:.0f}) [{distance_px:.0f}px]")
 
-    # Method 1: Standard mouse drag with hover first
+    # Phase 0: Approach the slider naturally
+    await page.mouse.move(start_x - 20, start_y + _rnd.uniform(-3, 3))
+    await asyncio.sleep(_rnd.uniform(0.1, 0.25))
     await page.mouse.move(start_x, start_y)
-    await asyncio.sleep(0.5)  # Hover to activate
+    await asyncio.sleep(_rnd.uniform(0.3, 0.6))
+
+    # Phase 1: Press down
     await page.mouse.down()
-    await asyncio.sleep(0.3)
+    await asyncio.sleep(_rnd.uniform(0.08, 0.15))
 
-    steps = 50
-    for i in range(steps + 1):
-        t = i / steps
-        ease = t * t * (3 - 2 * t)  # Smooth step
-        cx = start_x + (target_x - start_x) * ease
-        cy = start_y + (1 * ((i % 3) - 1))  # Tiny vertical jitter
+    # Phase 2: Bezier-curve drag with human-like velocity
+    total_steps = 80
+    ctrl_y_offset = _rnd.uniform(-4, 4)
+
+    for i in range(total_steps + 1):
+        t = i / total_steps
+        if t < 0.5:
+            ease = 4 * t * t * t
+        else:
+            ease = 1 - pow(-2 * t + 2, 3) / 2
+
+        if t > 0.92:
+            overshoot = math.sin((t - 0.92) / 0.08 * math.pi) * (distance_px * 0.015)
+        else:
+            overshoot = 0
+
+        cx = start_x + (target_x - start_x) * ease + overshoot
+        cy = start_y + ctrl_y_offset * math.sin(t * math.pi)
+        cx += _rnd.uniform(-0.5, 0.5)
+        cy += _rnd.uniform(-0.5, 0.5)
+
         await page.mouse.move(cx, cy)
-        await asyncio.sleep(0.012 + (0.008 if i % 7 == 0 else 0))
 
+        if t < 0.15 or t > 0.85:
+            await asyncio.sleep(_rnd.uniform(0.010, 0.020))
+        else:
+            await asyncio.sleep(_rnd.uniform(0.005, 0.010))
+
+    # Phase 3: Settle at target
     await page.mouse.move(target_x, start_y)
-    await asyncio.sleep(0.2)
+    await asyncio.sleep(_rnd.uniform(0.08, 0.18))
     await page.mouse.up()
-    await asyncio.sleep(1.5)
+    await asyncio.sleep(_rnd.uniform(1.0, 1.8))
 
-    # Check if slider actually moved by reading its position
+    # Phase 4: Verify the slider actually moved
     new_box = await slider_el.bounding_box()
     if new_box:
         moved = new_box["x"] - box["x"]
         print(f"  [drag] Slider moved by {moved:.0f}px (expected ~{distance_px:.0f}px)")
         if abs(moved) < 5:
-            # Slider didn't move — try JS-based drag as fallback
-            print("  [drag] Slider didn't move, trying JS dispatchEvent fallback...")
+            print("  [drag] Slider didn't move, trying PointerEvent fallback...")
             await page.evaluate("""
-                ([startX, startY, endX, endY]) => {
+                ([startX, startY, endX]) => {
                     const el = document.getElementById('captcha_slide_button') ||
                                document.querySelector('button[id*=slide]') ||
                                document.querySelector('div[class*=captcha] button');
@@ -441,21 +470,28 @@ async def _human_drag_slider(page: Page, slider_el, distance_px: float):
                     const rect = el.getBoundingClientRect();
                     const cx = rect.left + rect.width / 2;
                     const cy = rect.top + rect.height / 2;
-                    
-                    const makeEvent = (type, x, y) => new MouseEvent(type, {
+                    const mk = (type, x, y, btns) => ({
                         bubbles: true, cancelable: true,
                         clientX: x, clientY: y,
-                        screenX: x, screenY: y,
-                        buttons: type === 'mouseup' ? 0 : 1,
-                        button: 0,
+                        screenX: x + window.screenX, screenY: y + window.screenY,
+                        pointerId: 1, pointerType: 'mouse',
+                        buttons: btns, button: 0,
+                        pressure: btns > 0 ? 0.5 : 0,
                     });
-                    
-                    el.dispatchEvent(makeEvent('mousedown', cx, cy));
-                    document.dispatchEvent(makeEvent('mousemove', cx + 10, cy));
-                    document.dispatchEvent(makeEvent('mousemove', endX, cy));
-                    document.dispatchEvent(makeEvent('mouseup', endX, cy));
+                    el.dispatchEvent(new PointerEvent('pointerdown', mk('pd', cx, cy, 1)));
+                    el.dispatchEvent(new MouseEvent('mousedown', mk('md', cx, cy, 1)));
+                    const steps = 40;
+                    for (let i = 1; i <= steps; i++) {
+                        const t = i / steps;
+                        const ease = t < 0.5 ? 4*t*t*t : 1 - Math.pow(-2*t+2,3)/2;
+                        const mx = cx + (endX - cx) * ease;
+                        document.dispatchEvent(new PointerEvent('pointermove', mk('pm', mx, cy, 1)));
+                        document.dispatchEvent(new MouseEvent('mousemove', mk('mm', mx, cy, 1)));
+                    }
+                    document.dispatchEvent(new PointerEvent('pointerup', mk('pu', endX, cy, 0)));
+                    document.dispatchEvent(new MouseEvent('mouseup', mk('mu', endX, cy, 0)));
                 }
-            """, [start_x, start_y, target_x, start_y])
+            """, [start_x, start_y, target_x])
             await asyncio.sleep(1.5)
 
 
@@ -924,7 +960,7 @@ async def post_comment(
         try:
             # ── Step 0: Warm-up — load TikTok homepage to hydrate session ────
             print("🌐 Warming up session on TikTok homepage...")
-            await page.goto("https://www.tiktok.com/", wait_until="networkidle", timeout=30000)
+            await page.goto("https://www.tiktok.com/", wait_until="domcontentloaded", timeout=60000)
             await asyncio.sleep(3)
 
             # Dismiss any overlays on homepage

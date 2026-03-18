@@ -4662,3 +4662,406 @@ Call log:
   ]
 }
 [2026-03-13 13:34:50.432] [INFO    ] [MAIN      ] [Thread-140022464049792] 🏁 Test finished.
+[2026-03-16 10:01:36.359] [INFO    ] [MAIN      ] [Thread-140116173095552] ======================================================================
+[2026-03-16 10:01:36.593] [INFO    ] [MAIN      ] [Thread-140116173095552] 🚀 AFFILIFY TIKTOK DOMINATION SYSTEM - LOGGING INITIALIZED
+[2026-03-16 10:01:36.593] [INFO    ] [MAIN      ] [Thread-140116173095552] ======================================================================
+[2026-03-16 10:01:37.048] [INFO    ] [MAIN      ] [Thread-140116173095552] ▶️  START: DiscoverTargets_Nodriver
+[2026-03-16 10:01:37.049] [DEBUG   ] [MAIN      ] [Thread-140116173095552]    Context: {}
+[2026-03-16 10:01:37.049] [INFO    ] [MAIN      ] [Thread-140116173095552] 🔑 Initializing Nodriver with SadCaptcha (this may take 10-15 seconds)...
+[2026-03-16 10:01:39.639] [INFO    ] [MAIN      ] [Thread-140116173095552] ✅ Nodriver with SadCaptcha initialized successfully!
+[2026-03-16 10:01:39.640] [INFO    ] [MAIN      ] [Thread-140116173095552] 👤 Loaded 31 cookies from: lokihe.json
+[2026-03-16 10:01:39.641] [INFO    ] [MAIN      ] [Thread-140116173095552] ✅ Injected 31 cookies
+[2026-03-16 10:01:39.641] [INFO    ] [MAIN      ] [Thread-140116173095552] 🎯 SadCaptcha is active and will automatically solve captchas!
+[2026-03-16 10:01:39.641] [INFO    ] [MAIN      ] [Thread-140116173095552] 🏷️ Searching hashtag: #dropshipping
+[2026-03-16 10:01:46.155] [INFO    ] [MAIN      ] [Thread-140116173095552] 🛡️ Captcha detected for #dropshipping. SadCaptcha extension will handle it...
+[2026-03-16 10:02:46.347] [INFO    ] [MAIN      ] [Thread-140116173095552] 🔍 Found TikTok universal data object
+[2026-03-16 10:02:46.348] [INFO    ] [MAIN      ] [Thread-140116173095552] 📊 Parsed 0 videos from universal data
+[2026-03-16 10:02:46.348] [INFO    ] [MAIN      ] [Thread-140116173095552] 📋 Falling back to ID extraction (will need metadata enrichment)
+[2026-03-16 10:02:46.349] [INFO    ] [MAIN      ] [Thread-140116173095552] ✅ Found 58 valid video IDs (metadata needed)
+[2026-03-16 10:02:50.244] [INFO    ] [MAIN      ] [Thread-140116173095552] 🔍 Found TikTok universal data object
+[2026-03-16 10:02:50.245] [INFO    ] [MAIN      ] [Thread-140116173095552] 📊 Parsed 0 videos from universal data
+[2026-03-16 10:02:50.245] [INFO    ] [MAIN      ] [Thread-140116173095552] 📋 Falling back to ID extraction (will need metadata enrichment)
+[2026-03-16 10:02:50.248] [INFO    ] [MAIN      ] [Thread-140116173095552] ✅ Found 114 valid video IDs (metadata needed)
+[2026-03-16 10:02:50.249] [INFO    ] [MAIN      ] [Thread-140116173095552] 📜 Scroll 1: Total 50 unique videos
+[2026-03-16 10:02:54.125] [INFO    ] [MAIN      ] [Thread-140116173095552] 🔍 Found TikTok universal data object
+[2026-03-16 10:02:54.125] [INFO    ] [MAIN      ] [Thread-140116173095552] 📊 Parsed 0 videos from universal data
+[2026-03-16 10:02:54.125] [INFO    ] [MAIN      ] [Thread-140116173095552] 📋 Falling back to ID extraction (will need metadata enrichment)
+[2026-03-16 10:02:54.127] [INFO    ] [MAIN      ] [Thread-140116173095552] ✅ Found 164 valid video IDs (metadata needed)
+[2026-03-16 10:02:54.128] [INFO    ] [MAIN      ] [Thread-140116173095552] 📜 Scroll 2: Total 50 unique videos
+[2026-03-16 10:02:57.895] [INFO    ] [MAIN      ] [Thread-140116173095552] 🔍 Found TikTok universal data object
+[2026-03-16 10:02:57.896] [INFO    ] [MAIN      ] [Thread-140116173095552] 📊 Parsed 0 videos from universal data
+[2026-03-16 10:02:57.896] [INFO    ] [MAIN      ] [Thread-140116173095552] 📋 Falling back to ID extraction (will need metadata enrichment)
+[2026-03-16 10:02:57.900] [INFO    ] [MAIN      ] [Thread-140116173095552] ✅ Found 212 valid video IDs (metadata needed)
+[2026-03-16 10:02:57.901] [INFO    ] [MAIN      ] [Thread-140116173095552] 📜 Scroll 3: Total 50 unique videos
+[2026-03-16 10:02:57.902] [INFO    ] [MAIN      ] [Thread-140116173095552] ✅ Found 50 videos for #dropshipping
+[2026-03-16 10:02:57.902] [INFO    ] [MAIN      ] [Thread-140116173095552] 📊 Total videos collected: 50
+[2026-03-16 10:02:57.902] [INFO    ] [MAIN      ] [Thread-140116173095552] ✅ Reached target of 20 videos
+[2026-03-16 10:02:57.903] [INFO    ] [MAIN      ] [Thread-140116173095552] ✅ Discovery complete: 20 targets acquired
+[2026-03-16 10:02:57.903] [INFO    ] [MAIN      ] [Thread-140116173095552] ⏹️  END: DiscoverTargets_Nodriver | ✅ SUCCESS | Duration: 80.85s
+[2026-03-16 10:02:58.218] [INFO    ] [MAIN      ] [Thread-140116173095552] 🔬 Advanced Video Filter initialized
+[2026-03-16 10:02:58.218] [INFO    ] [MAIN      ] [Thread-140116173095552] ▶️  START: FilterVideos
+[2026-03-16 10:02:58.219] [DEBUG   ] [MAIN      ] [Thread-140116173095552]    Context: {
+  "total_videos": 20
+}
+[2026-03-16 10:02:58.219] [INFO    ] [MAIN      ] [Thread-140116173095552] ======================================================================
+[2026-03-16 10:02:58.219] [INFO    ] [MAIN      ] [Thread-140116173095552] 🔬 STARTING MULTI-STAGE FILTERING
+[2026-03-16 10:02:58.219] [INFO    ] [MAIN      ] [Thread-140116173095552] ======================================================================
+[2026-03-16 10:02:58.239] [INFO    ] [MAIN      ] [Thread-140116173095552] 
+📊 STAGE 1: Follower Count Filter (100K+ only)
+[2026-03-17 13:01:57.572] [INFO    ] [MAIN      ] [Thread-140427488035456] ======================================================================
+[2026-03-17 13:01:57.572] [INFO    ] [MAIN      ] [Thread-140427488035456] 🚀 AFFILIFY TIKTOK DOMINATION SYSTEM - LOGGING INITIALIZED
+[2026-03-17 13:01:57.573] [INFO    ] [MAIN      ] [Thread-140427488035456] ======================================================================
+[2026-03-17 13:02:00.415] [INFO    ] [MAIN      ] [Thread-140427488035456] 🧠 Gemini Comment Generator — Mode: OpenAI-compatible endpoint (gemini-2.5-flash)
+[2026-03-17 13:02:00.416] [INFO    ] [MAIN      ] [Thread-140427488035456] ▶️  START: GenerateGeminiComment
+[2026-03-17 13:02:00.416] [DEBUG   ] [MAIN      ] [Thread-140427488035456]    Context: {
+  "video_id": null,
+  "strategy": "STANDARD"
+}
+[2026-03-17 13:02:02.370] [DEBUG   ] [MAIN      ] [Thread-140427488035456] 🤖 AI (Gemini): This is awesome! For anyone serious about scaling, check out Affilify.eu – it's a game-changer for b...
+[2026-03-17 13:02:02.370] [INFO    ] [MAIN      ] [Thread-140427488035456] ⏹️  END: GenerateGeminiComment | ✅ SUCCESS | Duration: 1.95s
+[2026-03-17 13:02:38.172] [INFO    ] [MAIN      ] [Thread-139928888181376] ======================================================================
+[2026-03-17 13:02:38.172] [INFO    ] [MAIN      ] [Thread-139928888181376] 🚀 AFFILIFY TIKTOK DOMINATION SYSTEM - LOGGING INITIALIZED
+[2026-03-17 13:02:38.172] [INFO    ] [MAIN      ] [Thread-139928888181376] ======================================================================
+[2026-03-17 13:02:39.425] [INFO    ] [MAIN      ] [Thread-139928888181376] 🧠 Gemini Comment Generator — Mode: OpenAI-compatible endpoint (gemini-2.5-flash)
+[2026-03-17 13:02:39.425] [INFO    ] [MAIN      ] [Thread-139928888181376] ▶️  START: GenerateGeminiComment
+[2026-03-17 13:02:39.426] [DEBUG   ] [MAIN      ] [Thread-139928888181376]    Context: {
+  "video_id": null,
+  "strategy": "STANDARD"
+}
+[2026-03-17 13:02:40.710] [DEBUG   ] [MAIN      ] [Thread-139928888181376] 🤖 AI (Gemini): This is awesome! For anyone serious about scaling, check out Affilify.eu – it's a game-changer for q...
+[2026-03-17 13:02:40.711] [INFO    ] [MAIN      ] [Thread-139928888181376] ⏹️  END: GenerateGeminiComment | ✅ SUCCESS | Duration: 1.29s
+[2026-03-17 13:03:06.500] [INFO    ] [MAIN      ] [Thread-139779456225920] ======================================================================
+[2026-03-17 13:03:06.500] [INFO    ] [MAIN      ] [Thread-139779456225920] 🚀 AFFILIFY TIKTOK DOMINATION SYSTEM - LOGGING INITIALIZED
+[2026-03-17 13:03:06.500] [INFO    ] [MAIN      ] [Thread-139779456225920] ======================================================================
+[2026-03-17 13:03:06.553] [INFO    ] [MAIN      ] [Thread-139779456225920] ▶️  START: DiscoverTargets_Nodriver
+[2026-03-17 13:03:06.553] [DEBUG   ] [MAIN      ] [Thread-139779456225920]    Context: {}
+[2026-03-17 13:03:06.554] [INFO    ] [MAIN      ] [Thread-139779456225920] 🔑 Initializing Nodriver with SadCaptcha (this may take 10-15 seconds)...
+[2026-03-17 13:03:08.950] [INFO    ] [MAIN      ] [Thread-139779456225920] ✅ Nodriver with SadCaptcha initialized successfully!
+[2026-03-17 13:03:08.951] [INFO    ] [MAIN      ] [Thread-139779456225920] 👤 Loaded 31 cookies from: lokihe.json
+[2026-03-17 13:03:08.951] [INFO    ] [MAIN      ] [Thread-139779456225920] ✅ Injected 31 cookies
+[2026-03-17 13:03:08.951] [INFO    ] [MAIN      ] [Thread-139779456225920] 🎯 SadCaptcha is active and will automatically solve captchas!
+[2026-03-17 13:03:08.952] [INFO    ] [MAIN      ] [Thread-139779456225920] 🏷️ Searching hashtag: #dropshipping
+[2026-03-17 13:03:13.022] [INFO    ] [MAIN      ] [Thread-139779456225920] 🛡️ Captcha detected for #dropshipping. SadCaptcha extension will handle it...
+[2026-03-17 13:04:13.248] [INFO    ] [MAIN      ] [Thread-139779456225920] 🔍 Found TikTok universal data object
+[2026-03-17 13:04:13.248] [INFO    ] [MAIN      ] [Thread-139779456225920] 📊 Parsed 0 videos from universal data
+[2026-03-17 13:04:13.249] [INFO    ] [MAIN      ] [Thread-139779456225920] 📋 Falling back to ID extraction (will need metadata enrichment)
+[2026-03-17 13:04:13.250] [INFO    ] [MAIN      ] [Thread-139779456225920] ✅ Found 60 valid video IDs (metadata needed)
+[2026-03-17 13:04:16.622] [INFO    ] [MAIN      ] [Thread-139779456225920] 🔍 Found TikTok universal data object
+[2026-03-17 13:04:16.622] [INFO    ] [MAIN      ] [Thread-139779456225920] 📊 Parsed 0 videos from universal data
+[2026-03-17 13:04:16.623] [INFO    ] [MAIN      ] [Thread-139779456225920] 📋 Falling back to ID extraction (will need metadata enrichment)
+[2026-03-17 13:04:16.624] [INFO    ] [MAIN      ] [Thread-139779456225920] ✅ Found 116 valid video IDs (metadata needed)
+[2026-03-17 13:04:16.625] [INFO    ] [MAIN      ] [Thread-139779456225920] 📜 Scroll 1: Total 50 unique videos
+[2026-03-17 13:04:20.340] [INFO    ] [MAIN      ] [Thread-139779456225920] 🔍 Found TikTok universal data object
+[2026-03-17 13:04:20.341] [INFO    ] [MAIN      ] [Thread-139779456225920] 📊 Parsed 0 videos from universal data
+[2026-03-17 13:04:20.341] [INFO    ] [MAIN      ] [Thread-139779456225920] 📋 Falling back to ID extraction (will need metadata enrichment)
+[2026-03-17 13:04:20.343] [INFO    ] [MAIN      ] [Thread-139779456225920] ✅ Found 172 valid video IDs (metadata needed)
+[2026-03-17 13:04:20.344] [INFO    ] [MAIN      ] [Thread-139779456225920] 📜 Scroll 2: Total 50 unique videos
+[2026-03-17 13:04:24.056] [INFO    ] [MAIN      ] [Thread-139779456225920] 🔍 Found TikTok universal data object
+[2026-03-17 13:04:24.057] [INFO    ] [MAIN      ] [Thread-139779456225920] 📊 Parsed 0 videos from universal data
+[2026-03-17 13:04:24.057] [INFO    ] [MAIN      ] [Thread-139779456225920] 📋 Falling back to ID extraction (will need metadata enrichment)
+[2026-03-17 13:04:24.059] [INFO    ] [MAIN      ] [Thread-139779456225920] ✅ Found 220 valid video IDs (metadata needed)
+[2026-03-17 13:04:24.060] [INFO    ] [MAIN      ] [Thread-139779456225920] 📜 Scroll 3: Total 50 unique videos
+[2026-03-17 13:04:24.060] [INFO    ] [MAIN      ] [Thread-139779456225920] ✅ Found 50 videos for #dropshipping
+[2026-03-17 13:04:24.060] [INFO    ] [MAIN      ] [Thread-139779456225920] 📊 Total videos collected: 50
+[2026-03-17 13:04:24.060] [INFO    ] [MAIN      ] [Thread-139779456225920] ✅ Reached target of 20 videos
+[2026-03-17 13:04:24.060] [INFO    ] [MAIN      ] [Thread-139779456225920] ✅ Discovery complete: 20 targets acquired
+[2026-03-17 13:04:24.062] [INFO    ] [MAIN      ] [Thread-139779456225920] ⏹️  END: DiscoverTargets_Nodriver | ✅ SUCCESS | Duration: 77.51s
+[2026-03-17 13:04:24.100] [INFO    ] [MAIN      ] [Thread-139779456225920] 🔬 Advanced Video Filter initialized
+[2026-03-17 13:04:24.101] [INFO    ] [MAIN      ] [Thread-139779456225920] ▶️  START: FilterVideos
+[2026-03-17 13:04:24.102] [DEBUG   ] [MAIN      ] [Thread-139779456225920]    Context: {
+  "total_videos": 20
+}
+[2026-03-17 13:04:24.102] [INFO    ] [MAIN      ] [Thread-139779456225920] ======================================================================
+[2026-03-17 13:04:24.102] [INFO    ] [MAIN      ] [Thread-139779456225920] 🔬 STARTING MULTI-STAGE FILTERING
+[2026-03-17 13:04:24.102] [INFO    ] [MAIN      ] [Thread-139779456225920] ======================================================================
+[2026-03-17 13:04:24.120] [WARNING ] [MAIN      ] [Thread-139779456225920] ⚠️ Column 'creator_followers' missing from scraper data — using default: 0
+[2026-03-17 13:04:24.121] [WARNING ] [MAIN      ] [Thread-139779456225920] ⚠️ Column 'creator_username' missing from scraper data — using default: ''
+[2026-03-17 13:04:24.122] [WARNING ] [MAIN      ] [Thread-139779456225920] ⚠️ Column 'creator_verified' missing from scraper data — using default: False
+[2026-03-17 13:04:24.123] [WARNING ] [MAIN      ] [Thread-139779456225920] ⚠️ Column 'hours_old' missing from scraper data — using default: 999
+[2026-03-17 13:04:24.123] [WARNING ] [MAIN      ] [Thread-139779456225920] ⚠️ Column 'description' missing from scraper data — using default: ''
+[2026-03-17 13:04:24.124] [WARNING ] [MAIN      ] [Thread-139779456225920] ⚠️ Column 'hashtags' missing from scraper data — using default: []
+[2026-03-17 13:08:40.450] [INFO    ] [MAIN      ] [Thread-140358508999296] ======================================================================
+[2026-03-17 13:08:40.450] [INFO    ] [MAIN      ] [Thread-140358508999296] 🚀 AFFILIFY TIKTOK DOMINATION SYSTEM - LOGGING INITIALIZED
+[2026-03-17 13:08:40.451] [INFO    ] [MAIN      ] [Thread-140358508999296] ======================================================================
+[2026-03-17 13:08:40.523] [INFO    ] [MAIN      ] [Thread-140358508999296] ▶️  START: DiscoverTargets_Nodriver
+[2026-03-17 13:08:40.523] [DEBUG   ] [MAIN      ] [Thread-140358508999296]    Context: {}
+[2026-03-17 13:08:40.523] [INFO    ] [MAIN      ] [Thread-140358508999296] 🔑 Initializing Nodriver with SadCaptcha (this may take 10-15 seconds)...
+[2026-03-17 13:08:41.432] [INFO    ] [MAIN      ] [Thread-140358508999296] ✅ Nodriver with SadCaptcha initialized successfully!
+[2026-03-17 13:08:41.432] [INFO    ] [MAIN      ] [Thread-140358508999296] 👤 Loaded 31 cookies from: lokihe.json
+[2026-03-17 13:08:41.432] [INFO    ] [MAIN      ] [Thread-140358508999296] ✅ Injected 31 cookies
+[2026-03-17 13:08:41.433] [INFO    ] [MAIN      ] [Thread-140358508999296] 🎯 SadCaptcha is active and will automatically solve captchas!
+[2026-03-17 13:08:41.433] [INFO    ] [MAIN      ] [Thread-140358508999296] 🏷️ Searching hashtag: #sidehustle
+[2026-03-17 13:08:45.799] [INFO    ] [MAIN      ] [Thread-140358508999296] 🛡️ Captcha detected for #sidehustle. SadCaptcha extension will handle it...
+[2026-03-17 13:09:46.001] [INFO    ] [MAIN      ] [Thread-140358508999296] 🔍 Found TikTok universal data object
+[2026-03-17 13:09:46.002] [INFO    ] [MAIN      ] [Thread-140358508999296] 📊 Parsed 0 videos from universal data
+[2026-03-17 13:09:46.002] [INFO    ] [MAIN      ] [Thread-140358508999296] 📋 Falling back to ID extraction (will need metadata enrichment)
+[2026-03-17 13:09:46.003] [INFO    ] [MAIN      ] [Thread-140358508999296] ✅ Found 60 valid video IDs (metadata needed)
+[2026-03-17 13:09:49.448] [INFO    ] [MAIN      ] [Thread-140358508999296] 🔍 Found TikTok universal data object
+[2026-03-17 13:09:49.448] [INFO    ] [MAIN      ] [Thread-140358508999296] 📊 Parsed 0 videos from universal data
+[2026-03-17 13:09:49.448] [INFO    ] [MAIN      ] [Thread-140358508999296] 📋 Falling back to ID extraction (will need metadata enrichment)
+[2026-03-17 13:09:49.450] [INFO    ] [MAIN      ] [Thread-140358508999296] ✅ Found 118 valid video IDs (metadata needed)
+[2026-03-17 13:09:49.451] [INFO    ] [MAIN      ] [Thread-140358508999296] 📜 Scroll 1: Total 50 unique videos
+[2026-03-17 13:09:53.284] [INFO    ] [MAIN      ] [Thread-140358508999296] 🔍 Found TikTok universal data object
+[2026-03-17 13:09:53.285] [INFO    ] [MAIN      ] [Thread-140358508999296] 📊 Parsed 0 videos from universal data
+[2026-03-17 13:09:53.286] [INFO    ] [MAIN      ] [Thread-140358508999296] 📋 Falling back to ID extraction (will need metadata enrichment)
+[2026-03-17 13:09:53.289] [INFO    ] [MAIN      ] [Thread-140358508999296] ✅ Found 176 valid video IDs (metadata needed)
+[2026-03-17 13:09:53.291] [INFO    ] [MAIN      ] [Thread-140358508999296] 📜 Scroll 2: Total 50 unique videos
+[2026-03-17 13:09:56.888] [INFO    ] [MAIN      ] [Thread-140358508999296] 🔍 Found TikTok universal data object
+[2026-03-17 13:09:56.888] [INFO    ] [MAIN      ] [Thread-140358508999296] 📊 Parsed 0 videos from universal data
+[2026-03-17 13:09:56.889] [INFO    ] [MAIN      ] [Thread-140358508999296] 📋 Falling back to ID extraction (will need metadata enrichment)
+[2026-03-17 13:09:56.892] [INFO    ] [MAIN      ] [Thread-140358508999296] ✅ Found 220 valid video IDs (metadata needed)
+[2026-03-17 13:09:56.894] [INFO    ] [MAIN      ] [Thread-140358508999296] 📜 Scroll 3: Total 50 unique videos
+[2026-03-17 13:09:56.894] [INFO    ] [MAIN      ] [Thread-140358508999296] ✅ Found 50 videos for #sidehustle
+[2026-03-17 13:09:56.894] [INFO    ] [MAIN      ] [Thread-140358508999296] 📊 Total videos collected: 50
+[2026-03-17 13:09:56.894] [INFO    ] [MAIN      ] [Thread-140358508999296] ✅ Reached target of 20 videos
+[2026-03-17 13:09:56.895] [INFO    ] [MAIN      ] [Thread-140358508999296] ✅ Discovery complete: 20 targets acquired
+[2026-03-17 13:09:56.903] [INFO    ] [MAIN      ] [Thread-140358508999296] ⏹️  END: DiscoverTargets_Nodriver | ✅ SUCCESS | Duration: 76.37s
+[2026-03-17 13:09:57.045] [INFO    ] [MAIN      ] [Thread-140358508999296] 🔬 Advanced Video Filter initialized
+[2026-03-17 13:09:57.046] [INFO    ] [MAIN      ] [Thread-140358508999296] ▶️  START: FilterVideos
+[2026-03-17 13:09:57.047] [DEBUG   ] [MAIN      ] [Thread-140358508999296]    Context: {
+  "total_videos": 20
+}
+[2026-03-17 13:09:57.047] [INFO    ] [MAIN      ] [Thread-140358508999296] ======================================================================
+[2026-03-17 13:09:57.047] [INFO    ] [MAIN      ] [Thread-140358508999296] 🔬 STARTING MULTI-STAGE FILTERING
+[2026-03-17 13:09:57.047] [INFO    ] [MAIN      ] [Thread-140358508999296] ======================================================================
+[2026-03-17 13:09:57.138] [WARNING ] [MAIN      ] [Thread-140358508999296] ⚠️ Column 'creator_followers' missing from scraper data — using default: 0
+[2026-03-17 13:09:57.140] [WARNING ] [MAIN      ] [Thread-140358508999296] ⚠️ Column 'creator_username' missing from scraper data — using default: ''
+[2026-03-17 13:09:57.141] [WARNING ] [MAIN      ] [Thread-140358508999296] ⚠️ Column 'creator_verified' missing from scraper data — using default: False
+[2026-03-17 13:09:57.142] [WARNING ] [MAIN      ] [Thread-140358508999296] ⚠️ Column 'hours_old' missing from scraper data — using default: 999
+[2026-03-17 13:09:57.142] [WARNING ] [MAIN      ] [Thread-140358508999296] ⚠️ Column 'description' missing from scraper data — using default: ''
+[2026-03-17 13:09:57.143] [WARNING ] [MAIN      ] [Thread-140358508999296] ⚠️ Column 'hashtags' missing from scraper data — using default: []
+[2026-03-17 13:09:58.750] [INFO    ] [MAIN      ] [Thread-140358508999296] 🧠 Gemini Comment Generator — Mode: OpenAI-compatible endpoint (gemini-2.5-flash)
+[2026-03-17 13:09:58.751] [INFO    ] [MAIN      ] [Thread-140358508999296] ▶️  START: GenerateGeminiComment
+[2026-03-17 13:09:58.751] [DEBUG   ] [MAIN      ] [Thread-140358508999296]    Context: {
+  "video_id": "7614261687943695623",
+  "strategy": "STANDARD"
+}
+[2026-03-17 13:10:00.734] [DEBUG   ] [MAIN      ] [Thread-140358508999296] 🤖 AI (Gemini): Wow, awesome content! Ever thought about scaling this with an AI-powered affiliate site? Check out a...
+[2026-03-17 13:10:00.734] [INFO    ] [MAIN      ] [Thread-140358508999296] ⏹️  END: GenerateGeminiComment | ✅ SUCCESS | Duration: 1.98s
+[2026-03-17 13:10:00.735] [INFO    ] [MAIN      ] [Thread-140358508999296] ▶️  START: GenerateGeminiComment
+[2026-03-17 13:10:00.735] [DEBUG   ] [MAIN      ] [Thread-140358508999296]    Context: {
+  "video_id": "7608687490211368200",
+  "strategy": "STANDARD"
+}
+[2026-03-17 13:10:01.437] [DEBUG   ] [MAIN      ] [Thread-140358508999296] 🤖 AI (Gemini): This looks like a great niche! Imagine if you could spin up 10 more sites like this in an hour? affi...
+[2026-03-17 13:10:01.438] [INFO    ] [MAIN      ] [Thread-140358508999296] ⏹️  END: GenerateGeminiComment | ✅ SUCCESS | Duration: 0.70s
+[2026-03-17 13:10:01.438] [INFO    ] [MAIN      ] [Thread-140358508999296] ▶️  START: GenerateGeminiComment
+[2026-03-17 13:10:01.439] [DEBUG   ] [MAIN      ] [Thread-140358508999296]    Context: {
+  "video_id": "7613233639370919199",
+  "strategy": "STANDARD"
+}
+[2026-03-17 13:10:02.251] [DEBUG   ] [MAIN      ] [Thread-140358508999296] 🤖 AI (Gemini): This is awesome! Imagine building sites this fast for your own affiliate empire. Check out affilify....
+[2026-03-17 13:10:02.251] [INFO    ] [MAIN      ] [Thread-140358508999296] ⏹️  END: GenerateGeminiComment | ✅ SUCCESS | Duration: 0.81s
+[2026-03-18 02:30:08.981] [INFO    ] [MAIN      ] [Thread-140640119362176] ======================================================================
+[2026-03-18 02:30:08.982] [INFO    ] [MAIN      ] [Thread-140640119362176] 🚀 AFFILIFY TIKTOK DOMINATION SYSTEM - LOGGING INITIALIZED
+[2026-03-18 02:30:08.982] [INFO    ] [MAIN      ] [Thread-140640119362176] ======================================================================
+[2026-03-18 02:30:09.031] [INFO    ] [MAIN      ] [Thread-140640119362176] ▶️  START: DiscoverTargets_Nodriver
+[2026-03-18 02:30:09.032] [DEBUG   ] [MAIN      ] [Thread-140640119362176]    Context: {}
+[2026-03-18 02:30:09.032] [INFO    ] [MAIN      ] [Thread-140640119362176] 🔑 Initializing Nodriver with SadCaptcha (this may take 10-15 seconds)...
+[2026-03-18 02:30:10.016] [INFO    ] [MAIN      ] [Thread-140640119362176] ✅ Nodriver with SadCaptcha initialized successfully!
+[2026-03-18 02:30:10.017] [INFO    ] [MAIN      ] [Thread-140640119362176] 👤 Loaded 31 cookies from: lokihe.json
+[2026-03-18 02:30:10.018] [INFO    ] [MAIN      ] [Thread-140640119362176] ✅ Injected 31 cookies
+[2026-03-18 02:30:10.018] [INFO    ] [MAIN      ] [Thread-140640119362176] 🎯 SadCaptcha is active and will automatically solve captchas!
+[2026-03-18 02:30:10.018] [INFO    ] [MAIN      ] [Thread-140640119362176] 🏷️ Searching hashtag: #entrepreneur
+[2026-03-18 02:30:14.297] [INFO    ] [MAIN      ] [Thread-140640119362176] 🛡️ Captcha detected for #entrepreneur. SadCaptcha extension will handle it...
+[2026-03-18 02:31:14.526] [INFO    ] [MAIN      ] [Thread-140640119362176] 🔍 Found TikTok universal data object
+[2026-03-18 02:31:14.527] [INFO    ] [MAIN      ] [Thread-140640119362176] 📊 Parsed 0 videos from universal data
+[2026-03-18 02:31:14.527] [INFO    ] [MAIN      ] [Thread-140640119362176] 📋 Falling back to ID extraction (will need metadata enrichment)
+[2026-03-18 02:31:14.528] [INFO    ] [MAIN      ] [Thread-140640119362176] ✅ Found 60 valid video IDs (metadata needed)
+[2026-03-18 02:31:19.151] [INFO    ] [MAIN      ] [Thread-140640119362176] 🔍 Found TikTok universal data object
+[2026-03-18 02:31:19.152] [INFO    ] [MAIN      ] [Thread-140640119362176] 📊 Parsed 0 videos from universal data
+[2026-03-18 02:31:19.152] [INFO    ] [MAIN      ] [Thread-140640119362176] 📋 Falling back to ID extraction (will need metadata enrichment)
+[2026-03-18 02:31:19.153] [INFO    ] [MAIN      ] [Thread-140640119362176] ✅ Found 116 valid video IDs (metadata needed)
+[2026-03-18 02:31:19.154] [INFO    ] [MAIN      ] [Thread-140640119362176] 📜 Scroll 1: Total 50 unique videos
+[2026-03-18 02:31:22.865] [INFO    ] [MAIN      ] [Thread-140640119362176] 🔍 Found TikTok universal data object
+[2026-03-18 02:31:22.865] [INFO    ] [MAIN      ] [Thread-140640119362176] 📊 Parsed 0 videos from universal data
+[2026-03-18 02:31:22.865] [INFO    ] [MAIN      ] [Thread-140640119362176] 📋 Falling back to ID extraction (will need metadata enrichment)
+[2026-03-18 02:31:22.867] [INFO    ] [MAIN      ] [Thread-140640119362176] ✅ Found 168 valid video IDs (metadata needed)
+[2026-03-18 02:31:22.868] [INFO    ] [MAIN      ] [Thread-140640119362176] 📜 Scroll 2: Total 50 unique videos
+[2026-03-18 02:31:27.181] [INFO    ] [MAIN      ] [Thread-140640119362176] 🔍 Found TikTok universal data object
+[2026-03-18 02:31:27.182] [INFO    ] [MAIN      ] [Thread-140640119362176] 📊 Parsed 0 videos from universal data
+[2026-03-18 02:31:27.182] [INFO    ] [MAIN      ] [Thread-140640119362176] 📋 Falling back to ID extraction (will need metadata enrichment)
+[2026-03-18 02:31:27.185] [INFO    ] [MAIN      ] [Thread-140640119362176] ✅ Found 212 valid video IDs (metadata needed)
+[2026-03-18 02:31:27.186] [INFO    ] [MAIN      ] [Thread-140640119362176] 📜 Scroll 3: Total 50 unique videos
+[2026-03-18 02:31:27.186] [INFO    ] [MAIN      ] [Thread-140640119362176] ✅ Found 50 videos for #entrepreneur
+[2026-03-18 02:31:27.186] [INFO    ] [MAIN      ] [Thread-140640119362176] 📊 Total videos collected: 50
+[2026-03-18 02:31:27.186] [INFO    ] [MAIN      ] [Thread-140640119362176] ✅ Reached target of 20 videos
+[2026-03-18 02:31:27.186] [INFO    ] [MAIN      ] [Thread-140640119362176] ✅ Discovery complete: 20 targets acquired
+[2026-03-18 02:31:27.187] [INFO    ] [MAIN      ] [Thread-140640119362176] ⏹️  END: DiscoverTargets_Nodriver | ✅ SUCCESS | Duration: 78.15s
+[2026-03-18 02:31:27.877] [INFO    ] [MAIN      ] [Thread-140640119362176] 🔬 Advanced Video Filter initialized
+[2026-03-18 02:31:27.878] [INFO    ] [MAIN      ] [Thread-140640119362176] ▶️  START: FilterVideos
+[2026-03-18 02:31:27.878] [DEBUG   ] [MAIN      ] [Thread-140640119362176]    Context: {
+  "total_videos": 20
+}
+[2026-03-18 02:31:27.878] [INFO    ] [MAIN      ] [Thread-140640119362176] ======================================================================
+[2026-03-18 02:31:27.878] [INFO    ] [MAIN      ] [Thread-140640119362176] 🔬 STARTING MULTI-STAGE FILTERING
+[2026-03-18 02:31:27.878] [INFO    ] [MAIN      ] [Thread-140640119362176] ======================================================================
+[2026-03-18 02:31:27.911] [WARNING ] [MAIN      ] [Thread-140640119362176] ⚠️ Column 'creator_followers' missing from scraper data — using default: 0
+[2026-03-18 02:31:27.913] [WARNING ] [MAIN      ] [Thread-140640119362176] ⚠️ Column 'creator_username' missing from scraper data — using default: ''
+[2026-03-18 02:31:27.913] [WARNING ] [MAIN      ] [Thread-140640119362176] ⚠️ Column 'creator_verified' missing from scraper data — using default: False
+[2026-03-18 02:31:27.914] [WARNING ] [MAIN      ] [Thread-140640119362176] ⚠️ Column 'hours_old' missing from scraper data — using default: 999
+[2026-03-18 02:31:27.914] [WARNING ] [MAIN      ] [Thread-140640119362176] ⚠️ Column 'description' missing from scraper data — using default: ''
+[2026-03-18 02:31:27.915] [WARNING ] [MAIN      ] [Thread-140640119362176] ⚠️ Column 'hashtags' missing from scraper data — using default: []
+[2026-03-18 02:31:30.082] [INFO    ] [MAIN      ] [Thread-140640119362176] 🧠 Gemini Comment Generator — Mode: OpenAI-compatible endpoint (gemini-2.5-flash)
+[2026-03-18 02:31:30.083] [INFO    ] [MAIN      ] [Thread-140640119362176] ▶️  START: GenerateGeminiComment
+[2026-03-18 02:31:30.083] [DEBUG   ] [MAIN      ] [Thread-140640119362176]    Context: {
+  "video_id": "7614205208893213983",
+  "strategy": "STANDARD"
+}
+[2026-03-18 02:31:31.284] [DEBUG   ] [MAIN      ] [Thread-140640119362176] 🤖 AI (Gemini): This is great! Imagine doing this but with an AI that builds the sites for you in 60 secs...🤯 affili...
+[2026-03-18 02:31:31.284] [INFO    ] [MAIN      ] [Thread-140640119362176] ⏹️  END: GenerateGeminiComment | ✅ SUCCESS | Duration: 1.20s
+[2026-03-18 02:31:31.285] [INFO    ] [MAIN      ] [Thread-140640119362176] ▶️  START: GenerateGeminiComment
+[2026-03-18 02:31:31.285] [DEBUG   ] [MAIN      ] [Thread-140640119362176]    Context: {
+  "video_id": "7607517836981964063",
+  "strategy": "STANDARD"
+}
+[2026-03-18 02:31:32.101] [DEBUG   ] [MAIN      ] [Thread-140640119362176] 🤖 AI (Gemini): This is awesome! Imagine if you could build sites this fast too, like with AI. Crazy potential!...
+[2026-03-18 02:31:32.101] [INFO    ] [MAIN      ] [Thread-140640119362176] ⏹️  END: GenerateGeminiComment | ✅ SUCCESS | Duration: 0.82s
+[2026-03-18 02:31:32.102] [INFO    ] [MAIN      ] [Thread-140640119362176] ▶️  START: GenerateGeminiComment
+[2026-03-18 02:31:32.102] [DEBUG   ] [MAIN      ] [Thread-140640119362176]    Context: {
+  "video_id": "7610149478657477910",
+  "strategy": "STANDARD"
+}
+[2026-03-18 02:31:32.734] [DEBUG   ] [MAIN      ] [Thread-140640119362176] 🤖 AI (Gemini): This is gold! Imagine how much easier scaling this would be with AI tools like affilify.eu 😉...
+[2026-03-18 02:31:32.734] [INFO    ] [MAIN      ] [Thread-140640119362176] ⏹️  END: GenerateGeminiComment | ✅ SUCCESS | Duration: 0.63s
+[2026-03-18 02:37:05.125] [INFO    ] [MAIN      ] [Thread-140166081987200] ======================================================================
+[2026-03-18 02:37:05.125] [INFO    ] [MAIN      ] [Thread-140166081987200] 🚀 AFFILIFY TIKTOK DOMINATION SYSTEM - LOGGING INITIALIZED
+[2026-03-18 02:37:05.125] [INFO    ] [MAIN      ] [Thread-140166081987200] ======================================================================
+[2026-03-18 02:37:43.140] [INFO    ] [MAIN      ] [Thread-139813202416256] ======================================================================
+[2026-03-18 02:37:43.140] [INFO    ] [MAIN      ] [Thread-139813202416256] 🚀 AFFILIFY TIKTOK DOMINATION SYSTEM - LOGGING INITIALIZED
+[2026-03-18 02:37:43.140] [INFO    ] [MAIN      ] [Thread-139813202416256] ======================================================================
+[2026-03-18 02:37:58.192] [INFO    ] [MAIN      ] [Thread-139831177720448] ======================================================================
+[2026-03-18 02:37:58.193] [INFO    ] [MAIN      ] [Thread-139831177720448] 🚀 AFFILIFY TIKTOK DOMINATION SYSTEM - LOGGING INITIALIZED
+[2026-03-18 02:37:58.193] [INFO    ] [MAIN      ] [Thread-139831177720448] ======================================================================
+[2026-03-18 02:37:58.194] [INFO    ] [MAIN      ] [Thread-139831177720448] 🔬 Advanced Video Filter initialized
+[2026-03-18 02:37:58.194] [INFO    ] [MAIN      ] [Thread-139831177720448] ▶️  START: FilterVideos
+[2026-03-18 02:37:58.194] [DEBUG   ] [MAIN      ] [Thread-139831177720448]    Context: {
+  "total_videos": 5
+}
+[2026-03-18 02:37:58.194] [INFO    ] [MAIN      ] [Thread-139831177720448] ======================================================================
+[2026-03-18 02:37:58.194] [INFO    ] [MAIN      ] [Thread-139831177720448] 🔬 STARTING MULTI-STAGE FILTERING
+[2026-03-18 02:37:58.194] [INFO    ] [MAIN      ] [Thread-139831177720448] ======================================================================
+[2026-03-18 02:37:58.196] [WARNING ] [MAIN      ] [Thread-139831177720448] ⚠️ Column 'creator_username' missing from scraper data — using default: ''
+[2026-03-18 02:37:58.197] [WARNING ] [MAIN      ] [Thread-139831177720448] ⚠️ Column 'creator_verified' missing from scraper data — using default: False
+[2026-03-18 02:37:58.197] [WARNING ] [MAIN      ] [Thread-139831177720448] ⚠️ Column 'description' missing from scraper data — using default: ''
+[2026-03-18 02:37:58.198] [WARNING ] [MAIN      ] [Thread-139831177720448] ⚠️ Column 'hashtags' missing from scraper data — using default: []
+[2026-03-18 02:37:58.203] [WARNING ] [MAIN      ] [Thread-139831177720448] ⚠️ Column 'engagement_rate' missing from scraper data — using default: 0.0
+[2026-03-18 02:37:58.204] [WARNING ] [MAIN      ] [Thread-139831177720448] ⚠️ Column 'relevance_score' missing from scraper data — using default: 0
+[2026-03-18 02:37:58.205] [WARNING ] [MAIN      ] [Thread-139831177720448] ⚠️ Column 'low_comment_opportunity' missing from scraper data — using default: False
+[2026-03-18 02:37:58.205] [WARNING ] [MAIN      ] [Thread-139831177720448] ⚠️ Column 'actual_comment_count' missing from scraper data — using default: 0
+[2026-03-18 02:37:58.206] [INFO    ] [MAIN      ] [Thread-139831177720448] 
+📊 STAGE 1: Follower Count Filter (100K+ only)
+[2026-03-18 02:37:58.218] [INFO    ] [MAIN      ] [Thread-139831177720448]    Filtered out 0 videos (creators with < 100K followers)
+[2026-03-18 02:37:58.218] [INFO    ] [MAIN      ] [Thread-139831177720448]    ✅ Passed: 5/5 (100.0%)
+[2026-03-18 02:37:58.218] [INFO    ] [MAIN      ] [Thread-139831177720448] 
+⏰ STAGE 2: Recency Filter (< 24 hours)
+[2026-03-18 02:37:58.219] [INFO    ] [MAIN      ] [Thread-139831177720448]    Filtered out 0 videos (older than 24 hours)
+[2026-03-18 02:37:58.219] [INFO    ] [MAIN      ] [Thread-139831177720448]    ✅ Passed: 5/5 (100.0%)
+[2026-03-18 02:37:58.219] [INFO    ] [MAIN      ] [Thread-139831177720448] 
+🎯 STAGE 3: Niche Relevance Filter
+[2026-03-18 02:37:58.232] [INFO    ] [MAIN      ] [Thread-139831177720448]    Filtered out 5 videos (not relevant to target niches)
+[2026-03-18 02:37:58.232] [INFO    ] [MAIN      ] [Thread-139831177720448]    ✅ Passed: 0/5 (0.0%)
+[2026-03-18 02:37:58.232] [INFO    ] [MAIN      ] [Thread-139831177720448] 
+💎 STAGE 4: Engagement Quality Filter
+[2026-03-18 02:37:58.233] [INFO    ] [MAIN      ] [Thread-139831177720448]    Filtered out 0 videos (low engagement or views)
+[2026-03-18 02:37:58.233] [INFO    ] [MAIN      ] [Thread-139831177720448]    ✅ Passed: 0/5 (0.0%)
+[2026-03-18 02:37:58.233] [INFO    ] [MAIN      ] [Thread-139831177720448] 
+🎯 STAGE 6: Opportunity Score Calculation
+[2026-03-18 02:37:58.233] [INFO    ] [MAIN      ] [Thread-139831177720448]       🌟 GOLDEN TARGET: @nan (nan followers, nan comments)
+[2026-03-18 02:37:58.234] [INFO    ] [MAIN      ] [Thread-139831177720448]    📊 Score range: nan - nan
+[2026-03-18 02:37:58.234] [INFO    ] [MAIN      ] [Thread-139831177720448]    📊 Average score: nan
+[2026-03-18 02:37:58.236] [INFO    ] [MAIN      ] [Thread-139831177720448] ⏹️  END: FilterVideos | ✅ SUCCESS | Duration: 0.04s
+[2026-03-18 02:37:58.237] [DEBUG   ] [MAIN      ] [Thread-139831177720448]    Details: {
+  "final_targets": 0
+}
+[2026-03-18 02:37:58.237] [INFO    ] [MAIN      ] [Thread-139831177720448] ======================================================================
+[2026-03-18 02:37:58.237] [INFO    ] [MAIN      ] [Thread-139831177720448] ✅ FILTERING COMPLETE
+[2026-03-18 02:37:58.237] [INFO    ] [MAIN      ] [Thread-139831177720448]    Final Targets: 0
+[2026-03-18 02:37:58.237] [INFO    ] [MAIN      ] [Thread-139831177720448]    Success Rate: 0.0%
+[2026-03-18 02:37:58.237] [INFO    ] [MAIN      ] [Thread-139831177720448] ======================================================================
+[2026-03-18 02:38:39.581] [INFO    ] [MAIN      ] [Thread-139693498978944] ======================================================================
+[2026-03-18 02:38:39.581] [INFO    ] [MAIN      ] [Thread-139693498978944] 🚀 AFFILIFY TIKTOK DOMINATION SYSTEM - LOGGING INITIALIZED
+[2026-03-18 02:38:39.581] [INFO    ] [MAIN      ] [Thread-139693498978944] ======================================================================
+[2026-03-18 02:38:39.746] [INFO    ] [MAIN      ] [Thread-139693498978944] ▶️  START: DiscoverTargets_Nodriver
+[2026-03-18 02:38:39.746] [DEBUG   ] [MAIN      ] [Thread-139693498978944]    Context: {}
+[2026-03-18 02:38:39.746] [INFO    ] [MAIN      ] [Thread-139693498978944] 🔑 Initializing Nodriver with SadCaptcha (this may take 10-15 seconds)...
+[2026-03-18 02:38:41.147] [INFO    ] [MAIN      ] [Thread-139693498978944] ✅ Nodriver with SadCaptcha initialized successfully!
+[2026-03-18 02:38:41.147] [INFO    ] [MAIN      ] [Thread-139693498978944] 👤 Loaded 31 cookies from: lokihe.json
+[2026-03-18 02:38:41.148] [INFO    ] [MAIN      ] [Thread-139693498978944] ✅ Injected 31 cookies
+[2026-03-18 02:38:41.148] [INFO    ] [MAIN      ] [Thread-139693498978944] 🎯 SadCaptcha is active and will automatically solve captchas!
+[2026-03-18 02:38:41.148] [INFO    ] [MAIN      ] [Thread-139693498978944] 🏷️ Searching hashtag: #money
+[2026-03-18 02:38:45.508] [INFO    ] [MAIN      ] [Thread-139693498978944] 🛡️ Captcha detected for #money. SadCaptcha extension will handle it...
+[2026-03-18 02:39:45.670] [INFO    ] [MAIN      ] [Thread-139693498978944] 🔍 Found TikTok universal data object
+[2026-03-18 02:39:45.670] [INFO    ] [MAIN      ] [Thread-139693498978944] 📊 Parsed 0 videos from universal data
+[2026-03-18 02:39:45.670] [INFO    ] [MAIN      ] [Thread-139693498978944] 📋 Falling back to ID extraction (will need metadata enrichment)
+[2026-03-18 02:39:45.672] [INFO    ] [MAIN      ] [Thread-139693498978944] ✅ Found 56 valid video IDs (metadata needed)
+[2026-03-18 02:39:49.502] [INFO    ] [MAIN      ] [Thread-139693498978944] 🔍 Found TikTok universal data object
+[2026-03-18 02:39:49.503] [INFO    ] [MAIN      ] [Thread-139693498978944] 📊 Parsed 0 videos from universal data
+[2026-03-18 02:39:49.503] [INFO    ] [MAIN      ] [Thread-139693498978944] 📋 Falling back to ID extraction (will need metadata enrichment)
+[2026-03-18 02:39:49.504] [INFO    ] [MAIN      ] [Thread-139693498978944] ✅ Found 114 valid video IDs (metadata needed)
+[2026-03-18 02:39:49.505] [INFO    ] [MAIN      ] [Thread-139693498978944] 📜 Scroll 1: Total 50 unique videos
+[2026-03-18 02:39:53.855] [INFO    ] [MAIN      ] [Thread-139693498978944] 🔍 Found TikTok universal data object
+[2026-03-18 02:39:53.856] [INFO    ] [MAIN      ] [Thread-139693498978944] 📊 Parsed 0 videos from universal data
+[2026-03-18 02:39:53.856] [INFO    ] [MAIN      ] [Thread-139693498978944] 📋 Falling back to ID extraction (will need metadata enrichment)
+[2026-03-18 02:39:53.858] [INFO    ] [MAIN      ] [Thread-139693498978944] ✅ Found 170 valid video IDs (metadata needed)
+[2026-03-18 02:39:53.859] [INFO    ] [MAIN      ] [Thread-139693498978944] 📜 Scroll 2: Total 50 unique videos
+[2026-03-18 02:39:58.282] [INFO    ] [MAIN      ] [Thread-139693498978944] 🔍 Found TikTok universal data object
+[2026-03-18 02:39:58.283] [INFO    ] [MAIN      ] [Thread-139693498978944] 📊 Parsed 0 videos from universal data
+[2026-03-18 02:39:58.283] [INFO    ] [MAIN      ] [Thread-139693498978944] 📋 Falling back to ID extraction (will need metadata enrichment)
+[2026-03-18 02:39:58.285] [INFO    ] [MAIN      ] [Thread-139693498978944] ✅ Found 224 valid video IDs (metadata needed)
+[2026-03-18 02:39:58.286] [INFO    ] [MAIN      ] [Thread-139693498978944] 📜 Scroll 3: Total 50 unique videos
+[2026-03-18 02:39:58.287] [INFO    ] [MAIN      ] [Thread-139693498978944] ✅ Found 50 videos for #money
+[2026-03-18 02:39:58.287] [INFO    ] [MAIN      ] [Thread-139693498978944] 📊 Total videos collected: 50
+[2026-03-18 02:39:58.287] [INFO    ] [MAIN      ] [Thread-139693498978944] ✅ Reached target of 20 videos
+[2026-03-18 02:39:58.287] [INFO    ] [MAIN      ] [Thread-139693498978944] ✅ Discovery complete: 20 targets acquired
+[2026-03-18 02:39:58.287] [INFO    ] [MAIN      ] [Thread-139693498978944] ⏹️  END: DiscoverTargets_Nodriver | ✅ SUCCESS | Duration: 78.54s
+[2026-03-18 02:39:58.325] [INFO    ] [MAIN      ] [Thread-139693498978944] 🔬 Advanced Video Filter initialized
+[2026-03-18 02:39:58.326] [INFO    ] [MAIN      ] [Thread-139693498978944] ▶️  START: FilterVideos
+[2026-03-18 02:39:58.326] [DEBUG   ] [MAIN      ] [Thread-139693498978944]    Context: {
+  "total_videos": 20
+}
+[2026-03-18 02:39:58.326] [INFO    ] [MAIN      ] [Thread-139693498978944] ======================================================================
+[2026-03-18 02:39:58.326] [INFO    ] [MAIN      ] [Thread-139693498978944] 🔬 STARTING MULTI-STAGE FILTERING
+[2026-03-18 02:39:58.326] [INFO    ] [MAIN      ] [Thread-139693498978944] ======================================================================
+[2026-03-18 02:39:58.332] [WARNING ] [MAIN      ] [Thread-139693498978944] ⚠️ Column 'creator_followers' missing from scraper data — using default: 0
+[2026-03-18 02:39:58.333] [WARNING ] [MAIN      ] [Thread-139693498978944] ⚠️ Column 'creator_username' missing from scraper data — using default: ''
+[2026-03-18 02:39:58.333] [WARNING ] [MAIN      ] [Thread-139693498978944] ⚠️ Column 'creator_verified' missing from scraper data — using default: False
+[2026-03-18 02:39:58.334] [WARNING ] [MAIN      ] [Thread-139693498978944] ⚠️ Column 'hours_old' missing from scraper data — using default: 999
+[2026-03-18 02:39:58.334] [WARNING ] [MAIN      ] [Thread-139693498978944] ⚠️ Column 'description' missing from scraper data — using default: ''
+[2026-03-18 02:39:58.335] [WARNING ] [MAIN      ] [Thread-139693498978944] ⚠️ Column 'hashtags' missing from scraper data — using default: []
+[2026-03-18 02:39:58.336] [WARNING ] [MAIN      ] [Thread-139693498978944] ⚠️ Column 'engagement_rate' missing from scraper data — using default: 0.0
+[2026-03-18 02:39:58.338] [WARNING ] [MAIN      ] [Thread-139693498978944] ⚠️ Column 'relevance_score' missing from scraper data — using default: 0
+[2026-03-18 02:39:58.339] [WARNING ] [MAIN      ] [Thread-139693498978944] ⚠️ Column 'low_comment_opportunity' missing from scraper data — using default: False
+[2026-03-18 02:39:58.339] [WARNING ] [MAIN      ] [Thread-139693498978944] ⚠️ Column 'actual_comment_count' missing from scraper data — using default: 0
+[2026-03-18 02:39:58.340] [INFO    ] [MAIN      ] [Thread-139693498978944] 
+📊 STAGE 1: Follower Count Filter (100K+ only)
+[2026-03-18 02:39:58.347] [INFO    ] [MAIN      ] [Thread-139693498978944]    Filtered out 20 videos (creators with < 100K followers)
+[2026-03-18 02:39:58.348] [INFO    ] [MAIN      ] [Thread-139693498978944]    ✅ Passed: 0/20 (0.0%)
+[2026-03-18 02:39:58.348] [INFO    ] [MAIN      ] [Thread-139693498978944] 
+⏰ STAGE 2: Recency Filter (< 24 hours)
+[2026-03-18 02:39:58.349] [INFO    ] [MAIN      ] [Thread-139693498978944]    Filtered out 0 videos (older than 24 hours)
+[2026-03-18 02:39:58.349] [INFO    ] [MAIN      ] [Thread-139693498978944]    ✅ Passed: 0/20 (0.0%)
+[2026-03-18 02:39:58.349] [INFO    ] [MAIN      ] [Thread-139693498978944] 
+🎯 STAGE 3: Niche Relevance Filter
+[2026-03-18 02:39:59.573] [INFO    ] [MAIN      ] [Thread-139693498978944] 🧠 Gemini Comment Generator — Mode: OpenAI-compatible endpoint (gemini-2.5-flash)
+[2026-03-18 02:39:59.574] [INFO    ] [MAIN      ] [Thread-139693498978944] ▶️  START: GenerateGeminiComment
+[2026-03-18 02:39:59.574] [DEBUG   ] [MAIN      ] [Thread-139693498978944]    Context: {
+  "video_id": "7614541080779967758",
+  "strategy": "STANDARD"
+}
+[2026-03-18 02:40:00.870] [DEBUG   ] [MAIN      ] [Thread-139693498978944] 🤖 AI (Gemini): This is cool! Imagine how much faster you could scale with AI building those sites for you. 👀 affili...
+[2026-03-18 02:40:00.870] [INFO    ] [MAIN      ] [Thread-139693498978944] ⏹️  END: GenerateGeminiComment | ✅ SUCCESS | Duration: 1.30s
+[2026-03-18 02:40:00.871] [INFO    ] [MAIN      ] [Thread-139693498978944] ▶️  START: GenerateGeminiComment
+[2026-03-18 02:40:00.871] [DEBUG   ] [MAIN      ] [Thread-139693498978944]    Context: {
+  "video_id": "7612055921451191582",
+  "strategy": "STANDARD"
+}
+[2026-03-18 02:40:01.534] [DEBUG   ] [MAIN      ] [Thread-139693498978944] 🤖 AI (Gemini): This is super helpful! Imagine how fast you could scale with AI building those sites for you. 👀...
+[2026-03-18 02:40:01.534] [INFO    ] [MAIN      ] [Thread-139693498978944] ⏹️  END: GenerateGeminiComment | ✅ SUCCESS | Duration: 0.66s
+[2026-03-18 02:40:01.534] [INFO    ] [MAIN      ] [Thread-139693498978944] ▶️  START: GenerateGeminiComment
+[2026-03-18 02:40:01.535] [DEBUG   ] [MAIN      ] [Thread-139693498978944]    Context: {
+  "video_id": "7612112146054384926",
+  "strategy": "STANDARD"
+}
+[2026-03-18 02:40:02.237] [DEBUG   ] [MAIN      ] [Thread-139693498978944] 🤖 AI (Gemini): This is awesome! Imagine if you could automate that content creation – saves so much time! 🤔...
+[2026-03-18 02:40:02.237] [INFO    ] [MAIN      ] [Thread-139693498978944] ⏹️  END: GenerateGeminiComment | ✅ SUCCESS | Duration: 0.70s
